@@ -1,0 +1,121 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1646411492
+<< error_s >>
+rect -132 429 -85 463
+<< nwell >>
+rect -186 653 38 1420
+<< pwell >>
+rect -186 -102 38 653
+<< ndiff >>
+rect -53 92 -1 104
+rect -53 32 -44 92
+rect -10 32 -1 92
+rect -53 20 -1 32
+<< ndiffc >>
+rect -44 32 -10 92
+<< psubdiff >>
+rect -186 -82 -155 -48
+rect 14 -82 38 -48
+<< nsubdiff >>
+rect -150 1350 -126 1384
+rect -22 1350 2 1384
+<< psubdiffcont >>
+rect -155 -82 14 -48
+<< nsubdiffcont >>
+rect -126 1350 -22 1384
+<< locali >>
+rect -142 1350 -126 1384
+rect -22 1350 -6 1384
+rect -41 906 -32 940
+rect 2 906 8 940
+rect -138 666 -104 711
+rect -157 632 -104 666
+rect -138 589 -104 632
+rect -44 666 -10 731
+rect -44 632 16 666
+rect -44 577 -10 632
+rect -44 142 -10 395
+rect -44 92 -10 104
+rect -44 16 -10 32
+rect -171 -82 -155 -48
+rect 14 -82 30 -48
+<< viali >>
+rect -126 1350 -22 1384
+rect -32 906 2 940
+rect -191 632 -157 666
+rect 16 632 50 666
+rect -138 32 -104 92
+rect -44 32 -10 92
+rect -155 -82 14 -48
+<< metal1 >>
+rect -186 1384 38 1400
+rect -186 1350 -126 1384
+rect -22 1350 38 1384
+rect -186 1323 38 1350
+rect -141 1095 -95 1323
+rect -197 666 -151 686
+rect -197 632 -191 666
+rect -157 632 -151 666
+rect -197 613 -151 632
+rect -123 463 -89 1048
+rect -38 952 -4 1295
+rect -58 940 8 952
+rect -58 906 -32 940
+rect 2 906 8 940
+rect -58 894 8 906
+rect -187 429 -124 463
+rect -138 104 -104 391
+rect -58 261 -24 894
+rect 4 666 62 678
+rect 4 632 16 666
+rect 50 632 62 666
+rect 4 620 62 632
+rect 4 104 38 620
+rect -144 92 -98 104
+rect -144 32 -138 92
+rect -104 32 -98 92
+rect -144 16 -98 32
+rect -50 92 38 104
+rect -50 32 -44 92
+rect -10 70 38 92
+rect -10 32 -4 70
+rect -50 16 -4 32
+rect -138 -40 -104 16
+rect -186 -48 38 -40
+rect -186 -82 -155 -48
+rect 14 -82 38 -48
+rect -186 -91 38 -82
+use sky130_fd_pr__nfet_01v8_HGTGXE_v2  XMNTGATE
+timestamp 1646411492
+transform -1 0 -74 0 -1 512
+box -76 -99 76 99
+use sky130_fd_pr__nfet_01v8_HGTGXE_v2  XMNCLAMP
+timestamp 1646411492
+transform 1 0 -74 0 1 93
+box -76 -99 76 99
+use sky130_fd_pr__pfet_01v8_ACAZ2B_v2  XMPTGATE
+timestamp 1646398074
+transform 1 0 -74 0 1 823
+box -112 -170 112 136
+use sky130_fd_pr__pfet_01v8_hvt_BZS9EC  XMPINV1
+timestamp 1646398638
+transform 1 0 -74 0 1 1159
+box -109 -164 109 198
+use sky130_fd_pr__nfet_01v8_JS3BNU  XMNINV1
+timestamp 1646399090
+transform 1 0 -91 0 1 357
+box -73 -122 73 122
+<< labels >>
+rlabel metal1 -197 613 -151 686 1 in
+port 1 n
+rlabel metal1 -187 429 -162 463 1 sel
+port 2 n
+rlabel metal1 4 620 62 678 1 out
+port 3 n
+rlabel pwell -186 -82 -164 -48 1 vss
+port 4 n
+rlabel metal1 -186 1323 -164 1357 1 vdd
+port 5 n
+<< end >>

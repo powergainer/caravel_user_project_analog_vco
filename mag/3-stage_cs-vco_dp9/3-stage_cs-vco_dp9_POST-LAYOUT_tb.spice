@@ -1,0 +1,509 @@
+** sch_path: /home/darunix/GitSandboxes/VCO/vco/xschem/3-stage_cs-vco_tb.sch
+**.subckt 3-stage_cs-vco_tb vctrl out buf16_out
+*.iopin vctrl
+*.iopin out
+*.iopin buf16_out
+
+*POST-LAYOUT DUT:
+x1 net1 net2 out vctrl sel0 sel1 sel2 sel3 x3-stage_cs-vco_dp9
+
+
+*Adding SEL CONTROL ports sources:
+Vsel0 sel0 GND 0.0
+Vsel1 sel1 GND 0.0 
+Vsel2 sel2 GND 0.0 
+Vsel3 sel3 GND 0.0 
+
+
+
+
+V2 vdd GND 1.8
+Vmeas_current_vdd vdd net1 0
+Vmeas_current_gnd net2 GND 0
+x2 vdd out GND fdiv2_loadmodel
+x3 out GND GND vdd vdd buf1_out sky130_fd_sc_hd__clkbuf_1
+x4 buf1_out GND GND vdd vdd net4 sky130_fd_sc_hd__clkbuf_2
+x5 net4 GND GND vdd vdd net5 sky130_fd_sc_hd__clkbuf_4
+x6 net5 GND GND vdd vdd net3 sky130_fd_sc_hd__clkbuf_8
+x7 net3 GND GND vdd vdd buf16_out sky130_fd_sc_hd__clkbuf_16
+**** begin user architecture code
+
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+*V1 vctrl GND 0.9
+V1 vctrl GND pwl(0, 0, 1n, 0, 1.1n, 0.9, 2n, 0.9, 2.1n, {vcontrol_par})
+
+*.options savecurrents
+
+*Trying to get the syntax right for probing M26 and M7 current:
+*POST-LAYOUT current probes:
+  *.probe tran all @m.x1.xxm26.x0.msky130_fd_pr__nfet_01v8[id]
+  *.save tran all @m.x1.xxm26.x0.msky130_fd_pr__nfet_01v8[id]
+  *.probe tran all @m.x1.xxm16.x0.msky130_fd_pr__nfet_01v8[id]
+  *.save tran all @m.x1.xxm16.x0.msky130_fd_pr__nfet_01v8[id]
+  *.probe tran all @m.x1.xxm16b.x0.msky130_fd_pr__nfet_01v8[id]
+  *.save tran all @m.x1.xxm16b.x0.msky130_fd_pr__nfet_01v8[id]
+
+
+
+*Instantiate Ring Osc Parasitic Caps:
+*This worked BUT it gave slightly different Fvco numbers, some gmin convergence.
+*Better to put the parasitic caps inside the VCO subcircuit.
+*Cnet10 x1.net10 x1.vss {paracap}
+*Cnet9 x1.net9 x1.vss {0.686*paracap}
+*Cnet8 x1.net8 x1.vss {0.628*paracap}
+
+
+
+
+.control
+
+
+let do_vctrl_sweep = 1
+let do_dimensions_sweep = 0
+let do_2dimensions_sweep = 0
+let do_paracap_sweep = 0
+
+
+.param vcontrol_par = 0.9
+.param paracap = 2.93f
+
+
+
+*-------------------------------
+*DP5 dimensions:
+.param W_delay_pmos = 0.5
+.param W_delay_nmos = 0.36
+.param M21_W = 0.58
+.param M22_W =0.36
+.param L_of_mirrors = 0.18
+.param W_of_mirrors = 2.4
+.param W_of_input_mirror = 1
+*-------------------------------
+
+*-------------------------------
+*DP6 dimensions:
+.param W_delay_pmos = 0.5
+.param W_delay_nmos = 0.36
+*.param M5_and_M6_multiple = 1
+*Strong M5 M6:
+.param M5_and_M6_multiple = 4
+.param L_of_mirrors = 0.18
+*.param W_of_mirrors = 2.4
+.param W_of_mirrors = 19.2
+.param W_of_input_mirror = 1
+*-------------------------------
+
+
+*-------------------------------
+*DP6 with M5/M6 optimization:
+.param W_delay_pmos = 0.5
+.param W_delay_nmos = 0.36
+*.param M5_and_M6_multiple = 1
+*Strong M5 M6:
+.param M5_and_M6_multiple = 4
+.param L_of_mirrors = 0.18
+.param W_of_mirrors = 2.4
+.param W_of_input_mirror = 1
+.param W_m5 = 0.5
+.param W_m6 = 0.36
+*-------------------------------
+
+
+
+*This is to parameterize transient step/stop/start times
+*using variables:
+set t_start = 0
+set t_step = 10p
+let expected_frequency_vec = 1G
+let nperiods_vec = 70
+let t_stop_vec = nperiods_vec / expected_frequency_vec
+set t_stop = $&t_stop_vec
+
+*-----------------------
+*SEE IF THIS DOESN'T BREAK IT:
+*Trying to sync the params with the variables:
+*Just for the measure statements:
+.param t_start_par = 0
+.param t_step_par = 10p
+.param t_stop_par = 100n
+alterparam t_start_par = $t_start
+alterparam t_step_par = $t_step
+alterparam t_stop_par = $t_stop
+reset
+*-----------------------
+
+
+
+
+if do_vctrl_sweep = 1
+  *-------- WHILE LOOP FOR VCTRL SWEEP-----------------
+  let start_vctrl = 0.0
+  let stop_vctrl = 1.81
+  let increment = 0.1
+  let vctrl_next = start_vctrl
+
+  let debug_1 = 1234
+  let debug_2 = 5678
+
+  let iteration = 1
+
+  while vctrl_next le stop_vctrl
+
+    *alter V1 dc = vctrl_next
+    set vctrl_next_var = $&vctrl_next
+    alterparam vcontrol_par = $vctrl_next_var
+    reset
+
+    *This for fast frequencies:
+    *tran 10ps 100ns
+
+    *This for slow frequencies:
+    *tran 1000ps 100000ns
+
+    *This is using the (set) variables:
+    tran $t_step $t_stop $t_start
+
+    *This is to TRY to parameterize the tran
+    *using the global params BUT it doesn't seem
+    *to work if the tran is inside the .control.
+    *tran 't_step_par' 't_stop_par'
+
+
+    let vctrl_next = vctrl_next + increment
+    let iteration = iteration + 1
+
+
+    set appendwrite true
+    write 3-stage_cs-vco_tb_WITH_APPENDWRITE.raw all
+
+
+  end
+*-------- END WHILE LOOP FOR VCTRL SWEEP-----------------
+end $end the if do_vctrl_sweep = 1
+
+
+
+if do_dimensions_sweep = 1
+  *-------- WHILE LOOP FOR DIMENSIONS SWEEP-----------------
+  let start_w = 1
+  let stop_w = 8.1
+  let increment = 1
+  let w_next = start_w
+  *let w_next_extra_for_the_nmos = 0.36
+
+  let iteration = 1
+
+  while w_next le stop_w
+
+    set w_next_var = $&w_next
+
+
+    *----------------------------
+    *Trying to see if wider delay cell devices can charge parasitic caps better
+    *set w_next_var_extra_for_the_nmos = $&w_next_extra_for_the_nmos
+    *alterparam W_delay_pmos = $w_next_var
+    *alterparam W_delay_nmos = $w_next_var_extra_for_the_nmos
+    *Maybe I should increase the Para Cap when I increase the devices...
+    *The RESET is required after the alterparam (manual says)
+    *reset
+    *----------------------------
+
+    *----------------------------
+    *Trying to see if making M5 and M6 stronger helps
+    alterparam M5_and_M6_multiple = $w_next_var
+    reset
+    *----------------------------
+
+    *alterparam W_delay_pmos = 0.42
+    *alterparam W_delay_nmos = 0.36
+
+    *alterparam M21_W = 2.88
+    *alterparam M22_W = 1.44
+    *reset
+
+
+    *alterparam M21_W =  $w_next_var
+    *alterparam M22_W =  {$w_next_var / 2}
+    *reset
+
+
+    *alterparam W_delay_pmos = 0.5
+    *alterparam W_delay_nmos = 0.36
+    *alterparam M21_W =  0.58
+    *alterparam M22_W =  0.36
+    *reset
+
+
+    *----------------------------------
+    *Trying to extend Vctrl range:
+    *----------------------------------
+    *alterparam W_delay_pmos = 0.5
+    *alterparam W_delay_nmos = 0.36
+
+    *alterparam W_of_mirrors = $w_next_var
+    *alterparam W_of_input_mirror = { $w_next_var * 1.01 / 2.4 }
+    *alterparam vcontrol_par = 0.7
+    *reset
+
+    *----------------------------------
+    *Measure M26 current at Vctrl 0.7 in DP5
+
+    *alterparam W_delay_pmos = 0.5
+    *alterparam W_delay_nmos = 0.36
+
+    *alterparam W_of_mirrors = 2.4
+    *alterparam W_of_input_mirror = 1.01
+    *alterparam vcontrol_par = 0.7
+    *reset
+    *----------------------------------
+
+    *----------------------------
+    *Trying more current in mirrors to see if that can charge para caps faster
+    *alterparam W_of_mirrors = $w_next_var
+    *reset
+    *----------------------------
+
+
+
+    tran $t_step $t_stop $t_start
+    *tran 't_step_par' 't_stop_par'
+
+    print iteration
+    echo Width_In_This_Iteration = $w_next_var
+
+    let w_next = w_next + increment
+    *let w_next_extra_for_the_nmos = w_next_extra_for_the_nmos + increment
+    let iteration = iteration + 1
+
+
+    set appendwrite true
+    write 3-stage_cs-vco_tb_WITH_APPENDWRITE.raw all
+
+
+  end
+*-------- END WHILE LOOP FOR VCTRL SWEEP-----------------
+end $end the if do_dimensions_sweep = 1
+
+
+
+if do_paracap_sweep = 1
+  *-------- WHILE LOOP FOR RING OSC PARASITIC CAPS SWEEP-----------------
+  let start_paracap = 0f
+  let stop_paracap = 3.1f
+  let increment = 1f
+  let paracap_next = start_paracap
+
+  let iteration = 1
+
+  while paracap_next le stop_paracap
+
+    set paracap_next_var = $&paracap_next
+
+    alterparam paracap = $paracap_next_var
+    reset
+
+    tran $t_step $t_stop $t_start
+    *tran 't_step_par' 't_stop_par'
+
+    print iteration
+    echo paracap = $paracap_next_var
+
+    let paracap_next = paracap_next + increment
+    let iteration = iteration + 1
+
+
+    set appendwrite true
+    write 3-stage_cs-vco_tb_WITH_APPENDWRITE.raw all
+
+  end
+
+end
+*-------------- END SWEEP PARA CAP -----------------
+
+
+
+
+if do_2dimensions_sweep = 1
+  *-------- WHILE LOOP FOR 2 DIMENSIONS SWEEP-----------------
+  let start_w_pmos = 0.6
+  let stop_w_pmos = 2.61
+  let increment_w_pmos = 0.2
+  let w_next_pmos = start_w_pmos
+
+  let start_w_nmos = 0.6
+  let stop_w_nmos = 1.61
+  let increment_w_nmos = 0.2
+  let w_next_nmos = start_w_nmos
+
+  let iteration = 1
+
+  set w_next_pmos_var = $&start_w_pmos
+  set w_next_nmos_var = $&start_w_nmos
+
+  while w_next_pmos le stop_w_pmos
+
+
+    while w_next_nmos le stop_w_nmos
+
+      alterparam W_m5 = $w_next_pmos_var
+      alterparam W_m6 = $w_next_nmos_var
+      reset
+
+      tran $t_step $t_stop $t_start
+
+      print iteration
+      echo Width_PMOS_In_This_Iteration = $w_next_pmos_var
+      echo Width_NMOS_In_This_Iteration = $w_next_nmos_var
+
+      let w_next_nmos = w_next_nmos + increment_w_nmos
+      set w_next_nmos_var = $&w_next_nmos
+      let iteration = iteration + 1
+
+      set appendwrite true
+      write 3-stage_cs-vco_tb_WITH_APPENDWRITE.raw all
+    end $ end inner nmos while loop
+
+
+  let w_next_pmos = w_next_pmos + increment_w_pmos
+  set w_next_pmos_var = $&w_next_pmos
+
+  let w_next_nmos = start_w_nmos
+  set w_next_nmos_var = $&w_next_nmos
+
+
+  end $ end outer pmos while loop
+
+end $end the IF do_2dimensions_sweep = 1
+*-------- END LOOP FOR 2 DIMENSIONS SWEEP-----------------
+
+
+
+
+.endc
+
+
+
+
+
+*THESE WORK:
+.meas tran Tvco_OUTSIDE_WHILE TRIG v(out) VAL=0.5*1.8 RISE=50 TARG v(out) VAL=0.5*1.8 RISE=51
+*.meas tran Tvco_OUTSIDE_WHILE TRIG v(out) VAL=0.5*1.8 RISE=4 TARG v(out) VAL=0.5*1.8 RISE=5
+.meas tran fvco_OUTSIDE_WHILE PARAM='1/Tvco_OUTSIDE_WHILE'
+.meas tran Supply_current_rms_OUTSIDE_WHILE RMS i(vmeas_current_vdd) FROM=10e-9 TO=40e-9
+.meas tran Ground_current_rms_OUTSIDE_WHILE RMS i(vmeas_current_gnd) FROM=10e-9 TO=40e-9
+.meas tran vctrl_avg_OUTSIDE_WHILE AVG v(vctrl) FROM=10e-9 TO=20e-9
+.meas tran vhigh_OUTSIDE_WHILE MAX v(out) FROM=10e-9 TO=20e-9
+.meas tran vlow_OUTSIDE_WHILE MIN v(out) FROM=10e-9 TO=20e-9
+.meas tran peak_to_peak_OUTSIDE_WHILE PARAM='vhigh_OUTSIDE_WHILE-vlow_OUTSIDE_WHILE'
+
+.meas tran supply_current_rms RMS i(vmeas_current_vdd) FROM='t_start_par' TO='t_stop_par'
+
+*IF NORMAL circuit: (couldn't wrap this inside an if)
+  *.meas tran m26_current_rms RMS @m.x1.xm26.msky130_fd_pr__nfet_01v8[id] FROM='t_stop_par/2' TO='t_stop_par'
+  *.meas tran m7_current_rms RMS @m.x1.xm7.msky130_fd_pr__nfet_01v8[id] FROM='t_stop_par/2' TO='t_stop_par'
+*IF LVT circuit: (couldn't wrap this inside an if)
+  *.meas tran m26_lvt_current_rms RMS @m.x1.xm26.msky130_fd_pr__nfet_01v8_lvt[id] FROM='t_stop_par/2'
++ TO='t_stop_par'
+  *.meas tran m7_lvt_current_rms RMS @m.x1.xm7.msky130_fd_pr__nfet_01v8_lvt[id] FROM='t_stop_par/2' TO='t_stop_par'
+
+
+
+
+
+**** end user architecture code
+**.ends
+
+
+
+
+
+*POST-LAYOUT DUT EXTRACTED NETLISTS:
+
+
+
+*------------------------------------------------------------------
+*THESE ARE NETLISTS FOR DP9 POST-LAYOUT WITH CONTROL PORTS 
+.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp9/3-stage_cs-vco_dp9.spice
+
+*------------------------------------------------------------------
+
+
+
+
+*------------------------------------------------------------------
+*THESE ARE THE NETLISTS FOR DP7 LAYOUT, GUTFEEL, GUTFEEL_V2/V3.
+*REMEMBER GUTFEEL_V2 IS SAME AS DP9 WITHOUT CONTROL PORTS.
+
+*This is the FULL POST-LAYOUT netlist for DP7:
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp7/3-stage_cs-vco_dp7.spice
+
+*This is DP8 LAYOUT which is like DP7 but with just one 4.8um mirror instead of 2x, to make it less abrupt 
+*since it appeared like faster in layout that in Sch.
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp7/3-stage_cs-vco_dp8.spice
+
+*This is DP_GUTFEEL layout as it looked decent on SCH sim with paracaps (y eso que era a ojillo)
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp7/3-stage_cs-vco_dpgutfeel.spice
+
+*This is DP_GUTFEEL_v2 layout which is same as GUTFEEL but just 1x 4.8um mirror overall, like DP8 in that sense
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp7/3-stage_cs-vco_dpgutfeel_v2.spice
+
+*This is DP_GUTFEEL_v3 layout which is same as GUTFEEL and _V2  but just 1x 2.4um mirror overall,
+*like this would be 0.5x the current of GUTFEEL_V2, the goal is to save current.
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp7/3-stage_cs-vco_dpgutfeel_v3.spice
+
+*------------------------------------------------------------------
+
+
+
+
+*---------------------------------------------------------------------
+*THESE ARE DP5 NETLISTS I USED TO UNDERSTAND FREQUENCY DROP DUE TO PARASITIC CAPS IN RING OSC:
+*These are netlists to debug the cap on which net degrades the speed (net10, net9, net8):
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_NET10_CAPS_COMMENTED_OUT.spice 
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_NET9_CAPS_COMMENTED_OUT.spice 
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_NET8_CAPS_COMMENTED_OUT.spice 
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_NET10_NET9_NET8_CAPS_COMMENTED_OUT.spice 
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_ALL_TOP_LEVEL_SUBCKT_CAPS_COMMENTED_OUT.spice 
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_ALL_CAPS_COMMENTED_OUT.spice 
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_ONLY_DELAY_CELL_TRANS_SUBCKT_CAPS_INSERTED.spice
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_ONLY_NET10_NET9_NET8_TOP_LEVEL_SUBCKT_CAPS_INSERTED.spice
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_ONLY_NET10_NET9_NET8_TOP_LEVEL_AND_TRANSISTOR_SUBCKT_CAPS_INSERTED.spice
+
+*This is Layout with LI on delay cells, full extracted layout:
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_li/3-stage_cs-vco_dp5_li.spice
+
+*This is Layout with LI on delay cells (v2 is with rotated FETs on delay cells, some more LI, etc), full extracted layout:
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp5_li_v2/3-stage_cs-vco_dp5_li_v2.spice
+*---------------------------------------------------------------------
+
+
+
+
+
+
+* expanding   symbol:  fdiv2_loadmodel.sym # of pins=3
+** sym_path: /home/darunix/GitSandboxes/VCO/vco/xschem/fdiv2_loadmodel.sym
+** sch_path: /home/darunix/GitSandboxes/VCO/vco/xschem/fdiv2_loadmodel.sch
+.subckt fdiv2_loadmodel  vdd clk vss
+*.ipin clk
+*.iopin vdd
+*.iopin vss
+XM3 vdd clk vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=0.72 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM4 vss clk vss vss sky130_fd_pr__nfet_01v8 L=0.15 W=0.36 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM14 vss clk vss vss sky130_fd_pr__nfet_01v8 L=0.15 W=0.84 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM9 vdd clk vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=0.42 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.GLOBAL GND
+.end

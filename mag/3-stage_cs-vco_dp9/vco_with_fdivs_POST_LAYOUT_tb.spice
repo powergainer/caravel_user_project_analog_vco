@@ -1,0 +1,206 @@
+** sch_path: /home/darunix/GitSandboxes/VCO/vco/xschem/vco_with_fdivs_tb.sch
+**.subckt vco_with_fdivs_tb vctrl out_div128_buf pad_out_a out_div256_buf pad_out_b
+*.iopin vctrl
+*.iopin out_div128_buf
+*.iopin pad_out_a
+*.iopin out_div256_buf
+*.iopin pad_out_b
+
+
+
+*POST-LAYOUT DUT:
+x1 vctrl out_div128_buf net1 net2 vsel0 vsel1 vsel2 vsel3 out_div256_buf vco_with_fdivs
+
+*This is the SCH DUT:
+*x1 net1 vctrl vsel0 vsel1 vsel2 vsel3 net2 out_div128_buf out_div256_buf vco_with_fdivs
+
+
+
+
+V2 vdd GND 1.8
+Vmeas_current_vdd vdd net1 0
+Vmeas_current_gnd net2 GND 0
+xbuf1a out_div128_buf GND GND vdd vdd buf1a_out sky130_fd_sc_hd__clkbuf_1
+xbuf2a buf1a_out GND GND vdd vdd buf2a_out sky130_fd_sc_hd__clkbuf_2
+xbuf4a buf2a_out GND GND vdd vdd buf4a_out sky130_fd_sc_hd__clkbuf_4
+xbuf8a buf4a_out GND GND vdd vdd buf8a_out sky130_fd_sc_hd__clkbuf_8
+xbuf16a buf8a_out GND GND vdd vdd pad_out_a sky130_fd_sc_hd__clkbuf_16
+Vsel0 vsel0 GND {p_sel0}
+Vsel1 vsel1 GND {p_sel1}
+Vsel2 vsel2 GND {p_sel2}
+Vsel3 vsel3 GND {p_sel3}
+xbuf1b out_div256_buf GND GND vdd vdd buf1b_out sky130_fd_sc_hd__clkbuf_1
+xbuf2b buf1b_out GND GND vdd vdd buf2b_out sky130_fd_sc_hd__clkbuf_2
+xbuf4b buf2b_out GND GND vdd vdd buf4b_out sky130_fd_sc_hd__clkbuf_4
+xbuf8b buf4b_out GND GND vdd vdd buf8b_out sky130_fd_sc_hd__clkbuf_8
+xbuf16b buf8b_out GND GND vdd vdd pad_out_b sky130_fd_sc_hd__clkbuf_16
+**** begin user architecture code
+
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+*V1 vctrl GND 0.9
+V1 vctrl GND pwl(0, 0, 1n, 0, 1.1n, 0.9, 2n, 0.9, 2.1n, {vcontrol_par})
+
+*.options savecurrents
+
+*Trying to get the syntax right for probing M26 and M7 current:
+*Current probes:
+  *DP9:
+  *.probe tran all m.x1.out
+  *.probe tran all @m.x1.xm26.msky130_fd_pr__nfet_01v8[id]
+  *.save tran all @m.x1.xm26.msky130_fd_pr__nfet_01v8[id]
+  *.probe tran all @m.x1.xm16a.msky130_fd_pr__nfet_01v8[id]
+  *.save tran all @m.x1.xm16a.msky130_fd_pr__nfet_01v8[id]
+
+
+
+.control
+
+
+let do_vctrl_sweep = 1
+*let do_dimensions_sweep = 0
+*let do_2dimensions_sweep = 0
+*let do_paracap_sweep = 0
+
+
+.param vcontrol_par = 0.9
+*.param paracap = 2.93f
+
+*---------
+*VCO current mirror select controls:
+.param p_sel0 = 1.8
+.param p_sel1 = 1.8
+.param p_sel2 = 1.8
+.param p_sel3 = 1.8
+*---------
+
+
+
+
+
+*This is to parameterize transient step/stop/start times
+*using variables:
+set t_start = 0
+set t_step = 10p
+let expected_frequency_vec = 1G
+let nperiods_vec = 200
+let t_stop_vec = nperiods_vec / expected_frequency_vec
+set t_stop = $&t_stop_vec
+
+*-----------------------
+*SEE IF THIS DOESN'T BREAK IT:
+*Trying to sync the params with the variables:
+*Just for the measure statements:
+.param t_start_par = 0
+.param t_step_par = 10p
+.param t_stop_par = 100n
+alterparam t_start_par = $t_start
+alterparam t_step_par = $t_step
+alterparam t_stop_par = $t_stop
+reset
+*-----------------------
+
+
+
+
+if do_vctrl_sweep = 1
+  *-------- WHILE LOOP FOR VCTRL SWEEP-----------------
+  let start_vctrl = 0.9
+  let stop_vctrl = 1.81
+  let increment = 0.2
+  let vctrl_next = start_vctrl
+
+  let debug_1 = 1234
+  let debug_2 = 5678
+
+  let iteration = 1
+
+  while vctrl_next le stop_vctrl
+
+    *alter V1 dc = vctrl_next
+    set vctrl_next_var = $&vctrl_next
+    alterparam vcontrol_par = $vctrl_next_var
+    reset
+
+
+    *This is using the (set) variables:
+    tran $t_step $t_stop $t_start
+
+
+    let vctrl_next = vctrl_next + increment
+    let iteration = iteration + 1
+
+
+    set appendwrite true
+    write vco_with_fdivs_POST_LAYOUT_tb_WITH_APPENDWRITE.raw all
+
+
+  end
+*-------- END WHILE LOOP FOR VCTRL SWEEP-----------------
+end $end the if do_vctrl_sweep = 1
+
+
+
+
+.endc
+
+
+
+
+
+*THESE WORK:
+*.meas tran Tvco_OUTSIDE_WHILE TRIG v(m.x1.out) VAL=0.5*1.8 RISE=50 TARG v(m.x1.out) VAL=0.5*1.8 RISE=51
+*.meas tran Tvco_OUTSIDE_WHILE TRIG v(x1.x3-stage_cs-vco_dp9.out) VAL=0.5*1.8 RISE=50 TARG v(x1.x3-stage_cs-vco_dp9.out) VAL=0.5*1.8 RISE=51
+.meas tran Tvco_OUTSIDE_WHILE TRIG v(x1.out) VAL=0.5*1.8 RISE=50 TARG v(x1.out) VAL=0.5*1.8 RISE=51
+.meas tran fvco_OUTSIDE_WHILE PARAM='1/Tvco_OUTSIDE_WHILE'
+.meas tran Tdiv128_OUTSIDE_WHILE TRIG v(out_div128_buf) VAL=0.5*1.8 RISE=1 TARG v(out_div128_buf) VAL=0.5*1.8 RISE=2
+.meas tran fdiv128_OUTSIDE_WHILE PARAM='1/Tdiv128_OUTSIDE_WHILE'
+.meas tran Supply_current_rms_OUTSIDE_WHILE RMS i(vmeas_current_vdd) FROM=10e-9 TO=40e-9
+.meas tran Ground_current_rms_OUTSIDE_WHILE RMS i(vmeas_current_gnd) FROM=10e-9 TO=40e-9
+.meas tran vctrl_avg_OUTSIDE_WHILE AVG v(vctrl) FROM=10e-9 TO=20e-9
+.meas tran vhigh_OUTSIDE_WHILE MAX v(out_div128_buf) FROM=10e-9 TO=20e-9
+.meas tran vlow_OUTSIDE_WHILE MIN v(out_div128_buf) FROM=10e-9 TO=20e-9
+.meas tran peak_to_peak_OUTSIDE_WHILE PARAM='vhigh_OUTSIDE_WHILE-vlow_OUTSIDE_WHILE'
+
+.meas tran supply_current_rms RMS i(vmeas_current_vdd) FROM='t_start_par' TO='t_stop_par'
+
+*IF NORMAL circuit: (couldn't wrap this inside an if)
+  *.meas tran m26_current_rms RMS @m.x1.xm26.msky130_fd_pr__nfet_01v8[id] FROM='t_stop_par/2' TO='t_stop_par'
+  *.meas tran m7_current_rms RMS @m.x1.xm7.msky130_fd_pr__nfet_01v8[id] FROM='t_stop_par/2' TO='t_stop_par'
+*IF LVT circuit: (couldn't wrap this inside an if)
+  *.meas tran m26_lvt_current_rms RMS @m.x1.xm26.msky130_fd_pr__nfet_01v8_lvt[id] FROM='t_stop_par/2' TO='t_stop_par'
+  *.meas tran m7_lvt_current_rms RMS @m.x1.xm7.msky130_fd_pr__nfet_01v8_lvt[id] FROM='t_stop_par/2' TO='t_stop_par'
+
+
+
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  vco_with_fdivs.sym # of pins=9
+
+
+*------------------------------------------------------------------
+*EXTRACTED NETLIST FOR VCO_WITH_FDIVS POST-LAYOUT 0
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp9/vco_with_fdivs.spice
+
+
+*This is the netlist HACKED where I have made the Fdiv Inverters 2x Wider, to try to fix the Fdiv issue
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp9/vco_with_fdivs_HACK_INVERTER_WIDTHS.spice
+
+*This is last try, layout I tried with slightly wider Pmos on TGATEs to see if making them
+*less resistive would help a bit (even though they will add more cap)
+.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp9/vco_with_fdivs_lasttry.spice
+
+
+*------------------------------------------------------------------
+
+
+
+
+
+.GLOBAL GND
+.end

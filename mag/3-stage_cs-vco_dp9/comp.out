@@ -1,0 +1,85 @@
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: FD                              |Circuit 2: FD                              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (8)                |sky130_fd_pr__nfet_01v8 (8)                
+sky130_fd_pr__pfet_01v8 (8)                |sky130_fd_pr__pfet_01v8 (8)                
+Number of devices: 16                      |Number of devices: 16                      
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: FD                              |Circuit 2: FD                              
+
+---------------------------------------------------------------------------------------
+Net: a_1194_132#                           |Net: 6                                     
+  sky130_fd_pr__nfet_01v8/1 = 1            |  sky130_fd_pr__nfet_01v8/1 = 1            
+  sky130_fd_pr__pfet_01v8/2 = 2            |  sky130_fd_pr__pfet_01v8/2 = 2            
+  sky130_fd_pr__pfet_01v8/1 = 1            |  sky130_fd_pr__pfet_01v8/1 = 1            
+  sky130_fd_pr__nfet_01v8/2 = 2            |  sky130_fd_pr__nfet_01v8/2 = 2            
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: GND                                   |Net: vss                                   
+  sky130_fd_pr__nfet_01v8/3 = 5            |  sky130_fd_pr__nfet_01v8/3 = 6            
+  sky130_fd_pr__nfet_01v8/4 = 8            |  sky130_fd_pr__nfet_01v8/4 = 8            
+  sky130_fd_pr__nfet_01v8/1 = 1            |                                           
+                                           |                                           
+Net: VDD                                   |Net: vdd                                   
+  sky130_fd_pr__pfet_01v8/3 = 5            |  sky130_fd_pr__pfet_01v8/3 = 6            
+  sky130_fd_pr__pfet_01v8/4 = 8            |  sky130_fd_pr__pfet_01v8/4 = 8            
+  sky130_fd_pr__pfet_01v8/1 = 1            |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: a_1574_124#                           |Net: 7                                     
+  sky130_fd_pr__nfet_01v8/2 = 1            |  sky130_fd_pr__nfet_01v8/2 = 1            
+  sky130_fd_pr__pfet_01v8/3 = 1            |  sky130_fd_pr__nfet_01v8/1 = 1            
+  sky130_fd_pr__pfet_01v8/2 = 1            |  sky130_fd_pr__pfet_01v8/2 = 1            
+  sky130_fd_pr__nfet_01v8/3 = 1            |  sky130_fd_pr__pfet_01v8/1 = 1            
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: FD                              |Circuit 2: FD                              
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__pfet_01v8:10       |Instance: sky130_fd_pr__pfet_01v8:M11      
+  1 = 14                                   |  1 = 4                                    
+  2 = 6                                    |  2 = 6                                    
+  3 = 4                                    |  3 = 14                                   
+  4 = 14                                   |  4 = 14                                   
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__nfet_01v8:15       |Instance: sky130_fd_pr__nfet_01v8:M12      
+  1 = 14                                   |  1 = 4                                    
+  2 = 6                                    |  2 = 6                                    
+  3 = 4                                    |  3 = 14                                   
+  4 = 14                                   |  4 = 14                                   
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Netlists do not match.

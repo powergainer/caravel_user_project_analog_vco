@@ -1,0 +1,531 @@
+timestamp 1647369436
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use FD_v2 FD_v2_8 -1 0 5933 0 -1 -1307
+use FD_v2 FD_v2_9 -1 0 4118 0 -1 -1307
+use FD_v2 FD_v2_4 1 0 2167 0 1 11
+use FD_v2 FD_v2_5 1 0 3982 0 1 11
+use FD_v2 FD_v2_2 -1 0 5933 0 -1 -29
+use FD_v2 FD_v2_3 -1 0 4118 0 -1 -29
+use FD_v2 FD_v2_7 -1 0 7748 0 -1 -1307
+use FD_v2 FD_v2_6 1 0 5797 0 1 11
+use FD_v2 FD_v2_1 -1 0 7748 0 -1 -29
+use FD_v5_lasttry FD_v5_lasttry_0 1 0 2617 0 1 1451
+use 3-stage_cs-vco_dp9 3-stage_cs-vco_dp9_0 1 0 25 0 1 226
+port "out_div256" 9 5865 -968 5891 -947 m1
+port "vctrl" 1 -1702 -522 -1659 -476 m1
+port "out_div128" 2 7700 -966 7726 -949 m1
+port "vsel3" 8 -1161 1449 -1138 1475 m1
+port "vsel2" 7 -1248 1534 -1225 1560 m1
+port "vsel1" 6 -1330 1605 -1307 1631 m1
+port "vsel0" 5 -1407 1757 -1384 1783 m1
+port "vss" 4 1994 2427 2051 2461 m1
+port "vdd" 3 1732 2426 1789 2460 m1
+node "m1_1702_n1381#" 6 2973.88 1702 -1381 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 726882 12202 0 0 0 0 0 0 0 0 0 0
+node "out_div256" 0 46.3475 5865 -968 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2550 218 0 0 0 0 0 0 0 0 0 0
+node "m1_1968_n677#" 1 175.146 1968 -677 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22824 782 0 0 0 0 0 0 0 0 0 0
+node "vctrl" 0 60.2106 -1702 -522 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4324 280 0 0 0 0 0 0 0 0 0 0
+node "out_div128" 3 331.101 7700 -966 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24956 1536 0 0 0 0 0 0 0 0 0 0
+node "m1_1729_n38#" 1 287.448 1729 -38 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29348 1128 6084 312 4900 280 0 0 0 0 0 0
+node "m1_2161_286#" 2 407.61 2161 286 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12280 656 10008 568 44956 1614 0 0 0 0 0 0
+node "m1_1989_595#" 1 176.155 1989 595 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15108 632 6084 312 4900 280 0 0 0 0 0 0
+node "m1_2235_659#" 19 2171 2235 659 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 167869 10058 0 0 0 0 0 0 0 0 0 0
+node "m1_7680_300#" 4 641.318 7680 300 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65090 2922 0 0 0 0 0 0 0 0 0 0
+node "vsel3" 0 25.6106 -1161 1449 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 924 122 0 0 0 0 0 0 0 0 0 0
+node "m1_1704_1531#" 4 2865.5 1704 1531 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 941130 10994 0 0 0 0 0 0 0 0 0 0
+node "vsel2" 0 25.6106 -1248 1534 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 924 122 0 0 0 0 0 0 0 0 0 0
+node "vsel1" 0 25.6106 -1330 1605 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 924 122 0 0 0 0 0 0 0 0 0 0
+node "vsel0" 0 24.3208 -1407 1757 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 832 116 0 0 0 0 0 0 0 0 0 0
+node "vss" 0 46.009 1994 2427 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2660 216 0 0 0 0 0 0 0 0 0 0
+node "vdd" 0 46.009 1732 2426 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2660 216 0 0 0 0 0 0 0 0 0 0
+node "out" 216 332.429 1728 1040 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28280 1494 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "w_7680_300#" 0 0 7680 300 pw 2116 184 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_2161_286#" "m1_1968_n677#" 11.6298
+cap "out_div256" "m1_1702_n1381#" 11.8421
+cap "m1_2161_286#" "m1_2235_659#" 6.15635
+cap "m1_2161_286#" "m1_1989_595#" 13.7037
+cap "m1_1729_n38#" "m1_2161_286#" 86.0176
+cap "vss" "vdd" 8.39378
+cap "m1_2235_659#" "m1_1989_595#" 1.53409
+cap "FD_v2_4/Clk_In" "FD_v2_9/Clk_Out" 5.56034
+cap "FD_v2_4/Clk_In" "FD_v2_9/GND" 283.398
+cap "FD_v2_9/VDD" "FD_v2_9/GND" 150.42
+cap "FD_v2_4/Clk_In" "FD_v2_9/7" 17.6172
+cap "FD_v2_3/7" "FD_v2_4/Clkb" 7.83799
+cap "FD_v2_4/Clk_In" "FD_v2_9/VDD" 45.6595
+cap "3-stage_cs-vco_dp9_0/vco_switch_n_v2_3/sky130_fd_pr__nfet_01v8_HGTGXE_v2_1/a_n18_n99#" "FD_v2_9/GND" -1.13687e-13
+cap "3-stage_cs-vco_dp9_0/vco_switch_n_v2_3/out" "FD_v2_9/GND" -4.26326e-13
+cap "FD_v2_9/GND" "FD_v2_4/Clkb" 0.967742
+cap "3-stage_cs-vco_dp9_0/vco_switch_n_v2_3/sky130_fd_pr__nfet_01v8_HGTGXE_v2_0/a_n18_n99#" "FD_v2_9/GND" -2.84217e-14
+cap "FD_v2_3/7" "FD_v2_4/Clk_In" 2.36301
+cap "FD_v2_8/GND" "FD_v2_8/Clk_Out" 6.24324
+cap "FD_v2_4/6" "FD_v2_9/3" 0.225256
+cap "FD_v2_4/Clk_Out" "FD_v2_4/7" 20.9464
+cap "FD_v2_4/6" "FD_v2_3/2" 1.85484
+cap "FD_v2_4/Clkb" "FD_v2_3/6" 5.7415
+cap "FD_v2_4/2" "FD_v2_2/Clk_Out" 2.70235
+cap "FD_v2_9/Clkb" "FD_v2_4/2" 5.83099
+cap "FD_v2_4/Clkb" "FD_v2_9/Clkb" 22.4636
+cap "FD_v2_9/7" "FD_v2_4/Clkb" 7.75281
+cap "FD_v2_9/7" "FD_v2_4/2" 5.39062
+cap "FD_v2_8/Clk_Out" "FD_v2_4/2" 0.509915
+cap "FD_v2_9/6" "FD_v2_4/Clk_In" 23.9259
+cap "FD_v2_4/5" "FD_v2_9/Clkb" 7.25201
+cap "FD_v2_4/Clk_In" "FD_v2_3/5" 4.74368
+cap "FD_v2_3/2" "FD_v2_4/3" 1.74022
+cap "FD_v2_4/5" "FD_v2_2/Clk_Out" 4.74368
+cap "FD_v2_9/2" "FD_v2_4/6" 3.48485
+cap "FD_v2_4/Clkb" "FD_v2_8/GND" 0.344388
+cap "FD_v2_4/2" "FD_v2_3/3" 1.74022
+cap "FD_v2_9/2" "FD_v2_4/7" 5.39062
+cap "FD_v2_2/Clk_Out" "FD_v2_4/4" 5.3023
+cap "FD_v2_9/Clkb" "FD_v2_4/4" 7.72024
+cap "FD_v2_9/2" "FD_v2_4/3" 0.935223
+cap "FD_v2_4/6" "FD_v2_9/Clkb" 40.7705
+cap "FD_v2_4/6" "FD_v2_8/Clk_Out" 23.9259
+cap "FD_v2_4/Clkb" "FD_v2_9/5" 7.25201
+cap "FD_v2_4/Clkb" "FD_v2_9/6" 40.7705
+cap "FD_v2_9/6" "FD_v2_4/2" 3.48485
+cap "FD_v2_4/7" "FD_v2_9/Clkb" 7.75281
+cap "FD_v2_4/7" "FD_v2_2/Clk_Out" 3.28571
+cap "FD_v2_4/7" "FD_v2_8/Clk_Out" 27.0396
+cap "FD_v2_8/VDD" "FD_v2_8/Clk_Out" 8.47297
+cap "FD_v2_3/7" "FD_v2_4/Clk_In" 3.28571
+cap "FD_v2_3/4" "FD_v2_4/Clk_In" 5.3023
+cap "FD_v2_4/7" "FD_v2_8/GND" 6.90698
+cap "FD_v2_9/5" "FD_v2_4/4" 2.68702
+cap "FD_v2_8/Clk_Out" "FD_v2_9/3" 17.1875
+cap "FD_v2_9/6" "FD_v2_4/4" 5.70992
+cap "FD_v2_4/Clk_In" "FD_v2_3/2" 2.70235
+cap "FD_v2_4/Clkb" "FD_v2_9/4" 7.72024
+cap "FD_v2_4/7" "FD_v2_4/VDD" 7.2907
+cap "FD_v2_3/Clkb" "FD_v2_4/2" 7.89894
+cap "FD_v2_3/7" "FD_v2_4/Clkb" 10.7367
+cap "FD_v2_4/5" "FD_v2_9/4" 2.68702
+cap "FD_v2_9/2" "FD_v2_4/Clk_In" 0.509915
+cap "FD_v2_4/2" "FD_v2_3/sky130_fd_pr__pfet_01v8_A7DS5R_4/a_n15_n133#" 1.85484
+cap "FD_v2_9/2" "FD_v2_8/Clk_Out" 2.94658
+cap "FD_v2_9/6" "FD_v2_4/3" 0.225256
+cap "FD_v2_5/Clkb" "FD_v2_8/GND" 5.37209
+cap "FD_v2_4/2" "FD_v2_9/3" 0.935223
+cap "FD_v2_4/Clkb" "FD_v2_3/2" 7.89894
+cap "FD_v2_4/6" "FD_v2_9/4" 5.70992
+cap "FD_v2_4/Clk_In" "FD_v2_2/Clk_Out" 7.13793
+cap "FD_v2_9/2" "FD_v2_8/7" 11.2469
+cap "FD_v2_9/7" "FD_v2_4/Clk_In" 19.6441
+cap "FD_v2_4/6" "FD_v2_3/Clkb" 5.7415
+cap "FD_v2_5/Clkb" "FD_v2_4/VDD" 8.34593
+cap "FD_v2_4/Clk_Out" "FD_v2_4/6" 9.37221
+cap "FD_v2_9/2" "FD_v2_4/Clkb" 5.83099
+cap "FD_v2_4/7" "FD_v2_3/Clkb" 14.2118
+cap "FD_v2_4/Clk_In" "FD_v2_8/GND" 2.64031
+cap "FD_v2_4/Clk_Out" "FD_v2_8/2" 0.509915
+cap "FD_v2_2/2" "FD_v2_5/3" 1.74022
+cap "FD_v2_8/GND" "FD_v2_9/Clkb" 24.3324
+cap "FD_v2_2/7" "FD_v2_4/Clk_Out" 5.64873
+cap "FD_v2_8/GND" "FD_v2_4/7" 6.90698
+cap "FD_v2_4/Clk_Out" "FD_v2_5/Clkb" 71.7391
+cap "FD_v2_5/2" "FD_v2_4/7" 22.4939
+cap "FD_v2_4/Clk_Out" "FD_v2_4/sky130_fd_pr__nfet_01v8_PW5BNL_4/a_n73_37#" 9.37221
+cap "FD_v2_2/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" "FD_v2_4/Clk_Out" 7.13793
+cap "FD_v2_4/Clk_Out" "FD_v2_8/Clk_Out" 11.1207
+cap "FD_v2_2/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" "FD_v2_5/4" 5.3023
+cap "FD_v2_5/Clkb" "FD_v2_8/sky130_fd_pr__nfet_01v8_NDE37H_1/a_n118_22#" 22.4636
+cap "FD_v2_2/Clk_Out" "FD_v2_4/VDD" -8.88178e-16
+cap "FD_v2_5/5" "FD_v2_8/4" 2.68702
+cap "FD_v2_8/5" "FD_v2_5/Clkb" 7.25201
+cap "FD_v2_4/Clk_Out" "FD_v2_2/4" 5.3023
+cap "FD_v2_4/VDD" "FD_v2_5/Clkb" 29.4562
+cap "FD_v2_2/Clk_Out" "FD_v2_4/7" 2.36301
+cap "FD_v2_8/7" "FD_v2_8/GND" 13.814
+cap "FD_v2_8/VDD" "FD_v2_8/Clk_Out" 60.723
+cap "FD_v2_5/4" "FD_v2_8/sky130_fd_pr__nfet_01v8_NDE37H_1/a_n118_22#" 7.72024
+cap "FD_v2_5/2" "FD_v2_8/7" 5.39062
+cap "FD_v2_8/5" "FD_v2_5/4" 2.68702
+cap "FD_v2_5/Clkb" "FD_v2_4/7" 4.45238
+cap "FD_v2_4/Clk_Out" "FD_v2_4/VDD" 69.1959
+cap "FD_v2_3/Clkb" "FD_v2_4/7" 4.36285
+cap "FD_v2_8/6" "FD_v2_5/3" 0.225256
+cap "FD_v2_9/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" "FD_v2_8/7" 11.2469
+cap "FD_v2_8/Clk_Out" "FD_v2_9/Clkb" 71.7391
+cap "FD_v2_2/2" "FD_v2_5/Clkb" 7.89894
+cap "FD_v2_8/Clk_Out" "FD_v2_4/7" 10.2216
+cap "FD_v2_8/2" "FD_v2_5/3" 0.935223
+cap "FD_v2_4/Clk_Out" "FD_v2_4/7" 61.1363
+cap "FD_v2_4/Clk_Out" "FD_v2_2/2" 2.70235
+cap "FD_v2_8/4" "FD_v2_5/Clkb" 7.72024
+cap "FD_v2_5/Clkb" "FD_v2_8/7" 7.75281
+cap "FD_v2_8/Clk_Out" "FD_v2_9/3" 17.1875
+cap "FD_v2_8/6" "FD_v2_5/2" 3.48485
+cap "FD_v2_8/VDD" "FD_v2_9/Clkb" 37.8022
+cap "FD_v2_5/6" "FD_v2_8/sky130_fd_pr__nfet_01v8_NDE37H_1/a_n118_22#" 8.54829
+cap "FD_v2_8/Clk_Out" "FD_v2_8/7" 80.363
+cap "FD_v2_2/6" "FD_v2_5/Clkb" 5.7415
+cap "FD_v2_4/VDD" "FD_v2_4/7" 7.2907
+cap "FD_v2_4/Clk_Out" "FD_v2_2/5" 4.74368
+cap "FD_v2_4/Clk_Out" "FD_v2_5/3" 34.375
+cap "FD_v2_5/Clkb" "FD_v2_8/GND" 18.9603
+cap "FD_v2_4/Clk_Out" "FD_v2_8/7" 37.2612
+cap "FD_v2_2/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" "FD_v2_5/5" 4.74368
+cap "FD_v2_8/Clk_Out" "FD_v2_8/GND" 49.6632
+cap "FD_v2_2/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" "FD_v2_5/2" 2.70235
+cap "FD_v2_2/sky130_fd_pr__pfet_01v8_A7DS5R_4/a_n15_n133#" "FD_v2_5/2" 1.85484
+cap "FD_v2_8/6" "FD_v2_5/Clkb" 40.7705
+cap "FD_v2_4/Clk_Out" "FD_v2_8/GND" 55.9065
+cap "FD_v2_8/VDD" "FD_v2_8/7" 14.5814
+cap "FD_v2_4/Clk_Out" "FD_v2_5/2" 5.89315
+cap "FD_v2_5/5" "FD_v2_8/sky130_fd_pr__nfet_01v8_NDE37H_1/a_n118_22#" 7.25201
+cap "FD_v2_8/6" "FD_v2_8/Clk_Out" 18.7444
+cap "FD_v2_8/2" "FD_v2_5/Clkb" 5.83099
+cap "FD_v2_9/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" "FD_v2_8/Clk_Out" 2.94658
+cap "FD_v2_4/Clk_Out" "FD_v2_8/6" 23.9259
+cap "FD_v2_8/7" "FD_v2_9/Clkb" 4.45238
+cap "FD_v2_8/6" "FD_v2_5/4" 5.70992
+cap "FD_v2_5/2" "FD_v2_8/sky130_fd_pr__nfet_01v8_NDE37H_1/a_n118_22#" 5.83099
+cap "FD_v2_2/7" "FD_v2_5/Clkb" 18.5747
+cap "FD_v2_8/4" "FD_v2_5/6" 2.85496
+cap "FD_v2_8/Clk_In" "FD_v2_8/Clkb" 71.7391
+cap "FD_v2_8/GND" "FD_v2_6/Clkb" 24.3324
+cap "FD_v2_5/7" "FD_v2_8/Clkb" 7.75281
+cap "FD_v2_5/Clk_Out" "FD_v2_1/7" 5.64873
+cap "FD_v2_1/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" "FD_v2_6/4" 5.3023
+cap "FD_v2_6/sky130_fd_pr__nfet_01v8_PW5BNL_1/a_n73_37#" "FD_v2_5/Clk_Out" 5.89315
+cap "FD_v2_5/6" "FD_v2_8/3" 0.225256
+cap "FD_v2_5/VDD" "FD_v2_2/Clk_In" -4.44089e-16
+cap "FD_v2_5/VDD" "FD_v2_5/Clk_Out" 69.1959
+cap "FD_v2_5/7" "FD_v2_2/Clkb" 18.5747
+cap "FD_v2_8/Clk_In" "FD_v2_8/VDD" 57.3538
+cap "FD_v2_7/7" "FD_v2_6/Clkb" 7.75281
+cap "FD_v2_7/5" "FD_v2_6/4" 2.68702
+cap "FD_v2_6/sky130_fd_pr__nfet_01v8_PW5BNL_1/a_n73_37#" "FD_v2_5/7" 22.4939
+cap "FD_v2_8/GND" "FD_v2_8/Clkb" 24.3324
+cap "FD_v2_5/Clk_Out" "FD_v2_7/2" 0.509915
+cap "FD_v2_5/6" "FD_v2_8/Clkb" 32.2222
+cap "FD_v2_6/4" "FD_v2_7/6" 5.70992
+cap "FD_v2_5/VDD" "FD_v2_5/7" 14.5814
+cap "FD_v2_1/2" "FD_v2_6/Clkb" 7.89894
+cap "FD_v2_6/sky130_fd_pr__nfet_01v8_PW5BNL_1/a_n73_37#" "FD_v2_7/6" 3.48485
+cap "FD_v2_6/3" "FD_v2_7/2" 0.935223
+cap "FD_v2_8/Clk_In" "FD_v2_8/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" 5.89315
+cap "FD_v2_6/3" "FD_v2_5/Clk_Out" 34.375
+cap "FD_v2_5/7" "FD_v2_8/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" 5.39062
+cap "FD_v2_8/Clkb" "FD_v2_7/7" 4.45238
+cap "FD_v2_5/6" "FD_v2_2/Clkb" 5.7415
+cap "FD_v2_8/Clk_In" "FD_v2_5/Clk_Out" 11.1207
+cap "FD_v2_5/6" "FD_v2_2/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" 1.85484
+cap "FD_v2_5/2" "FD_v2_8/3" 0.935223
+cap "FD_v2_5/6" "FD_v2_8/4" 2.85496
+cap "FD_v2_5/7" "FD_v2_2/Clk_In" 5.64873
+cap "FD_v2_5/7" "FD_v2_5/Clk_Out" 80.363
+cap "FD_v2_7/7" "FD_v2_8/VDD" 14.5814
+cap "FD_v2_5/Clk_Out" "FD_v2_7/6" 23.9259
+cap "FD_v2_6/sky130_fd_pr__nfet_01v8_PW5BNL_1/a_n73_37#" "FD_v2_7/7" 5.39062
+cap "FD_v2_5/7" "FD_v2_8/Clk_In" 37.2612
+cap "FD_v2_6/3" "FD_v2_7/6" 0.225256
+cap "FD_v2_5/6" "FD_v2_8/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" 3.48485
+cap "FD_v2_1/7" "FD_v2_6/Clkb" 18.5747
+cap "FD_v2_1/6" "FD_v2_6/Clkb" 5.7415
+cap "FD_v2_8/Clk_In" "FD_v2_7/6" 18.7444
+cap "FD_v2_5/Clk_Out" "FD_v2_8/GND" 55.9065
+cap "FD_v2_5/VDD" "FD_v2_6/Clkb" 37.8022
+cap "FD_v2_5/6" "FD_v2_5/Clk_Out" 18.7444
+cap "FD_v2_8/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" "FD_v2_7/7" 22.4939
+cap "FD_v2_5/2" "FD_v2_2/Clkb" 7.89894
+cap "FD_v2_8/Clk_In" "FD_v2_8/GND" 55.9065
+cap "FD_v2_5/Clk_Out" "FD_v2_7/7" 37.2612
+cap "FD_v2_8/Clkb" "FD_v2_8/VDD" 37.8022
+cap "FD_v2_8/Clk_In" "FD_v2_5/6" 23.9259
+cap "FD_v2_5/7" "FD_v2_8/GND" 13.814
+cap "FD_v2_5/Clk_Out" "FD_v2_6/Clkb" 71.7391
+cap "FD_v2_7/sky130_fd_pr__nfet_01v8_NDE37H_1/a_n118_22#" "FD_v2_6/4" 5.34524
+cap "FD_v2_8/Clk_In" "FD_v2_7/7" 80.363
+cap "FD_v2_5/2" "FD_v2_2/3" 1.74022
+cap "FD_v2_6/3" "FD_v2_1/2" 1.74022
+cap "FD_v2_5/7" "FD_v2_6/Clkb" 4.45238
+cap "FD_v2_8/Clk_In" "FD_v2_8/3" 34.375
+cap "FD_v2_7/6" "FD_v2_6/Clkb" 40.7705
+cap "FD_v2_6/sky130_fd_pr__nfet_01v8_PW5BNL_1/a_n73_37#" "FD_v2_1/sky130_fd_pr__pfet_01v8_A7DS5R_4/a_n15_n133#" 1.85484
+cap "FD_v2_8/Clk_In" "FD_v2_5/2" 0.509915
+cap "FD_v2_8/GND" "FD_v2_7/7" 13.814
+cap "FD_v2_6/5" "FD_v2_1/Clk_In" 4.74368
+cap "FD_v2_6/5" "FD_v2_7/4" 2.68702
+cap "FD_v2_7/4" "FD_v2_6/6" 5.70992
+cap "FD_v2_6/7" "FD_v2_7/2" 5.39062
+cap "FD_v2_7/Clk_In" "FD_v2_7/2" 1.13309
+cap "FD_v2_7/3" "FD_v2_6/6" 0.225256
+cap "FD_v2_7/2" "FD_v2_6/a_971_n597#" 5.83099
+cap "FD_v2_7/Clk_In" "FD_v2_7/GND" 62.1429
+cap "FD_v2_7/2" "FD_v2_6/6" 3.48485
+cap "FD_v2_1/Clk_In" "FD_v2_6/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" 7.13793
+cap "FD_v2_7/Clkb" "FD_v2_6/2" 5.83099
+cap "FD_v2_1/Clkb" "FD_v2_6/2" 7.89894
+cap "FD_v2_6/4" "FD_v2_7/Clkb" 2.375
+cap "FD_v2_7/Clk_In" "FD_v2_6/2" 0.509915
+cap "FD_v2_6/7" "FD_v2_7/Clkb" 7.75281
+cap "FD_v2_1/Clkb" "FD_v2_6/7" 18.5747
+cap "FD_v2_1/2" "FD_v2_6/6" 1.85484
+cap "FD_v2_7/Clkb" "FD_v2_7/Clk_In" 12.4699
+cap "FD_v2_1/Clk_In" "FD_v2_6/2" 2.70235
+cap "FD_v2_6/7" "FD_v2_7/Clk_In" 64.6411
+cap "FD_v2_7/Clkb" "FD_v2_6/a_971_n597#" 22.4636
+cap "FD_v2_7/Clkb" "FD_v2_6/6" 40.7705
+cap "FD_v2_6/5" "FD_v2_7/Clkb" 7.25201
+cap "FD_v2_1/Clkb" "FD_v2_6/6" 5.7415
+cap "FD_v2_7/3" "FD_v2_6/2" 0.935223
+cap "FD_v2_1/3" "FD_v2_6/2" 1.74022
+cap "FD_v2_1/4" "FD_v2_6/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" 5.3023
+cap "FD_v2_1/5" "FD_v2_6/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" 4.74368
+cap "FD_v2_7/Clk_In" "FD_v2_6/6" 23.9259
+cap "FD_v2_1/2" "FD_v2_6/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" 2.70235
+cap "FD_v2_6/7" "FD_v2_1/Clk_In" 5.64873
+cap "FD_v2_6/a_971_n597#" "FD_v2_7/5" 7.25201
+cap "FD_v2_7/4" "FD_v2_6/a_971_n597#" 7.72024
+cap "FD_v2_4/Clk_In" "FD_v2_4/VDD" 46.1823
+cap "3-stage_cs-vco_dp9_0/vdd" "FD_v2_4/VDD" -0.984
+cap "FD_v2_4/Clkb" "FD_v2_3/7" 7.83799
+cap "3-stage_cs-vco_dp9_0/XM24/a_n76_n129#" "FD_v2_4/VDD" 4.18883
+cap "FD_v2_4/Clk_In" "FD_v2_3/7" 3.45234
+cap "FD_v5_lasttry_0/sky130_fd_pr__nfet_01v8_PW6BNL_0/a_15_n163#" "FD_v5_lasttry_0/Clk_In" 0.438053
+cap "3-stage_cs-vco_dp9_0/XM23/a_n33_310#" "FD_v5_lasttry_0/Clk_In" 0.456221
+cap "FD_v2_4/VDD" "FD_v5_lasttry_0/Clk_In" 22.0188
+cap "FD_v2_4/VDD" "FD_v2_3/GND" 165.031
+cap "3-stage_cs-vco_dp9_0/vdd" "FD_v5_lasttry_0/Clk_In" 31.583
+cap "FD_v2_4/Clk_In" "FD_v2_3/GND" 261.398
+cap "FD_v5_lasttry_0/Clkb_int" "FD_v5_lasttry_0/Clk_In" 1.03321
+cap "FD_v5_lasttry_0/Clkb_int" "FD_v2_3/GND" 6.06486
+cap "FD_v2_3/7" "FD_v5_lasttry_0/Clk_In" 2.14286
+cap "FD_v2_3/7" "FD_v2_3/GND" 6
+cap "FD_v2_3/GND" "FD_v5_lasttry_0/Clk_In" 49.3099
+cap "FD_v2_4/3" "FD_v2_3/2" 1.74022
+cap "FD_v2_3/7" "FD_v2_4/Clk_In" 4.37504
+cap "FD_v2_2/GND" "FD_v5_lasttry_0/Clkb_buf" 16.4195
+cap "FD_v2_2/Clk_Out" "FD_v2_4/5" 4.74368
+cap "FD_v2_2/GND" "FD_v2_3/3" 11.5455
+cap "FD_v2_2/GND" "FD_v2_3/4" 26.0114
+cap "FD_v2_3/6" "FD_v5_lasttry_0/dus" 1.60108
+cap "FD_v2_2/Clk_Out" "FD_v2_2/GND" 20.9595
+cap "FD_v2_4/Clkb" "FD_v2_3/2" 7.89894
+cap "FD_v2_4/7" "FD_v2_2/Clk_Out" 3.28571
+cap "FD_v2_2/GND" "FD_v2_3/7" 6.06486
+cap "FD_v2_3/Clkb" "FD_v2_4/2" 7.89894
+cap "FD_v2_3/Clkb" "FD_v2_4/6" 5.7415
+cap "FD_v2_4/sky130_fd_pr__nfet_01v8_PW5BNL_4/a_n73_37#" "FD_v2_3/2" 1.85484
+cap "FD_v2_3/6" "FD_v2_2/GND" 37.7137
+cap "FD_v2_3/3" "FD_v2_4/2" 1.74022
+cap "FD_v2_2/Clk_Out" "FD_v2_4/2" 2.70235
+cap "FD_v2_4/Clkb" "FD_v2_3/7" 10.7367
+cap "FD_v2_4/Clk_In" "FD_v2_3/2" 2.70235
+cap "FD_v5_lasttry_0/Clkb_buf" "FD_v2_3/5" 0.540984
+cap "FD_v2_2/Clk_Out" "FD_v2_3/2" 2.94658
+cap "FD_v2_3/5" "FD_v2_4/Clk_In" 4.74368
+cap "FD_v5_lasttry_0/dus" "FD_v2_3/4" 0.142857
+cap "FD_v5_lasttry_0/dus" "FD_v2_2/Clk_Out" 2.63359
+cap "FD_v2_2/Clk_Out" "FD_v2_4/4" 5.3023
+cap "FD_v2_2/GND" "FD_v2_3/2" 11.4432
+cap "FD_v5_lasttry_0/Clkb_buf" "FD_v2_3/3" 2.64
+cap "FD_v2_3/6" "FD_v2_4/Clkb" 5.7415
+cap "FD_v2_2/GND" "FD_v2_3/Clkb" 13.9615
+cap "FD_v2_2/GND" "FD_v2_3/5" 23.9658
+cap "FD_v2_4/VDD" "FD_v2_2/Clk_Out" 8.47297
+cap "FD_v2_3/4" "FD_v2_4/Clk_In" 5.3023
+cap "FD_v5_lasttry_0/dus" "FD_v2_2/GND" 10.9463
+cap "FD_v2_4/7" "FD_v2_3/Clkb" 14.2118
+cap "FD_v2_2/Clk_Out" "FD_v2_4/Clk_In" 7.13793
+cap "FD_v2_2/Clk_Out" "FD_v2_3/3" 17.1875
+cap "FD_v2_2/7" "FD_v2_3/2" 11.2469
+cap "FD_v5_lasttry_0/dus" "FD_v5_lasttry_0/Clk_In" 0.438053
+cap "FD_v2_3/6" "FD_v2_4/2" 1.85484
+cap "FD_v2_4/Clk_Out" "FD_v2_2/7" 5.64873
+cap "FD_v2_2/sky130_fd_pr__nfet_01v8_NDE37H_1/a_n118_22#" "FD_v5_lasttry_0/3" 3.34177
+cap "FD_v5_lasttry_0/3" "FD_v2_2/6" 2.18833
+cap "FD_v2_5/Clkb" "FD_v2_2/6" 5.7415
+cap "FD_v5_lasttry_0/3" "FD_v2_2/GND" 91.158
+cap "FD_v2_5/3" "FD_v2_2/2" 1.74022
+cap "FD_v2_3/Clkb" "FD_v2_4/7" 4.36285
+cap "FD_v2_2/5" "FD_v2_2/GND" 23.9658
+cap "FD_v2_2/Clk_Out" "FD_v2_4/7" 2.36301
+cap "FD_v2_5/2" "FD_v2_2/6" 1.85484
+cap "FD_v5_lasttry_0/Clk_In_buf" "FD_v2_2/5" 2.01075
+cap "FD_v2_2/2" "FD_v5_lasttry_0/3" 3.06557
+cap "FD_v2_2/2" "FD_v2_5/Clkb" 7.89894
+cap "FD_v2_2/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" "FD_v2_5/5" 4.74368
+cap "FD_v2_2/7" "FD_v2_5/Clkb" 18.5747
+cap "FD_v2_2/Clk_Out" "FD_v2_3/3" 17.1875
+cap "FD_v2_4/VDD" "FD_v2_3/Clkb" 37.8022
+cap "FD_v2_4/VDD" "FD_v2_2/7" 14.5814
+cap "FD_v2_2/sky130_fd_pr__nfet_01v8_NDE37H_1/a_n118_22#" "FD_v2_2/GND" 13.9615
+cap "FD_v2_2/6" "FD_v2_2/GND" 37.7137
+cap "FD_v2_4/VDD" "FD_v2_2/Clk_Out" 60.723
+cap "FD_v2_4/Clk_Out" "FD_v2_2/5" 4.74368
+cap "FD_v2_4/Clk_Out" "FD_v2_4/VDD" -2.66454e-15
+cap "FD_v2_2/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" "FD_v2_5/2" 2.70235
+cap "FD_v2_2/sky130_fd_pr__nfet_01v8_NDE37H_1/a_n118_22#" "FD_v5_lasttry_0/Clk_In_buf" 64.4968
+cap "FD_v5_lasttry_0/Clk_In_buf" "FD_v2_2/6" 40.3918
+cap "FD_v5_lasttry_0/Clk_In_buf" "FD_v2_2/GND" 24.6445
+cap "FD_v2_2/Clk_Out" "FD_v5_lasttry_0/Clkb_buf" 1.78571
+cap "FD_v2_2/4" "FD_v2_2/GND" 19.1818
+cap "FD_v2_2/2" "FD_v2_2/GND" 5.44323
+cap "FD_v2_2/Clk_Out" "FD_v2_2/6" 18.7444
+cap "FD_v2_3/Clkb" "FD_v2_2/GND" 29.5029
+cap "FD_v5_lasttry_0/Clk_In_buf" "FD_v2_2/4" 2.20447
+cap "FD_v2_2/7" "FD_v2_2/GND" 25.8788
+cap "FD_v2_2/Clk_Out" "FD_v2_2/GND" 60.8338
+cap "FD_v2_2/5" "FD_v5_lasttry_0/3" 3.7651
+cap "FD_v2_2/7" "FD_v5_lasttry_0/Clk_In_buf" 7.66667
+cap "FD_v2_2/Clk_Out" "FD_v5_lasttry_0/Clk_In_buf" 7.89641
+cap "FD_v5_lasttry_0/4" "FD_v2_2/GND" 10.9463
+cap "FD_v2_2/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" "FD_v2_5/4" 5.3023
+cap "FD_v2_2/6" "FD_v5_lasttry_0/MNinv1/a_n73_37#" 2.14286
+cap "FD_v2_4/Clk_Out" "FD_v2_2/4" 5.3023
+cap "FD_v2_2/7" "FD_v2_3/Clkb" 4.45238
+cap "FD_v2_4/Clk_Out" "FD_v2_2/2" 2.70235
+cap "FD_v2_3/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" "FD_v2_2/7" 11.2469
+cap "FD_v2_2/Clk_Out" "FD_v2_3/Clkb" 71.7391
+cap "FD_v2_2/Clk_Out" "FD_v2_3/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" 2.94658
+cap "FD_v2_2/Clk_Out" "FD_v2_2/7" 80.363
+cap "FD_v2_4/Clk_Out" "FD_v2_2/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" 7.13793
+cap "FD_v2_2/GND" "FD_v5_lasttry_0/Clkb_buf" 13.6981
+cap "FD_v5_lasttry_0/MNTgate2/a_15_n163#" "FD_v2_1/6" 2.45093
+cap "FD_v2_2/GND" "FD_v2_1/6" 37.7137
+cap "FD_v2_2/4" "FD_v5_lasttry_0/MNTgate1/a_n73_n163#" 4.36576
+cap "FD_v5_lasttry_0/MNTgate2/a_15_n163#" "FD_v2_1/5" 3.04615
+cap "FD_v5_lasttry_0/Clkb_buf" "FD_v2_1/6" 37.7139
+cap "FD_v2_2/GND" "FD_v2_1/5" 6.46566
+cap "FD_v2_2/GND" "FD_v2_2/Clkb" 29.5029
+cap "FD_v2_2/GND" "FD_v2_2/4" 6.82955
+cap "FD_v2_6/3" "FD_v2_1/2" 1.74022
+cap "FD_v2_2/Clkb" "FD_v2_5/VDD" 37.8022
+cap "FD_v2_2/Clkb" "FD_v2_5/6" 5.7415
+cap "FD_v5_lasttry_0/Clkb_buf" "FD_v2_1/sky130_fd_pr__nfet_01v8_NDE37H_1/a_n118_22#" 7
+cap "FD_v2_6/Clkb" "FD_v2_1/7" 18.5747
+cap "FD_v2_2/Clk_In" "FD_v5_lasttry_0/MNTgate1/a_n73_n163#" 9.51092
+cap "FD_v2_2/Clk_In" "FD_v5_lasttry_0/5" 2.34426
+cap "FD_v2_2/Clk_In" "FD_v2_2/3" 34.375
+cap "FD_v2_2/GND" "FD_v2_2/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" 6
+cap "FD_v2_6/Clkb" "FD_v2_1/2" 7.89894
+cap "FD_v5_lasttry_0/4" "FD_v2_1/7" 1.57143
+cap "FD_v2_2/Clkb" "FD_v2_5/7" 18.5747
+cap "FD_v2_5/2" "FD_v2_2/3" 1.74022
+cap "FD_v2_2/GND" "FD_v5_lasttry_0/a_2222_n669#" 13.6981
+cap "FD_v2_2/Clk_In" "FD_v2_2/GND" 81.7932
+cap "FD_v2_2/GND" "FD_v2_1/7" 25.8788
+cap "FD_v2_2/Clk_In" "FD_v2_1/6" 18.7444
+cap "FD_v2_2/GND" "FD_v2_1/2" 5.44323
+cap "FD_v2_2/Clk_In" "FD_v2_2/Clkb" 71.7391
+cap "FD_v2_2/Clk_In" "FD_v2_5/VDD" 69.1959
+cap "FD_v2_2/Clkb" "FD_v5_lasttry_0/a_2222_n669#" 64.3792
+cap "FD_v5_lasttry_0/Clkb_buf" "FD_v2_1/2" 3.50625
+cap "FD_v2_2/Clkb" "FD_v2_1/7" 4.45238
+cap "FD_v2_1/7" "FD_v2_5/VDD" 14.5814
+cap "FD_v2_6/sky130_fd_pr__nfet_01v8_PW5BNL_1/a_n73_37#" "FD_v2_1/6" 1.85484
+cap "FD_v2_5/sky130_fd_pr__nfet_01v8_PW5BNL_4/a_n73_37#" "FD_v2_2/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" 1.85484
+cap "FD_v2_5/2" "FD_v2_2/Clkb" 7.89894
+cap "FD_v2_2/Clk_In" "FD_v2_5/7" 5.64873
+cap "FD_v5_lasttry_0/a_2222_n669#" "FD_v2_2/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" 2.20447
+cap "FD_v2_2/Clk_In" "FD_v2_2/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" 5.89315
+cap "FD_v5_lasttry_0/MNTgate1/a_n73_n163#" "FD_v2_2/3" 8.13086
+cap "FD_v2_1/7" "FD_v2_2/sky130_fd_pr__pfet_01v8_A7DS5R_1/a_n15_n133#" 22.4939
+cap "FD_v5_lasttry_0/4" "FD_v2_2/3" 2.03077
+cap "FD_v2_2/Clk_In" "FD_v5_lasttry_0/a_2222_n669#" 81.9701
+cap "FD_v2_2/GND" "FD_v5_lasttry_0/MNTgate1/a_n73_n163#" 97.5547
+cap "FD_v2_2/GND" "FD_v5_lasttry_0/5" 82.0047
+cap "FD_v2_2/GND" "FD_v2_2/3" 11.5455
+cap "FD_v2_2/Clk_In" "FD_v2_1/7" 80.363
+cap "FD_v2_6/Clkb" "FD_v2_1/6" 5.7415
+cap "FD_v2_5/Clk_Out" "FD_v2_1/7" 5.64873
+cap "FD_v2_2/GND" "FD_v5_lasttry_0/4" 10.9463
+cap "FD_v2_1/6" "FD_v5_lasttry_0/5" 7.99683
+cap "FD_v2_1/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" "FD_v2_6/4" 5.3023
+cap "FD_v5_lasttry_0/MNTgate2/a_15_n163#" "FD_v2_2/GND" 10.4634
+cap "FD_v2_1/5" "FD_v5_lasttry_0/5" 4.36576
+cap "FD_v2_6/2" "FD_v2_1/3" 1.74022
+cap "FD_v5_lasttry_0/6" "FD_v2_1/5" 2.2541
+cap "FD_v2_1/Clkb" "FD_v5_lasttry_0/Clkb_buf" 77.4225
+cap "FD_v5_lasttry_0/MNTgate2/a_n73_n163#" "FD_v2_1/5" 3.7651
+cap "FD_v2_1/GND" "FD_v2_1/5" 17.5002
+cap "FD_v2_6/sky130_fd_pr__nfet_01v8_PW5BNL_4/a_n73_37#" "FD_v2_1/2" 1.85484
+cap "FD_v2_6/6" "FD_v2_1/Clkb" 5.7415
+cap "FD_v5_lasttry_0/6" "FD_v2_1/GND" 95.6304
+cap "FD_v2_1/3" "FD_v5_lasttry_0/Clkb_buf" 4.02151
+cap "FD_v2_1/GND" "FD_v5_lasttry_0/MNTgate2/a_n73_n163#" 106.708
+cap "FD_v2_1/GND" "FD_v5_lasttry_0/2" 10.9463
+cap "FD_v2_6/7" "FD_v2_1/Clkb" 18.5747
+cap "FD_v2_1/4" "FD_v5_lasttry_0/MNTgate2/a_n73_n163#" 2.95331
+cap "FD_v2_1/2" "FD_v2_1/GND" 41.3478
+cap "FD_v2_1/4" "FD_v2_1/GND" 26.0114
+cap "FD_v5_lasttry_0/6" "FD_v2_1/Clk_In" 45.3525
+cap "FD_v2_1/5" "FD_v2_6/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" 4.74368
+cap "FD_v5_lasttry_0/7" "FD_v2_1/Clk_In" 1.94261
+cap "FD_v2_1/GND" "FD_v2_1/Clk_In" 225.424
+cap "FD_v2_1/GND" "FD_v5_lasttry_0/Clkb_buf" 26.1449
+cap "FD_v2_6/2" "FD_v2_1/Clk_In" 2.70235
+cap "FD_v2_1/4" "FD_v5_lasttry_0/Clkb_buf" 2.20447
+cap "FD_v2_1/2" "FD_v2_6/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" 2.70235
+cap "FD_v2_6/5" "FD_v2_1/Clk_In" 4.74368
+cap "FD_v2_1/4" "FD_v2_6/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" 5.3023
+cap "FD_v2_1/Clk_In" "FD_v5_lasttry_0/Clkb_buf" 8.29184
+cap "FD_v2_6/sky130_fd_pr__pfet_01v8_ACPHKB_1/a_n33_37#" "FD_v2_1/Clk_In" 7.13793
+cap "FD_v5_lasttry_0/MNTgate2/a_n73_n163#" "FD_v2_1/Clkb" 9.18987
+cap "FD_v2_1/GND" "FD_v2_1/Clkb" 94.7242
+cap "FD_v5_lasttry_0/2" "FD_v2_1/Clkb" 1.80328
+cap "FD_v2_1/GND" "FD_v2_1/3" 11.5455
+cap "FD_v2_6/2" "FD_v2_1/Clkb" 7.89894
+cap "FD_v2_6/7" "FD_v2_1/Clk_In" 5.64873
+cap "FD_v2_1/Clk_In" "FD_v5_lasttry_0/7" 1.94261
+cap "FD_v2_6/GND" "FD_v2_1/Clk_In" 63.1358
+cap "FD_v5_lasttry_0/VDD" "3-stage_cs-vco_dp9_0/vco_switch_p_3/sel" 0.114213
+cap "3-stage_cs-vco_dp9_0/vco_switch_p_3/sky130_fd_pr__pfet_01v8_5YXW2B_0/a_18_n72#" "FD_v5_lasttry_0/VDD" 23.3411
+cap "FD_v5_lasttry_0/VDD" "3-stage_cs-vco_dp9_0/vss" 131.444
+cap "3-stage_cs-vco_dp9_0/vdd" "FD_v5_lasttry_0/VDD" 42.568
+merge "FD_v5_lasttry_0/GND" "vss" -4432.33 -1087554 -15742 0 0 0 0 0 0 0 0 -150586 -11366 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -150586 -11366 -201905 -32312 0 0 -4900 -280 0 0 0 0 0 0
+merge "vss" "FD_v2_1/GND"
+merge "FD_v2_1/GND" "m1_1989_595#"
+merge "m1_1989_595#" "m1_2235_659#"
+merge "m1_2235_659#" "FD_v2_6/GND"
+merge "FD_v2_6/GND" "FD_v2_7/GND"
+merge "FD_v2_7/GND" "FD_v2_2/GND"
+merge "FD_v2_2/GND" "FD_v2_5/GND"
+merge "FD_v2_5/GND" "FD_v2_8/GND"
+merge "FD_v2_8/GND" "FD_v2_3/GND"
+merge "FD_v2_3/GND" "FD_v2_4/GND"
+merge "FD_v2_4/GND" "FD_v2_9/GND"
+merge "FD_v2_9/GND" "m1_1968_n677#"
+merge "m1_1968_n677#" "3-stage_cs-vco_dp9_0/vss"
+merge "3-stage_cs-vco_dp9_0/vss" "w_7680_300#"
+merge "FD_v5_lasttry_0/Clk_Out" "FD_v2_1/Clk_In" -294.399 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -398676 -160 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_1/Clk_In" "m1_7680_300#"
+merge "FD_v2_6/Clk_In" "FD_v2_5/Clk_Out" -65.228 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -75120 -68 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_1/Clk_Out" "FD_v2_2/Clk_In" -67.0844 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -77976 -68 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_1/VDD" "vdd" -4678.18 0 0 0 0 -402762 -15270 0 0 -147696 -10386 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -149634 -11366 -455131 -33614 0 0 -6700 -280 0 0 0 0 0 0
+merge "vdd" "FD_v5_lasttry_0/VDD"
+merge "FD_v5_lasttry_0/VDD" "m1_1704_1531#"
+merge "m1_1704_1531#" "FD_v2_6/VDD"
+merge "FD_v2_6/VDD" "FD_v2_7/VDD"
+merge "FD_v2_7/VDD" "FD_v2_2/VDD"
+merge "FD_v2_2/VDD" "FD_v2_5/VDD"
+merge "FD_v2_5/VDD" "FD_v2_8/VDD"
+merge "FD_v2_8/VDD" "3-stage_cs-vco_dp9_0/vdd"
+merge "3-stage_cs-vco_dp9_0/vdd" "FD_v2_9/VDD"
+merge "FD_v2_9/VDD" "m1_1702_n1381#"
+merge "m1_1702_n1381#" "FD_v2_3/VDD"
+merge "FD_v2_3/VDD" "FD_v2_4/VDD"
+merge "FD_v2_4/VDD" "m1_1729_n38#"
+merge "3-stage_cs-vco_dp9_0/vctrl" "vctrl" -60.2106 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4324 -280 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_6/Clk_Out" "FD_v2_7/Clk_In" -89.032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -94080 -136 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_7/Clk_In" "out_div128"
+merge "3-stage_cs-vco_dp9_0/sel0" "vsel0" -623.008 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -38812 -2916 0 0 0 0 0 0 0 0 0 0
+merge "3-stage_cs-vco_dp9_0/sel1" "vsel1" -21.6612 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5152 -122 0 0 0 0 0 0 0 0 0 0
+merge "3-stage_cs-vco_dp9_0/sel2" "vsel2" -22.9534 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3164 -122 0 0 0 0 0 0 0 0 0 0
+merge "3-stage_cs-vco_dp9_0/sel3" "vsel3" -24.464 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 840 -122 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_7/Clk_Out" "FD_v2_8/Clk_In" -62.7475 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2550 -286 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_8/Clk_In" "out_div256"
+merge "FD_v2_9/Clk_In" "FD_v2_8/Clk_Out" -12.4662 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6052 -68 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_5/Clk_In" "FD_v2_4/Clk_Out" -31.3656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -23024 -68 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_3/Clk_In" "FD_v2_2/Clk_Out" -62.862 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -71480 -68 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_3/Clk_Out" "FD_v2_4/Clk_In" -110.995 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32759 -318 0 0 0 0 0 0 0 0 0 0
+merge "FD_v2_4/Clk_In" "m1_2161_286#"
+merge "3-stage_cs-vco_dp9_0/out" "FD_v5_lasttry_0/Clk_In" -517.656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -369064 -472 0 0 0 0 0 0 0 0 0 0 0 0
+merge "FD_v5_lasttry_0/Clk_In" "out"

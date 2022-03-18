@@ -1,0 +1,1563 @@
+
+Compatibility modes selected: hs a
+
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12460:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12460:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   3.70415e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   2.84818e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  0.000000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  7.148989e-06 at=  1.000500e-08
+vlow_outside_while  =  -5.816138e-06 at=  1.001500e-08
+peak_to_peak_outside_while=  1.29651e-05
+supply_current_rms  =   6.47230e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12460:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12460:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   1.78173e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.57157e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  9.085991e-06 at=  1.000500e-08
+vlow_outside_while  =  -9.063840e-06 at=  1.001500e-08
+peak_to_peak_outside_while=  1.81498e-05
+supply_current_rms  =   5.62956e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12460:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12460:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   1.71180e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.48885e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  2.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  8.172318e-06 at=  1.001500e-08
+vlow_outside_while  =  -8.170118e-06 at=  1.000500e-08
+peak_to_peak_outside_while=  1.63424e-05
+supply_current_rms  =   5.58966e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12460:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12460:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   4.19866e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   3.82371e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  3.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  8.469881e-06 at=  1.000500e-08
+vlow_outside_while  =  -6.813848e-06 at=  1.001500e-08
+peak_to_peak_outside_while=  1.52837e-05
+supply_current_rms  =   6.74489e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12460:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12460:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   1.44014e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   3.00485e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  4.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  7.805722e-06 at=  1.000500e-08
+vlow_outside_while  =  -7.770741e-06 at=  1.001500e-08
+peak_to_peak_outside_while=  1.55765e-05
+supply_current_rms  =   5.49509e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12460:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12460:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   3.85891e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   4.94918e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  5.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  6.633867e-06 at=  1.001500e-08
+vlow_outside_while  =  -6.625066e-06 at=  1.000500e-08
+peak_to_peak_outside_while=  1.32589e-05
+supply_current_rms  =   6.25657e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12460:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12460:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   9.11475e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   1.06769e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  6.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927379e+00 at=  1.687500e-08
+vlow_outside_while  =  -8.534463e-02 at=  1.323500e-08
+peak_to_peak_outside_while=  2.01272e+00
+supply_current_rms  =   9.96616e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  8.209290e-10 targ=  4.030826e-08 trig=  3.948733e-08
+fvco_outside_while  =  1.21813e+09
+supply_current_rms_outside_while=   2.02276e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   2.07230e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  7.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.929501e+00 at=  1.691500e-08
+vlow_outside_while  =  -8.768217e-02 at=  1.826500e-08
+peak_to_peak_outside_while=  2.01718e+00
+supply_current_rms  =   1.96533e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  4.151597e-10 targ=  2.251247e-08 trig=  2.209731e-08
+fvco_outside_while  =  2.40871e+09
+supply_current_rms_outside_while=   3.31520e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   2.80562e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  8.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.929863e+00 at=  1.685500e-08
+vlow_outside_while  =  -8.804678e-02 at=  1.293500e-08
+peak_to_peak_outside_while=  2.01791e+00
+supply_current_rms  =   3.22330e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  3.119562e-10 targ=  1.749754e-08 trig=  1.718558e-08
+fvco_outside_while  =  3.20558e+09
+supply_current_rms_outside_while=   3.93646e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   3.88645e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  9.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.929611e+00 at=  1.793500e-08
+vlow_outside_while  =  -8.653253e-02 at=  1.934500e-08
+peak_to_peak_outside_while=  2.01614e+00
+supply_current_rms  =   3.87597e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.946199e-10 targ=  1.659260e-08 trig=  1.629798e-08
+fvco_outside_while  =  3.39420e+09
+supply_current_rms_outside_while=   4.38070e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   4.34882e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.000000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.928594e+00 at=  1.346500e-08
+vlow_outside_while  =  -8.575226e-02 at=  1.391500e-08
+peak_to_peak_outside_while=  2.01435e+00
+supply_current_rms  =   4.32008e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.855879e-10 targ=  1.609632e-08 trig=  1.581073e-08
+fvco_outside_while  =  3.50155e+09
+supply_current_rms_outside_while=   4.77643e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   4.73615e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.100000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.928031e+00 at=  1.506500e-08
+vlow_outside_while  =  -8.486167e-02 at=  1.521500e-08
+peak_to_peak_outside_while=  2.01289e+00
+supply_current_rms  =   4.70934e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.796125e-10 targ=  1.580156e-08 trig=  1.552194e-08
+fvco_outside_while  =  3.57638e+09
+supply_current_rms_outside_while=   5.59124e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.20674e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.200000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927921e+00 at=  1.898500e-08
+vlow_outside_while  =  -8.428722e-02 at=  1.689500e-08
+peak_to_peak_outside_while=  2.01221e+00
+supply_current_rms  =   5.46063e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.765754e-10 targ=  1.590718e-08 trig=  1.563060e-08
+fvco_outside_while  =  3.61565e+09
+supply_current_rms_outside_while=   5.18959e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.15823e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.300000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927776e+00 at=  1.297500e-08
+vlow_outside_while  =  -8.335480e-02 at=  1.864500e-08
+peak_to_peak_outside_while=  2.01113e+00
+supply_current_rms  =   5.11270e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.740459e-10 targ=  1.579233e-08 trig=  1.551828e-08
+fvco_outside_while  =  3.64902e+09
+supply_current_rms_outside_while=   5.27101e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.24019e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.400000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927745e+00 at=  1.891500e-08
+vlow_outside_while  =  -8.276111e-02 at=  1.960500e-08
+peak_to_peak_outside_while=  2.01051e+00
+supply_current_rms  =   5.19224e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.724261e-10 targ=  1.571084e-08 trig=  1.543842e-08
+fvco_outside_while  =  3.67072e+09
+supply_current_rms_outside_while=   5.32739e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.30146e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.500000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927752e+00 at=  1.336500e-08
+vlow_outside_while  =  -8.229432e-02 at=  1.132500e-08
+peak_to_peak_outside_while=  2.01005e+00
+supply_current_rms  =   5.25124e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.713094e-10 targ=  1.565023e-08 trig=  1.537892e-08
+fvco_outside_while  =  3.68583e+09
+supply_current_rms_outside_while=   5.36775e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.34543e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.600000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927757e+00 at=  1.331500e-08
+vlow_outside_while  =  -8.191015e-02 at=  1.752500e-08
+peak_to_peak_outside_while=  2.00967e+00
+supply_current_rms  =   5.29414e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.705062e-10 targ=  1.560360e-08 trig=  1.533309e-08
+fvco_outside_while  =  3.69677e+09
+supply_current_rms_outside_while=   5.40656e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.38045e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.700000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927765e+00 at=  1.841500e-08
+vlow_outside_while  =  -8.161881e-02 at=  1.936500e-08
+peak_to_peak_outside_while=  2.00938e+00
+supply_current_rms  =   5.32729e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.net7                                    1.8
+x1.net6                            1.12921e-06
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+x1.vgp                                 1.67179
+vctrl                                        0
+x1.net8                               0.900366
+x1.ng3                             9.63187e-09
+x1.net5                                1.79999
+x1.ng0                             3.93259e-09
+x1.vco_switch_n_v2_0/selb          2.69671e-09
+sel0                                       1.8
+x1.ng1                             9.63187e-09
+x1.vco_switch_n_v2_1/selb                  1.8
+sel1                                         0
+x1.ng2                             9.63187e-09
+x1.vco_switch_n_v2_2/selb                  1.8
+sel2                                         0
+x1.vco_switch_n_v2_3/selb                  1.8
+sel3                                         0
+x1.net3                               0.900366
+x1.net2                                1.78805
+x1.net4                               0.374104
+x1.pg3                                     1.8
+x1.pg0                                 1.67179
+x1.vco_switch_p_0/selb             2.69671e-09
+x1.pg1                                     1.8
+x1.pg2                                     1.8
+x1.vco_switch_p_2/selb                     1.8
+x1.vco_switch_p_1/selb                     1.8
+x1.vco_switch_p_3/selb                     1.8
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                          1.68327e-11
+vmeas_current_gnd#branch           1.43205e-05
+vmeas_current_vdd#branch           1.43206e-05
+v2#branch                         -1.43207e-05
+vsel3#branch                                 0
+vsel2#branch                                 0
+vsel1#branch                                 0
+vsel0#branch                                 0
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.697952e-10 targ=  1.556739e-08 trig=  1.529759e-08
+fvco_outside_while  =  3.70651e+09
+supply_current_rms_outside_while=   5.43564e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.40924e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.800000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927775e+00 at=  1.459500e-08
+vlow_outside_while  =  -8.138054e-02 at=  1.230500e-08
+peak_to_peak_outside_while=  2.00916e+00
+supply_current_rms  =   5.35096e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.697952e-10 targ=  1.556739e-08 trig=  1.529759e-08
+Original line no.: 0, new internal line no.: 12460:
+insertnumber: fails.
+  s = ".meas tran fvco_outside_while param=    3.706514527843505e+09   " u="  3.706514527843505e+09  " id=0
+fvco_outside_while  =  3.70651e+09
+supply_current_rms_outside_while=   5.43564e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.40924e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.800000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927775e+00 at=  1.459500e-08
+vlow_outside_while  =  -8.138054e-02 at=  1.230500e-08
+Original line no.: 0, new internal line no.: 12466:
+insertnumber: fails.
+  s = ".meas tran peak_to_peak_outside_while param=    2.009155417828525e+00   " u="  2.009155417828525e+00  " id=0
+peak_to_peak_outside_while=  2.00916e+00
+supply_current_rms  =   5.35096e-04 from=  0.00000e+00 to=  7.00000e-08
+
+
+Total analysis time (seconds) = 16.0491
+
+Total CPU time (seconds) = 301.170 
+
+Total DRAM available = 7952.234 MB.
+DRAM currently available = 2873.715 MB.
+Maximum ngspice program size =  684.809 MB.
+Current ngspice program size =  666.141 MB.
+
+Shared ngspice pages =    9.055 MB.
+Text (code) pages =    7.879 MB.
+Stack = 0 bytes.
+Library pages =  657.324 MB.
+

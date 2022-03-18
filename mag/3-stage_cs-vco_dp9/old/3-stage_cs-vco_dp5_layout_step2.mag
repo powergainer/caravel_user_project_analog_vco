@@ -1,0 +1,95 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1645135092
+<< pwell >>
+rect 752 -210 792 -166
+rect 682 -264 688 -252
+<< metal1 >>
+rect 768 1422 968 1528
+rect 566 1084 1408 1422
+rect 490 986 654 1026
+rect 182 546 222 750
+rect 282 618 356 668
+rect 490 554 530 986
+rect 695 947 741 1084
+rect 566 901 741 947
+rect 790 948 1084 988
+rect 566 800 612 901
+rect 790 864 830 948
+rect 1232 906 1272 1084
+rect 882 866 1272 906
+rect 654 824 830 864
+rect 654 802 700 824
+rect 182 506 294 546
+rect 338 490 530 554
+rect 490 414 530 490
+rect 790 414 830 824
+rect 962 508 1438 548
+rect -200 244 -134 270
+rect 290 244 332 414
+rect 490 374 666 414
+rect 790 374 1218 414
+rect -200 204 332 244
+rect -200 170 -134 204
+rect 290 70 332 204
+rect 493 106 528 374
+rect 790 106 830 374
+rect 1398 234 1438 508
+rect 1668 234 1868 318
+rect 1398 194 1868 234
+rect 486 66 662 106
+rect 790 66 980 106
+rect 486 20 526 66
+rect 790 34 830 66
+rect 192 -42 284 20
+rect 192 -232 232 -42
+rect 326 -44 526 20
+rect 554 -2 830 34
+rect 274 -138 336 -78
+rect 486 -246 526 -44
+rect 642 -166 724 -124
+rect 486 -286 644 -246
+rect 682 -375 724 -166
+rect 790 -260 830 -2
+rect 1398 -56 1438 194
+rect 1668 118 1868 194
+rect 970 -96 1438 -56
+rect 870 -180 1214 -140
+rect 790 -300 980 -260
+rect 1174 -342 1214 -180
+rect 740 -514 1334 -342
+rect 920 -698 1120 -514
+use sky130_fd_pr__pfet_01v8_V5LP55  XM12
+timestamp 1645134758
+transform 1 0 633 0 1 701
+box -211 -459 211 459
+use sky130_fd_pr__nfet_01v8_Q665WF  XM24
+timestamp 1645106608
+transform 1 0 940 0 1 -97
+box -214 -339 214 339
+use sky130_fd_pr__nfet_01v8_86PVFD  XM13
+timestamp 1645123349
+transform 1 0 621 0 1 -88
+box -211 -330 211 330
+use sky130_fd_pr__nfet_01v8_D7TJRJ  XM22
+timestamp 1645134235
+transform 1 0 305 0 1 -10
+box -211 -252 211 252
+use sky130_fd_pr__pfet_01v8_NCD769  XM21
+timestamp 1645133562
+transform 1 0 317 0 1 519
+box -211 -277 211 277
+use sky130_fd_pr__pfet_01v8_9P8X3X  XM23
+timestamp 1645106328
+transform 1 0 1049 0 1 681
+box -311 -439 311 439
+<< labels >>
+flabel metal1 1668 118 1868 318 0 FreeSans 256 0 0 0 out
+port 2 nsew
+flabel metal1 768 1328 968 1528 0 FreeSans 256 0 0 0 vdd
+port 0 nsew
+flabel metal1 920 -698 1120 -498 0 FreeSans 256 0 0 0 vss
+port 1 nsew
+rlabel metal1 -200 170 -134 270 5 net10
+<< end >>

@@ -1,0 +1,30 @@
+* NGSPICE file created from vco_switch_p.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_5YXW2B a_18_n72# w_n112_n134# a_n18_n98# a_n76_n72#
+X0 a_18_n72# a_n18_n98# a_n76_n72# w_n112_n134# sky130_fd_pr__pfet_01v8 ad=2.088e+11p pd=2.02e+06u as=2.088e+11p ps=2.02e+06u w=720000u l=180000u
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_hvt_N83GLL a_n73_n100# a_15_n100# w_n109_n136# a_n15_n132#
+X0 a_15_n100# a_n15_n132# a_n73_n100# w_n109_n136# sky130_fd_pr__pfet_01v8_hvt ad=2.9e+11p pd=2.58e+06u as=2.9e+11p ps=2.58e+06u w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_M34CP3 a_15_n96# a_n73_56# a_n73_n96# VSUBS
+X0 a_15_n96# a_n73_56# a_n73_n96# VSUBS sky130_fd_pr__nfet_01v8 ad=1.885e+11p pd=1.88e+06u as=1.885e+11p ps=1.88e+06u w=650000u l=150000u
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_ACAZ2B_v2 w_n112_n170# a_n68_67# a_n76_n108# a_18_n108#
+X0 a_18_n108# a_n68_67# a_n76_n108# w_n112_n170# sky130_fd_pr__pfet_01v8 ad=2.088e+11p pd=2.02e+06u as=2.088e+11p ps=2.02e+06u w=720000u l=180000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_HGTGXE_v2 a_18_n73# a_n18_n99# a_n76_n73# VSUBS
+X0 a_18_n73# a_n18_n99# a_n76_n73# VSUBS sky130_fd_pr__nfet_01v8 ad=1.218e+11p pd=1.42e+06u as=1.218e+11p ps=1.42e+06u w=420000u l=180000u
+.ends
+
+.subckt vco_switch_p in sel out vss vdd
+Xsky130_fd_pr__pfet_01v8_5YXW2B_0 vdd vdd sel out sky130_fd_pr__pfet_01v8_5YXW2B
+Xsky130_fd_pr__pfet_01v8_hvt_N83GLL_0 vdd li_610_903# vdd sel sky130_fd_pr__pfet_01v8_hvt_N83GLL
+Xsky130_fd_pr__nfet_01v8_M34CP3_0 li_610_903# sel vss vss sky130_fd_pr__nfet_01v8_M34CP3
+Xsky130_fd_pr__pfet_01v8_ACAZ2B_v2_0 vdd li_610_903# in out sky130_fd_pr__pfet_01v8_ACAZ2B_v2
+Xsky130_fd_pr__nfet_01v8_HGTGXE_v2_0 in sel out vss sky130_fd_pr__nfet_01v8_HGTGXE_v2
+.ends
+

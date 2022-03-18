@@ -4,15 +4,43 @@
 
 ---
 
-| :exclamation: Important Note            |
-|-----------------------------------------|
 
-## Please fill in your project documentation in this README.md file 
+High Speed VCO in Skywater 130nm
+====
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
+
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
+
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
+
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
+
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
+
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
+
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
+
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
+
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
+
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
+
+Peace & Global cooperation
+
+High Speed VCO in Skywater 130nm.
+Project info: https://github.com/powergainer/vco
 
 
-:warning: | Use this sample project for analog user projects. 
-:---: | :---
 
----
-
-Refer to [README](docs/source/index.rst) for this sample project documentation. 

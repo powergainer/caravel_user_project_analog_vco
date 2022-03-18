@@ -1,0 +1,862 @@
+timestamp 1647616625
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use vco_switch_n_v2 vco_switch_n_v2_0 1 0 -1367 0 -1 -304
+use vco_switch_n_v2 vco_switch_n_v2_1 1 0 -721 0 -1 -304
+use vco_switch_n_v2 vco_switch_n_v2_2 1 0 -78 0 -1 -304
+use vco_switch_n_v2 vco_switch_n_v2_3 1 0 568 0 -1 -304
+use sky130_fd_pr__nfet_01v8_B87NCT XM26 1 0 -685 0 1 -537
+use sky130_fd_pr__nfet_01v8_TWMWTA XMDUM16 1 0 -271 0 1 -397
+use sky130_fd_pr__nfet_01v8_B87NCT XMDUM26B 1 0 -478 0 1 -537
+use sky130_fd_pr__nfet_01v8_B87NCT XMDUM26 1 0 -891 0 1 -537
+use sky130_fd_pr__nfet_01v8_NNRSEG XM16A -1 0 -64 0 1 -299
+use sky130_fd_pr__nfet_01v8_MV8TJR XM16B -1 0 143 0 1 -517
+use sky130_fd_pr__nfet_01v8_26QSQN XM16C 1 0 350 0 1 -397
+use sky130_fd_pr__nfet_01v8_26QSQN XM16D_1 -1 0 557 0 1 -397
+use sky130_fd_pr__nfet_01v8_NNRSEG XM16 -1 0 -64 0 1 -577
+use sky130_fd_pr__nfet_01v8_44BYND XM13 1 0 1152 0 1 54
+use sky130_fd_pr__nfet_01v8_26QSQN XM16D_2 1 0 651 0 1 -397
+use sky130_fd_pr__nfet_01v8_TUVSF7 XM24 1 0 1357 0 1 45
+use sky130_fd_pr__nfet_01v8_26QSQN XMDUM16B 1 0 858 0 1 -397
+use sky130_fd_pr__pfet_01v8_MP1P4U XM1 0 1 -465 -1 0 351
+use sky130_fd_pr__nfet_01v8_EMZ8SC XM2 0 -1 -437 1 0 101
+use sky130_fd_pr__pfet_01v8_MP0P75 XM3 0 1 -99 -1 0 351
+use sky130_fd_pr__nfet_01v8_MP0P50 XM4 0 -1 -167 1 0 101
+use sky130_fd_pr__pfet_01v8_TPJM7Z XMDUM11 1 0 -271 0 1 899
+use sky130_fd_pr__pfet_01v8_MP3P0U XM5 0 -1 517 1 0 351
+use sky130_fd_pr__nfet_01v8_8T82FM XM6 0 -1 466 1 0 101
+use sky130_fd_pr__pfet_01v8_4XEGTB XM11A 1 0 -64 0 1 791
+use sky130_fd_pr__pfet_01v8_TPJM7Z XM11C 1 0 350 0 1 898
+use sky130_fd_pr__pfet_01v8_TPJM7Z XM11D_1 1 0 556 0 1 898
+use sky130_fd_pr__pfet_01v8_TPJM7Z XM11D_2 1 0 650 0 1 898
+use sky130_fd_pr__pfet_01v8_NC2CGG XM12 1 0 1152 0 1 582
+use sky130_fd_pr__pfet_01v8_AZHELG XM21 1 0 894 0 1 300
+use sky130_fd_pr__nfet_01v8_LS30AB XM22_0p42 1 0 886 0 1 107
+use sky130_fd_pr__pfet_01v8_UUCHZP XM23 1 0 1453 0 1 562
+use sky130_fd_pr__pfet_01v8_TPJM7Z XMDUM11B 1 0 858 0 1 897
+use sky130_fd_pr__pfet_01v8_XZZ25Z XM25 1 0 -688 0 1 1039
+use sky130_fd_pr__pfet_01v8_XZZ25Z XMDUM25B 1 0 -482 0 1 1040
+use sky130_fd_pr__pfet_01v8_XZZ25Z XMDUM25 1 0 -894 0 1 1039
+use vco_switch_p vco_switch_p_0 1 0 -1367 0 -1 2536
+use vco_switch_p vco_switch_p_1 1 0 -721 0 -1 2536
+use sky130_fd_pr__pfet_01v8_4XEGTB XM11 1 0 -64 0 1 1079
+use sky130_fd_pr__pfet_01v8_KQRM7Z XM11B 1 0 143 0 1 1019
+use vco_switch_p vco_switch_p_2 1 0 -78 0 -1 2536
+use vco_switch_p vco_switch_p_3 1 0 568 0 -1 2536
+port "vctrl" 3 -1753 -752 -1553 -552 m1
+port "sel3" 7 -1190 1364 -1158 1396 m1
+port "sel2" 6 -1279 1445 -1247 1477 m1
+port "sel1" 5 -1359 1519 -1327 1551 m1
+port "sel0" 4 -1436 1674 -1404 1706 m1
+port "out" 2 1710 200 1766 228 li
+port "vdd" 0 1633 2181 1833 2381 m1
+port "vss" 1 1893 2441 2093 2641 m1
+node "ng3" 5 1344.6 528 -684 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12786 754 48852 2478 28280 1056 0 0 0 0 0 0
+node "m1_488_n269#" 1 311.685 488 -269 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 270 102 0 0 0 0 0 0 0 0 0 0
+node "ng2" 3 1086.69 313 -691 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9246 590 45116 1734 23046 876 0 0 0 0 0 0
+node "ng1" 2 584.509 112 -696 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9293 590 14380 730 26056 984 0 0 0 0 0 0
+node "ng0" 5 1349.87 -437 -1048 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9008 576 43160 2124 48332 1842 0 0 0 0 0 0
+node "vgp" 4 364.138 -758 -334 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64630 2902 0 0 0 0 0 0 0 0 0 0
+node "m1_n1099_1625#" 16 215.654 -1099 1625 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45201 2284 140128 7146 115778 4430 0 0 0 0 0 0
+node "vctrl" 19 3367.75 -1753 -752 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80203 2894 179744 9136 112866 4206 0 0 0 0 0 0
+node "sel3" 29 1850.7 -1190 1364 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 111696 6532 213524 10756 49048 1852 0 0 0 0 0 0
+node "sel2" 26 1786.27 -1279 1445 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 111866 6542 169112 8562 39632 1552 0 0 0 0 0 0
+node "sel1" 22 1796.64 -1359 1519 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 111832 6540 123672 6290 30152 1236 0 0 0 0 0 0
+node "pg3" 5 294.331 527 1143 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13002 754 50493 2436 45016 1616 0 0 0 0 0 0
+node "pg2" 4 204.309 318 1140 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8254 558 33796 1736 42476 1516 0 0 0 0 0 0
+node "sel0" 17 1955.81 -1436 1674 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 108240 6444 64752 3340 0 0 0 0 0 0 0 0
+node "pg0" 5 179.199 -437 1792 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9008 576 44126 2174 65552 2416 0 0 0 0 0 0
+node "pg1" 2 182.15 113 1131 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9293 590 15202 728 45076 1618 0 0 0 0 0 0
+node "li_528_n678#" 55 145.007 528 -678 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5168 372 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1179_n70#" 101 197.891 1179 -70 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9588 632 0 0 0 0 0 0 0 0 0 0 0 0
+node "net8" 44 3574.38 -460 7 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3672 284 95979 4106 0 0 0 0 0 0 0 0 0 0
+node "net6" 207 214.144 917 51 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21084 1268 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_611_133#" 169 245.72 611 133 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15663 1000 0 0 0 0 0 0 0 0 0 0 0 0
+node "net4" 264 349.918 -102 132 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24694 1530 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n118_290#" 51 6.86424 -118 290 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 831 146 0 0 0 0 0 0 0 0 0 0 0 0
+node "net5" 222 768.32 -690 207 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17777 1192 35970 2150 0 0 0 0 0 0 0 0 0 0
+node "net3" 287 278.665 -545 286 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27234 1670 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1388_346#" 59 0 1388 346 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 238 82 0 0 0 0 0 0 0 0 0 0 0 0
+node "net7" 221 134.496 1179 338 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20944 1300 0 0 0 0 0 0 0 0 0 0 0 0
+node "out" 473 228.571 1710 200 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57222 3056 0 0 0 0 0 0 0 0 0 0 0 0
+node "net2" 56 0 -517 410 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4726 346 111768 4848 0 0 0 0 0 0 0 0 0 0
+node "li_1179_712#" 150 0 1179 712 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14178 902 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_523_1149#" 57 0 523 1149 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5440 388 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_590_n694#" 114 56.5972 590 -694 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1848 188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_879_204#" 69 32.5685 879 204 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1290 146 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_589_1133#" 114 4.8972 589 1133 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1848 188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 47677 19504.4 1633 2181 m1 0 0 0 0 5615313 15454 0 0 287028 16952 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 313276 18700 1096287 27918 39012 1368 394100 8080 0 0 0 0 0 0
+substrate "vss" 0 0 1893 2441 m1 0 0 0 0 0 0 0 0 0 0 267036 15776 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 278324 16644 861968 30636 39012 1368 341000 7018 0 0 0 0 0 0
+cap "a_879_204#" "li_611_133#" 11.55
+cap "ng2" "vctrl" 1046.55
+cap "net3" "vdd" 254.387
+cap "net8" "ng0" 135.658
+cap "pg2" "sel3" 360.385
+cap "pg2" "pg0" 15.9873
+cap "pg3" "a_589_1133#" 19.205
+cap "net4" "net5" 80.6316
+cap "pg3" "pg1" 13.3403
+cap "net4" "li_611_133#" 3.57049
+cap "ng1" "ng2" 57.7228
+cap "li_1179_712#" "out" 46.9389
+cap "sel2" "ng0" 22.2163
+cap "li_1179_n70#" "net7" 23.8335
+cap "ng2" "vdd" 3.89313
+cap "sel0" "ng0" 5.55985
+cap "li_1388_346#" "net7" 12.97
+cap "sel3" "pg1" 103.983
+cap "m1_n1099_1625#" "pg2" 1112.84
+cap "pg2" "sel2" 192.028
+cap "pg0" "pg1" 101.678
+cap "li_528_n678#" "ng3" 71.6688
+cap "li_523_1149#" "a_589_1133#" 25.2972
+cap "sel3" "ng3" 13.6627
+cap "li_n118_290#" "vdd" 47.8032
+cap "li_1388_346#" "vdd" 17.0301
+cap "pg3" "sel3" 250.541
+cap "ng0" "vctrl" 1475.82
+cap "m1_n1099_1625#" "pg1" 478.177
+cap "sel2" "pg1" 166.472
+cap "net6" "out" 3.9521
+cap "sel3" "vgp" 148.083
+cap "pg3" "li_523_1149#" 92.738
+cap "a_879_204#" "vdd" 11
+cap "ng1" "ng0" 113.773
+cap "sel2" "ng3" 19.4974
+cap "sel3" "pg0" 299.342
+cap "pg2" "net2" 0.944882
+cap "net8" "vgp" 28.224
+cap "net6" "li_611_133#" 28.2715
+cap "li_1179_712#" "net7" 3.3
+cap "vdd" "ng0" 3.89313
+cap "net4" "vdd" 146.063
+cap "pg3" "m1_n1099_1625#" 167.763
+cap "pg3" "sel2" 9.13793
+cap "net5" "vgp" 23
+cap "net3" "li_n118_290#" 12.1957
+cap "m1_n1099_1625#" "vgp" 29.1549
+cap "pg2" "vdd" 873.473
+cap "sel3" "sel2" 7080.01
+cap "m1_n1099_1625#" "sel3" 2877.8
+cap "sel1" "ng0" 52.4429
+cap "net2" "pg1" 1.33005
+cap "pg0" "sel2" 218.342
+cap "m1_n1099_1625#" "pg0" 1657.78
+cap "li_1179_712#" "vdd" 342.954
+cap "net5" "net8" 159.767
+cap "sel3" "sel0" 785.479
+cap "pg0" "sel0" 5.55985
+cap "ng3" "vctrl" 173.123
+cap "net5" "li_611_133#" 25.3289
+cap "vdd" "a_589_1133#" 51.7
+cap "net4" "net3" 30.6658
+cap "net6" "net7" 106.342
+cap "vdd" "pg1" 503.171
+cap "pg3" "net2" 5.52
+cap "ng1" "ng3" 13.7266
+cap "vgp" "vctrl" 2.925
+cap "m1_n1099_1625#" "sel2" 1213.1
+cap "sel2" "sel0" 1336.43
+cap "m1_n1099_1625#" "sel0" 199.69
+cap "ng3" "vdd" 216.549
+cap "vgp" "net2" 35.6134
+cap "net7" "out" 100.159
+cap "ng2" "ng0" 11.5226
+cap "sel3" "vctrl" 281.048
+cap "sel1" "pg1" 83.4672
+cap "pg3" "vdd" 1652.67
+cap "net6" "vdd" 126.227
+cap "pg0" "net2" 143.754
+cap "vgp" "vdd" 382.224
+cap "li_611_133#" "net7" 5.25334
+cap "ng1" "sel3" 15.8171
+cap "a_590_n694#" "ng3" 19.205
+cap "net8" "net2" 27.8642
+cap "sel3" "vdd" 2284.39
+cap "out" "vdd" 658.458
+cap "net4" "li_n118_290#" 23.2619
+cap "pg0" "vdd" 1183.63
+cap "net5" "net2" 157.498
+cap "sel2" "vctrl" 311.671
+cap "ng1" "net8" 0.93361
+cap "sel0" "vctrl" 523.352
+cap "li_523_1149#" "vdd" 152.4
+cap "a_590_n694#" "li_528_n678#" 25.2972
+cap "net5" "vdd" 249.936
+cap "li_611_133#" "vdd" 94.682
+cap "ng1" "sel2" 26.549
+cap "sel1" "sel3" 1989.41
+cap "sel1" "pg0" 224.578
+cap "sel2" "vdd" 1653.24
+cap "m1_n1099_1625#" "vdd" 3992.12
+cap "ng2" "ng3" 368.531
+cap "sel0" "vdd" 21.3132
+cap "m1_488_n269#" "ng3" 0.609756
+cap "net3" "net8" 53.7118
+cap "sel1" "sel2" 6161.54
+cap "m1_n1099_1625#" "sel1" 821.237
+cap "sel1" "sel0" 3544.74
+cap "net3" "net5" 77.5585
+cap "ng2" "sel3" 15.1539
+cap "ng1" "vctrl" 387.107
+cap "net7" "vdd" 151.377
+cap "vdd" "vctrl" 352.59
+cap "net6" "li_1179_n70#" 0.798387
+cap "vdd" "net2" 2929.62
+cap "m1_488_n269#" "net8" 15.7628
+cap "ng1" "vdd" 4.00763
+cap "pg2" "pg1" 51.6756
+cap "ng2" "sel2" 21.9918
+cap "li_1388_346#" "out" 6.26867
+cap "sel1" "vctrl" 640.179
+cap "sel1" "ng1" 7.6556
+cap "net3" "net2" 64.4913
+cap "pg3" "pg2" 301.72
+cap "sel1" "vdd" 1041.82
+cap "sel3" "ng0" 17.0393
+cap "vco_switch_n_v2_0/in" "vco_switch_n_v2_0/out" 147.165
+cap "vco_switch_n_v2_0/sel" "vco_switch_n_v2_0/out" 18.1424
+cap "vco_switch_n_v2_0/in" "vco_switch_n_v2_0/selb" 66.5781
+cap "vco_switch_n_v2_1/selb" "vco_switch_n_v2_0/out" 30.5942
+cap "vco_switch_n_v2_0/vdd" "vco_switch_n_v2_0/in" 26.1045
+cap "vco_switch_n_v2_0/vss" "vco_switch_n_v2_0/in" 453.266
+cap "vco_switch_n_v2_0/sel" "vco_switch_n_v2_0/selb" 45.6391
+cap "vco_switch_n_v2_0/vss" "sel3" 43.405
+cap "sel3" "vco_switch_n_v2_0/selb" 6.00852
+cap "vco_switch_n_v2_0/vdd" "sel3" 162.947
+cap "vco_switch_n_v2_0/vdd" "vco_switch_n_v2_0/sel" 6.73021
+cap "vco_switch_n_v2_0/sel" "vco_switch_n_v2_0/vss" 27.295
+cap "vco_switch_n_v2_1/selb" "vco_switch_n_v2_0/selb" 1.09235
+cap "vco_switch_n_v2_0/in" "XM26/a_n76_n69#" 0.734364
+cap "sel2" "vco_switch_n_v2_0/sel" 18.8183
+cap "vco_switch_n_v2_0/out" "vco_switch_n_v2_0/selb" 30.9974
+cap "vco_switch_n_v2_0/vdd" "vco_switch_n_v2_0/out" 94.2427
+cap "vco_switch_n_v2_0/vss" "vco_switch_n_v2_0/out" 101.526
+cap "vco_switch_n_v2_0/in" "vco_switch_n_v2_1/sel" 103.004
+cap "sel2" "vco_switch_n_v2_0/out" 137.717
+cap "vco_switch_n_v2_0/vdd" "vco_switch_n_v2_0/selb" 24.3718
+cap "vco_switch_n_v2_0/sel" "vco_switch_n_v2_1/sel" 17.4878
+cap "vco_switch_n_v2_0/vss" "vco_switch_n_v2_0/selb" 42.962
+cap "sel2" "vco_switch_n_v2_0/selb" 35.26
+cap "sel2" "vco_switch_n_v2_0/vss" 27.9619
+cap "vco_switch_n_v2_0/vdd" "sel2" -67.6471
+cap "vco_switch_n_v2_0/vss" "XM26/a_n76_n69#" 356.268
+cap "vco_switch_n_v2_0/out" "vco_switch_n_v2_1/sel" 38.8126
+cap "vco_switch_n_v2_0/in" "sel3" 1.875
+cap "vco_switch_n_v2_0/sel" "vco_switch_n_v2_0/in" 19.2798
+cap "vco_switch_n_v2_0/vss" "XM16A/a_18_n29#" 14.7271
+cap "vco_switch_n_v2_0/sel" "sel3" 7.72388
+cap "vco_switch_n_v2_0/in" "vco_switch_n_v2_1/selb" 3.51738
+cap "vco_switch_n_v2_1/sel" "vco_switch_n_v2_0/selb" 149.335
+cap "vco_switch_n_v2_0/vss" "vco_switch_n_v2_1/sel" 23.9984
+cap "vco_switch_n_v2_0/vdd" "vco_switch_n_v2_1/sel" -126.846
+cap "vco_switch_n_v2_1/selb" "vco_switch_n_v2_0/vdd" 24.3718
+cap "vco_switch_n_v2_3/sel" "vco_switch_n_v2_2/out" 24.3622
+cap "vco_switch_n_v2_2/out" "XM16A/a_18_n29#" 1.29592
+cap "vco_switch_n_v2_1/selb" "vco_switch_n_v2_0/XM25/a_n33_67#" 1.09235
+cap "vco_switch_n_v2_3/sel" "vco_switch_n_v2_0/vdd" 315.967
+cap "vco_switch_n_v2_0/out" "vco_switch_n_v2_0/vss" 117.055
+cap "vco_switch_n_v2_0/XM25/a_n76_n108#" "vco_switch_n_v2_0/vdd" 2.40773
+cap "vco_switch_n_v2_1/sel" "vco_switch_n_v2_0/vdd" -66.0833
+cap "vco_switch_n_v2_1/out" "vco_switch_n_v2_0/out" 3.704
+cap "vco_switch_n_v2_2/sel" "XM16D_1/a_n33_n297#" 4.33268
+cap "vco_switch_n_v2_2/selb" "XM16D_1/a_n33_n297#" 38.3249
+cap "vco_switch_n_v2_2/out" "vco_switch_n_v2_0/vss" 186.481
+cap "vco_switch_n_v2_3/selb" "vco_switch_n_v2_1/in" 3.51738
+cap "vco_switch_n_v2_1/out" "vco_switch_n_v2_0/vdd" 109.625
+cap "vco_switch_n_v2_1/out" "vco_switch_n_v2_2/out" 21.6825
+cap "vco_switch_n_v2_1/in" "vco_switch_n_v2_2/selb" 61.0788
+cap "vco_switch_n_v2_0/out" "vco_switch_n_v2_0/vdd" 14.9311
+cap "XM16D_1/a_n33_n297#" "XM16A/a_18_n29#" 33.0122
+cap "vco_switch_n_v2_1/in" "vco_switch_n_v2_2/sel" 93.6304
+cap "vco_switch_n_v2_1/selb" "vco_switch_n_v2_1/in" 53.9773
+cap "vco_switch_n_v2_1/in" "vco_switch_n_v2_3/sel" 27.7607
+cap "vco_switch_n_v2_0/XM25/a_n76_n108#" "vco_switch_n_v2_1/in" 16.4475
+cap "vco_switch_n_v2_2/out" "vco_switch_n_v2_0/vdd" 94.2427
+cap "vco_switch_n_v2_3/selb" "vco_switch_n_v2_2/selb" 1.09235
+cap "vco_switch_n_v2_1/in" "vco_switch_n_v2_1/sel" 75.4294
+cap "XM16D_1/a_n33_n297#" "vco_switch_n_v2_0/vss" 35.4191
+cap "vco_switch_n_v2_1/out" "XM16D_1/a_n33_n297#" 8.92483
+cap "vco_switch_n_v2_1/selb" "XM26/a_n33_n157#" 10.4577
+cap "vco_switch_n_v2_2/selb" "vco_switch_n_v2_2/sel" 156.417
+cap "vco_switch_n_v2_1/in" "vco_switch_n_v2_0/vss" 1079.12
+cap "vco_switch_n_v2_1/out" "vco_switch_n_v2_1/in" 173.574
+cap "XM26/a_n33_n157#" "XM16A/a_18_n29#" 5.80096
+cap "vco_switch_n_v2_1/in" "vco_switch_n_v2_0/sel" 0.605381
+cap "vco_switch_n_v2_1/selb" "vco_switch_n_v2_2/selb" 2.20213
+cap "vco_switch_n_v2_1/selb" "vco_switch_n_v2_2/sel" 37.1
+cap "vco_switch_n_v2_2/sel" "vco_switch_n_v2_3/sel" 8.51746
+cap "vco_switch_n_v2_2/selb" "vco_switch_n_v2_3/sel" 0.909091
+cap "vco_switch_n_v2_2/out" "XM16D_1/a_n33_n297#" 23.5919
+cap "vco_switch_n_v2_1/in" "vco_switch_n_v2_0/out" 29.8724
+cap "vco_switch_n_v2_1/sel" "vco_switch_n_v2_2/sel" 22.0351
+cap "XM26/a_n33_n157#" "vco_switch_n_v2_0/vss" 51.6091
+cap "vco_switch_n_v2_1/out" "XM26/a_n33_n157#" 21.6825
+cap "vco_switch_n_v2_1/in" "vco_switch_n_v2_2/out" 146.722
+cap "vco_switch_n_v2_0/XM25/a_n76_n108#" "vco_switch_n_v2_1/selb" 3.51738
+cap "vco_switch_n_v2_1/selb" "XM16A/a_18_n29#" 8.46918
+cap "vco_switch_n_v2_1/selb" "vco_switch_n_v2_1/sel" 187.671
+cap "vco_switch_n_v2_2/sel" "vco_switch_n_v2_0/vss" 14.45
+cap "vco_switch_n_v2_2/selb" "vco_switch_n_v2_0/vss" 61.0551
+cap "XM26/a_n33_n157#" "vco_switch_n_v2_0/out" 30.9991
+cap "vco_switch_n_v2_1/out" "vco_switch_n_v2_2/sel" 164.363
+cap "vco_switch_n_v2_1/out" "vco_switch_n_v2_2/selb" 63.3885
+cap "vco_switch_n_v2_1/in" "vco_switch_n_v2_0/vdd" -78.7494
+cap "vco_switch_n_v2_0/XM25/a_n76_n108#" "vco_switch_n_v2_1/sel" 7.77237
+cap "vco_switch_n_v2_1/selb" "vco_switch_n_v2_0/vss" 49.619
+cap "XM26/a_n76_n69#" "vco_switch_n_v2_0/vss" 14.8829
+cap "vco_switch_n_v2_1/out" "vco_switch_n_v2_1/selb" 33.0796
+cap "vco_switch_n_v2_2/out" "XM26/a_n33_n157#" 8.92483
+cap "vco_switch_n_v2_3/selb" "vco_switch_n_v2_2/out" 31.2911
+cap "vco_switch_n_v2_0/XM25/a_n76_n108#" "vco_switch_n_v2_0/vss" 2.44978
+cap "vco_switch_n_v2_0/vss" "XM16A/a_18_n29#" 911.399
+cap "vco_switch_n_v2_1/sel" "vco_switch_n_v2_0/vss" 15.1258
+cap "vco_switch_n_v2_1/selb" "vco_switch_n_v2_0/out" 30.5942
+cap "vco_switch_n_v2_1/out" "XM16A/a_18_n29#" 2.62195
+cap "vco_switch_n_v2_1/sel" "vco_switch_n_v2_0/sel" 4.46782
+cap "vco_switch_n_v2_1/out" "vco_switch_n_v2_1/sel" 18.206
+cap "vco_switch_n_v2_2/selb" "vco_switch_n_v2_2/out" 33.2831
+cap "vco_switch_n_v2_0/sky130_fd_pr__nfet_01v8_HGTGXE_v2_1/a_n18_n99#" "vco_switch_n_v2_1/sel" 0.909091
+cap "vco_switch_n_v2_2/selb" "vco_switch_n_v2_0/vdd" 24.3718
+cap "vco_switch_n_v2_2/sel" "vco_switch_n_v2_0/vdd" -124.488
+cap "vco_switch_n_v2_2/sel" "vco_switch_n_v2_2/out" 32.5472
+cap "vco_switch_n_v2_1/sel" "vco_switch_n_v2_0/out" 13.0806
+cap "vco_switch_n_v2_0/out" "XM16A/a_18_n29#" 23.3374
+cap "vco_switch_n_v2_0/sel" "vco_switch_n_v2_0/vss" 3.20704
+cap "vco_switch_n_v2_0/sky130_fd_pr__nfet_01v8_HGTGXE_v2_1/a_n18_n99#" "vco_switch_n_v2_0/vss" 10.4924
+cap "vco_switch_n_v2_1/out" "vco_switch_n_v2_0/vss" 143.608
+cap "vco_switch_n_v2_3/in" "vco_switch_n_v2_2/out" 0.38961
+cap "vco_switch_n_v2_3/in" "vco_switch_n_v2_2/XM25/a_n76_n108#" 2.70974
+cap "vco_switch_n_v2_3/sel" "vco_switch_n_v2_2/XM25/a_n76_n108#" 6.75692
+cap "vco_switch_n_v2_3/out" "vco_switch_n_v2_2/vss" 3.61204
+cap "vco_switch_n_v2_3/vdd" "vco_switch_n_v2_2/vss" -5.68434e-14
+cap "vco_switch_n_v2_2/XM25/a_n76_n108#" "vco_switch_n_v2_2/vss" 2.44978
+cap "vco_switch_n_v2_2/out" "vco_switch_n_v2_2/vss" 13.118
+cap "vco_switch_n_v2_2/sky130_fd_pr__nfet_01v8_HGTGXE_v2_0/a_n18_n99#" "vco_switch_n_v2_3/sel" 4.44805
+cap "vco_switch_n_v2_3/selb" "vco_switch_n_v2_3/sel" 162.075
+cap "vco_switch_n_v2_2/sky130_fd_pr__nfet_01v8_HGTGXE_v2_0/a_n18_n99#" "vco_switch_n_v2_2/vss" 3.20704
+cap "vco_switch_n_v2_3/in" "vco_switch_n_v2_3/sel" 56.6746
+cap "vco_switch_n_v2_3/out" "vco_switch_n_v2_3/vdd" 79.3116
+cap "vco_switch_n_v2_2/out" "vco_switch_n_v2_3/vdd" 14.9311
+cap "vco_switch_n_v2_3/sel" "vco_switch_n_v2_2/vss" -6.19138
+cap "vco_switch_n_v2_2/XM25/a_n76_n108#" "vco_switch_n_v2_3/vdd" 2.40773
+cap "vco_switch_n_v2_3/in" "vco_switch_n_v2_2/vss" -7.3
+cap "vco_switch_n_v2_3/selb" "vco_switch_n_v2_3/out" 20.6506
+cap "vco_switch_n_v2_3/sel" "vco_switch_n_v2_2/sky130_fd_pr__nfet_01v8_HGTGXE_v2_1/a_n18_n99#" 0.909091
+cap "vco_switch_n_v2_3/selb" "vco_switch_n_v2_3/vdd" 24.3718
+cap "vco_switch_n_v2_3/selb" "vco_switch_n_v2_2/XM25/a_n76_n108#" 3.51738
+cap "vco_switch_n_v2_3/selb" "vco_switch_n_v2_2/out" 31.2911
+cap "vco_switch_n_v2_3/out" "vco_switch_n_v2_3/sel" 13.4311
+cap "vco_switch_n_v2_3/in" "vco_switch_n_v2_3/out" 72.2544
+cap "vco_switch_n_v2_3/selb" "vco_switch_n_v2_2/XM25/a_n33_67#" 1.09235
+cap "vco_switch_n_v2_3/sel" "vco_switch_n_v2_3/vdd" -118.415
+cap "vco_switch_n_v2_3/sel" "vco_switch_n_v2_2/out" 13.0236
+cap "vco_switch_n_v2_2/vss" "vco_switch_n_v2_2/sky130_fd_pr__nfet_01v8_HGTGXE_v2_1/a_n18_n99#" 5.42299
+cap "vco_switch_n_v2_3/in" "vco_switch_n_v2_3/vdd" 130.659
+cap "XM1/w_n109_n244#" "sel3" 32.6677
+cap "XM26/a_n76_n69#" "vss" 1.65
+cap "XM1/w_n109_n244#" "XM1/a_n73_n144#" -22.6368
+cap "XM1/w_n109_n244#" "sel1" 11.0635
+cap "XM16A/a_18_n29#" "XM1/a_15_n144#" -34.4228
+cap "vco_switch_p_0/sel" "XM1/w_n109_n244#" 0.189112
+cap "XM1/w_n109_n244#" "XM1/a_n33_n241#" -5.07346
+cap "XM1/w_n109_n244#" "XM11A/a_n33_55#" 0.814714
+cap "XM26/a_n76_n69#" "sel3" 8.00752
+cap "XM1/w_n109_n244#" "sel2" 23.2979
+cap "XM26/a_n76_n69#" "vco_switch_p_0/sel" 1.94792
+cap "XM1/w_n109_n244#" "XM1/a_15_n144#" -22.4633
+cap "vss" "XM1/a_n33_n241#" 3.58542
+cap "XM3/a_n73_n64#" "XM1/a_n73_n144#" -0.249057
+cap "vss" "XMDUM26/a_n76_n69#" 3.3
+cap "XM4/a_n73_n96#" "XM1/a_n33_n241#" 0.0962099
+cap "vss" "XM1/a_15_n144#" 7.1465
+cap "XM1/a_n73_n144#" "XM1/a_n33_n241#" 16.7192
+cap "XM16A/a_18_n29#" "vss" 8.25
+cap "XM4/a_15_n96#" "XM1/a_n33_n241#" 0.38484
+cap "XM26/a_n76_n69#" "XMDUM16/a_n76_n209#" 0.0019407
+cap "XM16A/a_18_n29#" "XM4/a_n73_n96#" -0.371622
+cap "vss" "XMDUM26B/a_n76_n69#" 3.3
+cap "XM1/a_15_n144#" "XM1/a_n73_n144#" -45.394
+cap "XM26/a_18_n69#" "vss" 1.65
+cap "XM16A/a_18_n29#" "XM1/a_n73_n144#" 5.67628
+cap "XM1/a_15_n144#" "XM1/a_n33_n241#" 52.8243
+cap "XM26/a_n76_n69#" "XM1/w_n109_n244#" 370.212
+cap "XM4/a_15_n96#" "XM1/a_15_n144#" -2.19397
+cap "XM1/a_15_n144#" "XM3/a_15_n64#" -3.63416
+cap "vco_switch_p_0/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_18_n108#" "XM1/w_n109_n244#" 3.06251
+cap "XM11C/a_n33_235#" "XM1/a_n73_n144#" 15.9992
+cap "XM1/w_n109_n244#" "vco_switch_p_2/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_18_n108#" 3.06761
+cap "XM1/a_15_n144#" "XM16A/a_n33_n117#" 2.14552
+cap "XMDUM16/a_n76_n209#" "XM26/a_n76_n69#" 0.0019407
+cap "XM1/a_n73_n144#" "XM11B/a_n33_115#" -0.549465
+cap "XM13/a_n33_142#" "XMDUM16B/a_n76_n209#" 1.52489
+cap "XM13/a_n33_142#" "XM24/a_18_n129#" 2.96029
+cap "XMDUM16/a_n76_n209#" "vss" 37.4
+cap "XM1/a_n73_n144#" "XM1/w_n109_n244#" 1347.19
+cap "XM16A/a_18_n29#" "XM1/a_n33_n241#" 4.41732
+cap "XM16C/a_18_n209#" "XM1/a_n33_n241#" 8.83465
+cap "XMDUM16/a_n76_n209#" "XM16A/a_n76_n29#" 12.5306
+cap "XM1/w_n109_n244#" "XM3/a_15_n64#" -7.40527
+cap "XM16D_2/a_18_n209#" "XM16A/a_18_n29#" 122.226
+cap "XM1/a_n73_n144#" "XM11A/a_n33_55#" 26.0774
+cap "XM16A/a_18_n29#" "vss" 66.0926
+cap "XM16C/a_18_n209#" "XM16D_2/a_18_n209#" 65.0634
+cap "XM16C/a_18_n209#" "vss" 37.4
+cap "XM13/a_n73_n120#" "XM1/a_n33_n241#" 2.28145
+cap "XM16A/a_18_n29#" "XM16A/a_n76_n29#" 9.12566
+cap "XM16D_2/a_18_n209#" "XM13/a_n73_n120#" 6.87126
+cap "XM16C/a_18_n209#" "XM16A/a_n76_n29#" 3.21316
+cap "XM13/a_n73_n120#" "vss" 10.1912
+cap "XM11C/a_n33_235#" "vco_switch_p_2/sel" 2.26133
+cap "vss" "XM16A/a_n33_n117#" 3.58224
+cap "XM13/a_n33_142#" "XM1/w_n109_n244#" 26.0783
+cap "XM16A/a_18_n29#" "XMDUM16B/a_n76_n209#" 77.8241
+cap "XM16C/a_18_n209#" "XMDUM16B/a_n76_n209#" 35.9202
+cap "XM1/a_15_n144#" "XM1/a_n33_n241#" 36.4137
+cap "XM16A/a_18_n29#" "XMDUM16/a_n33_n297#" 16.7825
+cap "XM16D_2/a_18_n209#" "XM1/a_15_n144#" 0.2489
+cap "XM13/a_n73_n120#" "XMDUM16B/a_n76_n209#" 17.7442
+cap "XM1/a_15_n144#" "vss" 0.825
+cap "XM11C/a_n33_235#" "XM11D_1/a_n33_235#" 19.3062
+cap "XM13/a_n33_142#" "XM24/a_n76_n129#" 9.37965
+cap "XM13/a_15_n120#" "XM1/a_n33_n241#" 0.212704
+cap "XM11D_1/a_n33_235#" "vco_switch_p_2/sky130_fd_pr__pfet_01v8_hvt_N83GLL_0/a_15_n100#" 0.508562
+cap "XM11D_1/a_n33_235#" "XM11B/a_n33_115#" 4.40674
+cap "XM1/a_n73_n144#" "XM3/a_15_n64#" 3.22347
+cap "XM16D_2/a_18_n209#" "XM1/a_n33_n241#" 24.544
+cap "XM13/a_15_n120#" "vss" 0.846154
+cap "XM11D_1/a_n33_235#" "XM1/w_n109_n244#" -192.147
+cap "XMDUM16/a_n33_n297#" "XM1/a_15_n144#" 1.77976
+cap "vss" "XM1/a_n33_n241#" 104.363
+cap "XM26/a_n76_n69#" "vco_switch_p_1/sel" 1.48454
+cap "XM16D_2/a_18_n209#" "vss" 85.6259
+cap "XM16D_2/a_18_n209#" "XM16A/a_n76_n29#" 2.02342
+cap "XM13/a_15_n120#" "XMDUM16B/a_n76_n209#" 8.65096
+cap "vss" "XM16A/a_n76_n29#" 9.77141
+cap "XM13/a_n33_142#" "XM3/a_15_n64#" 0.192737
+cap "XMDUM16B/a_n76_n209#" "XM1/a_n33_n241#" 17.2928
+cap "XM16A/a_18_n29#" "ng1" -0.293734
+cap "XM1/w_n109_n244#" "XM1/a_15_n144#" 46.4692
+cap "XM1/a_n73_n144#" "vco_switch_p_2/sel" 1.30645
+cap "XM16D_2/a_18_n209#" "XMDUM16B/a_n76_n209#" 77.752
+cap "XMDUM16B/a_n76_n209#" "vss" 120.403
+cap "vss" "XM24/a_18_n129#" 2.71978
+cap "XM11C/a_n33_235#" "XM26/a_n76_n69#" 4.41593
+cap "XM23/a_n78_n220#" "XM1/w_n109_n244#" 11.5274
+cap "XM11D_1/a_n33_235#" "vco_switch_p_2/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_18_n108#" 0.55618
+cap "XM16A/a_18_n29#" "XM1/a_n73_n144#" 1.79808
+cap "XM1/w_n109_n244#" "XM13/a_15_n120#" 61.4609
+cap "XM26/a_n76_n69#" "XM11B/a_n33_115#" 10.474
+cap "XM1/w_n109_n244#" "XM26/a_n76_n69#" 70.7604
+cap "XM1/w_n109_n244#" "XM1/a_n33_n241#" 118.806
+cap "XM16A/a_18_n29#" "XM3/a_15_n64#" 8.37613
+cap "XM11D_1/a_n33_235#" "XM1/a_n73_n144#" 41.8398
+cap "XM16D_2/a_18_n209#" "XM1/w_n109_n244#" 14.2773
+cap "XM26/a_n76_n69#" "XM11A/a_n33_55#" 31.262
+cap "XM3/a_15_n64#" "XM16C/a_n33_n297#" 2.59677
+cap "XM1/w_n109_n244#" "vss" 3.71523
+cap "XM1/w_n109_n244#" "vco_switch_p_1/sel" 2.15003
+cap "a_590_n694#" "XM3/a_15_n64#" 3.21505
+cap "XM1/w_n109_n244#" "XMDUM16B/a_n76_n209#" 7.50227
+cap "XM1/a_n73_n144#" "XM1/a_15_n144#" 5.09259
+cap "a_590_n694#" "XMDUM16B/a_n33_n297#" 5.75368
+cap "XM1/a_n33_n241#" "XM24/a_n76_n129#" 1.05413
+cap "XM13/a_n33_142#" "XM13/a_n73_n120#" 44.2393
+cap "XM3/a_15_n64#" "XM1/a_15_n144#" 43.2961
+cap "XM11C/a_n33_235#" "XM11B/a_n33_115#" 10.3669
+cap "vss" "XM24/a_n76_n129#" 3.66667
+cap "XM16A/a_18_n29#" "XMDUM16/a_n76_n209#" 60.5534
+cap "XM11C/a_n33_235#" "XM1/w_n109_n244#" -44.3169
+cap "XM11D_1/a_n33_235#" "vco_switch_p_2/sel" 1.94792
+cap "XM1/w_n109_n244#" "vco_switch_p_2/sky130_fd_pr__pfet_01v8_hvt_N83GLL_0/a_15_n100#" 1.33913
+cap "XM1/w_n109_n244#" "XM11B/a_n33_115#" -4.55551
+cap "XM16C/a_18_n209#" "XM16A/a_18_n29#" 96.9346
+cap "XM1/a_n73_n144#" "XM1/a_n33_n241#" 7.5302
+cap "XM1/a_n73_n144#" "XM26/a_n76_n69#" 1.22185
+cap "XM1/a_n73_n144#" "vco_switch_p_1/sky130_fd_pr__pfet_01v8_hvt_N83GLL_0/a_15_n100#" 0.815407
+cap "XM11A/a_n33_55#" "XM11B/a_n33_115#" 3.71694
+cap "XM16A/a_18_n29#" "XM16C/a_n33_n297#" 16.993
+cap "XM3/a_15_n64#" "XM1/a_n33_n241#" 64.4646
+cap "XM1/w_n109_n244#" "XM11A/a_n33_55#" 48.6013
+cap "a_590_n694#" "XM16A/a_18_n29#" 16.7825
+cap "XM16D_2/a_18_n209#" "XM3/a_15_n64#" 6.90148
+cap "XM3/a_15_n64#" "vss" 25.7281
+cap "a_590_n694#" "XM16C/a_n33_n297#" 5.75368
+cap "XM13/a_n33_142#" "XM13/a_15_n120#" 19.6055
+cap "XMDUM16/a_n76_n209#" "XM1/a_15_n144#" 9.80153
+cap "XM3/a_15_n64#" "XM16A/a_n76_n29#" 3.33929
+cap "XM13/a_n33_142#" "XM1/a_n33_n241#" 11.8249
+cap "XM1/a_n33_n241#" "XMDUM16B/a_n33_n297#" 2.92292
+cap "vco_switch_p_1/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_18_n108#" "XM11B/a_n33_115#" 3.05977
+cap "XM13/a_n33_142#" "XM16D_2/a_18_n209#" 5.38542
+cap "XM16A/a_18_n29#" "XM1/a_15_n144#" 2.86733
+cap "XM13/a_n33_142#" "vss" 10.6825
+cap "XM13/a_n73_n120#" "XM21/a_n15_n53#" 2.28145
+cap "XM13/a_15_n120#" "XM5/w_n109_n298#" 335.966
+cap "XM24/a_18_n129#" "XM24/a_n76_n129#" 3.33511
+cap "XM13/a_15_n120#" "XM21/a_n15_n53#" 0.212704
+cap "XM24/a_n76_n129#" "XM13/a_n33_142#" 16.4928
+cap "vss" "XM24/a_n76_n129#" 3.66667
+cap "XM24/a_n76_n129#" "XM13/a_n73_n120#" 92.2113
+cap "XM24/a_18_n129#" "XM13/a_n33_142#" 6.02695
+cap "XM13/a_n33_142#" "XMDUM16B/a_n76_n209#" 1.375
+cap "vss" "XM24/a_18_n129#" 2.71978
+cap "XM24/a_18_n129#" "XM13/a_n73_n120#" 31.2366
+cap "XM13/a_n73_n120#" "XMDUM16B/a_n76_n209#" 17.7442
+cap "XM13/a_n33_142#" "XM5/a_n73_n236#" 0.637807
+cap "XM24/a_n76_n129#" "XM5/w_n109_n298#" 6.80625
+cap "XM13/a_n73_n120#" "XM13/a_n33_142#" 113.734
+cap "XM24/a_18_n129#" "XM5/w_n109_n298#" 160.216
+cap "XM13/a_15_n120#" "XM24/a_n76_n129#" 228.678
+cap "vss" "XM13/a_n73_n120#" 10.1912
+cap "XM24/a_n76_n129#" "XM21/a_n15_n53#" 1.05413
+cap "XM13/a_15_n120#" "XMDUM16B/a_n76_n209#" 8.65096
+cap "XM5/a_n33_395#" "XM13/a_n33_142#" 0.192737
+cap "XM13/a_15_n120#" "XM24/a_18_n129#" 291.505
+cap "XM16D_2/a_18_n209#" "XM13/a_n73_n120#" 6.87126
+cap "XM13/a_n33_142#" "XM5/w_n109_n298#" -30.4529
+cap "XM13/a_n73_n120#" "XM5/w_n109_n298#" 15.2444
+cap "XM13/a_15_n120#" "XM13/a_n33_142#" 70.6166
+cap "XM13/a_15_n120#" "vss" 0.846154
+cap "XM13/a_15_n120#" "XM13/a_n73_n120#" 3.40206
+cap "XM21/a_n15_n53#" "XM13/a_n33_142#" 6.24162
+cap "sel2" "vco_switch_p_0/sel" 316.809
+cap "vco_switch_p_0/selb" "vco_switch_p_1/selb" 1.09235
+cap "XM25/a_n33_95#" "XMDUM11/a_n33_235#" 54.6323
+cap "sel3" "vco_switch_p_0/selb" 11.8123
+cap "XMDUM11/a_n33_235#" "vco_switch_p_1/sel" -138.486
+cap "XM11A/a_n33_55#" "vco_switch_p_1/selb" 26.9504
+cap "XM25/a_n33_95#" "vco_switch_p_0/sel" 44.9392
+cap "vco_switch_p_0/vss" "vco_switch_p_0/sel" 30.3946
+cap "XMDUM11/a_n33_235#" "vco_switch_p_0/selb" 18.5451
+cap "vco_switch_p_0/sel" "vco_switch_p_1/sel" 57.1232
+cap "XM25/a_n33_95#" "vco_switch_p_0/vss" 10.1664
+cap "vco_switch_p_0/sel" "vco_switch_p_0/selb" 17.2205
+cap "sel2" "vco_switch_p_0/selb" 16.58
+cap "XM25/a_n33_95#" "vco_switch_p_1/sel" 106.623
+cap "XMDUM11/a_n33_235#" "XM11A/a_n33_55#" 22.0896
+cap "XMDUM11/a_n33_235#" "vco_switch_p_1/selb" 0.205607
+cap "XM25/a_n33_95#" "vco_switch_p_0/selb" 6.39406
+cap "XM11A/a_n33_55#" "vco_switch_p_0/sel" 32.5749
+cap "sel2" "XM11A/a_n33_55#" 137.717
+cap "vco_switch_p_0/vss" "vco_switch_p_0/selb" 7.48
+cap "sel3" "XMDUM11/a_n33_235#" 267.409
+cap "vco_switch_p_0/selb" "vco_switch_p_1/sel" 145.127
+cap "XM25/a_n33_95#" "XM11A/a_n33_55#" 222.216
+cap "vco_switch_p_0/vss" "XM11A/a_n33_55#" 49.7301
+cap "sel3" "vco_switch_p_0/sel" 31.4715
+cap "XM11A/a_n33_55#" "vco_switch_p_1/sel" 87.7161
+cap "XM25/a_n33_95#" "vco_switch_p_1/selb" 3.51738
+cap "XMDUM11/a_n33_235#" "vco_switch_p_0/sel" 7.92187
+cap "XMDUM11/a_n33_235#" "sel2" -157.835
+cap "XM11A/a_n33_55#" "vco_switch_p_0/selb" 7.0055
+cap "XM11C/a_n33_235#" "XM11D_1/a_n33_235#" 13.9838
+cap "XM25/a_n33_95#" "vco_switch_p_2/selb" 7.10155
+cap "vco_switch_p_0/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n76_n108#" "XMDUM11/a_n33_235#" 2.40773
+cap "vco_switch_p_0/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n76_n108#" "vco_switch_p_1/selb" 3.51738
+cap "vco_switch_p_2/sel" "vco_switch_p_3/sel" 52.0786
+cap "XM25/a_n33_95#" "vco_switch_p_3/sel" 126.654
+cap "vco_switch_p_1/out" "vco_switch_p_0/vss" 63.1957
+cap "vco_switch_p_1/out" "XM11C/a_n33_235#" 12.1418
+cap "vco_switch_p_1/selb" "XMDUM11/a_n33_235#" 17.409
+cap "vco_switch_p_3/sel" "vco_switch_p_2/selb" 18.0352
+cap "vco_switch_p_0/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n68_67#" "vco_switch_p_1/selb" 1.09235
+cap "vco_switch_p_1/out" "vco_switch_p_1/sel" 32.586
+cap "XM11/a_n76_n96#" "XMDUM11/a_n33_235#" 10.9741
+cap "XM25/a_n33_95#" "vco_switch_p_3/selb" 3.51738
+cap "vco_switch_p_3/selb" "vco_switch_p_2/selb" 1.09235
+cap "vco_switch_p_2/sel" "XM11D_1/a_18_n276#" 1.30645
+cap "XM11/a_n76_n96#" "vco_switch_p_1/selb" 0.815407
+cap "vco_switch_p_2/sel" "XM11D_1/a_n33_235#" 29.5171
+cap "vco_switch_p_0/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n76_n108#" "vco_switch_p_0/vss" 2.44978
+cap "XM11D_1/a_n33_235#" "vco_switch_p_2/selb" 10.0903
+cap "vco_switch_p_1/out" "vco_switch_p_2/sel" 265.655
+cap "vco_switch_p_0/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n76_n108#" "vco_switch_p_1/sel" 11.3917
+cap "XM11C/a_n33_235#" "XMDUM11/a_n33_235#" 13.5906
+cap "vco_switch_p_1/out" "XM25/a_n33_95#" 258.937
+cap "vco_switch_p_1/sel" "XMDUM11/a_n33_235#" -92.8854
+cap "vco_switch_p_1/out" "vco_switch_p_2/selb" 54.5484
+cap "vco_switch_p_0/vss" "vco_switch_p_1/selb" 7.48
+cap "vco_switch_p_1/sel" "vco_switch_p_1/selb" 110.605
+cap "XM11A/a_n33_55#" "XMDUM11/a_n33_235#" 17.9901
+cap "vco_switch_p_0/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n68_67#" "vco_switch_p_1/sel" 3.11143
+cap "XM11A/a_n33_55#" "vco_switch_p_1/selb" 26.9504
+cap "vco_switch_p_1/sel" "vco_switch_p_0/sel" 6.27151
+cap "vco_switch_p_0/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n76_n108#" "XM25/a_n33_95#" 16.4475
+cap "XM11D_1/a_n33_235#" "XM11D_1/a_18_n276#" 8.71698
+cap "vco_switch_p_0/vss" "vco_switch_p_0/sel" 3.20704
+cap "vco_switch_p_2/sel" "XMDUM11/a_n33_235#" -312.27
+cap "vco_switch_p_2/sel" "vco_switch_p_1/selb" 22.8567
+cap "vco_switch_p_1/sel" "vco_switch_p_0/sel" 4.78875
+cap "vco_switch_p_0/vss" "XM11C/a_n33_235#" 49.7301
+cap "XM25/a_n33_95#" "XMDUM11/a_n33_235#" -127.703
+cap "vco_switch_p_1/out" "XM11D_1/a_n33_235#" 4.93372
+cap "XMDUM11/a_n33_235#" "vco_switch_p_2/selb" 20.2248
+cap "XM25/a_n33_95#" "vco_switch_p_1/selb" 3.66243
+cap "vco_switch_p_1/sel" "vco_switch_p_0/vss" 21.4801
+cap "vco_switch_p_1/selb" "vco_switch_p_2/selb" 2.20213
+cap "XM25/a_n33_95#" "XM11/a_n76_n96#" 0.795643
+cap "XM11A/a_n33_55#" "vco_switch_p_0/vss" 13.118
+cap "XM11A/a_n33_55#" "vco_switch_p_1/sel" 61.9841
+cap "vco_switch_p_3/sel" "XMDUM11/a_n33_235#" 547.249
+cap "vco_switch_p_3/selb" "XMDUM11/a_n33_235#" 0.205607
+cap "XM11B/a_18_n156#" "XMDUM11/a_n33_235#" 6.08829
+cap "vco_switch_p_3/sel" "vco_switch_p_1/selb" 11.8123
+cap "XM25/a_n33_95#" "vco_switch_p_0/sel" 0.605381
+cap "XMDUM11/a_n33_235#" "XM11C/a_n76_n276#" 7.64761
+cap "vco_switch_p_2/sel" "XM11C/a_n33_235#" 66.6129
+cap "vco_switch_p_2/sel" "vco_switch_p_0/vss" 17.6377
+cap "XMDUM11/a_n33_235#" "XM11D_1/a_18_n276#" 8.50219
+cap "XM25/a_n33_95#" "vco_switch_p_0/vss" 7.00951
+cap "XM11D_1/a_n33_235#" "XMDUM11/a_n33_235#" -215.551
+cap "XM25/a_n33_95#" "XM11C/a_n33_235#" 240.888
+cap "vco_switch_p_2/sel" "vco_switch_p_1/sel" 330.23
+cap "vco_switch_p_0/vss" "vco_switch_p_2/selb" 7.48
+cap "XM11C/a_n33_235#" "vco_switch_p_2/selb" 21.492
+cap "XM25/a_n33_95#" "vco_switch_p_1/sel" 138.329
+cap "XM11A/a_n33_55#" "XM25/a_n33_95#" 34.5663
+cap "vco_switch_p_1/out" "XMDUM11/a_n33_235#" 40.8242
+cap "XM11C/a_n33_235#" "vco_switch_p_3/sel" 120.826
+cap "vco_switch_p_0/vss" "vco_switch_p_3/sel" 4.6118
+cap "vco_switch_p_1/out" "vco_switch_p_1/selb" 21.3624
+cap "XM11C/a_n33_235#" "vco_switch_p_3/selb" 26.9504
+cap "vco_switch_p_1/sel" "vco_switch_p_3/sel" 31.4715
+cap "XM11C/a_n33_235#" "XM11C/a_n76_n276#" 0.695876
+cap "XM25/a_n33_95#" "vco_switch_p_2/sel" 165.371
+cap "vco_switch_p_2/sel" "vco_switch_p_2/selb" 57.9939
+cap "vco_switch_p_2/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n76_n108#" "vco_switch_p_3/sel" 6.75692
+cap "vco_switch_p_3/selb" "vco_switch_p_3/sel" 136.122
+cap "XM11D_2/a_18_n276#" "vco_switch_p_3/sel" -320.085
+cap "vco_switch_p_3/selb" "vco_switch_p_2/out" 26.9504
+cap "vco_switch_p_2/vss" "vco_switch_p_3/out" 3.61204
+cap "vco_switch_p_3/in" "vco_switch_p_3/sel" 56.6746
+cap "XM11D_2/a_18_n276#" "vco_switch_p_2/out" 14.9311
+cap "vco_switch_p_2/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n76_n108#" "vco_switch_p_3/selb" 3.51738
+cap "vco_switch_p_3/in" "vco_switch_p_2/out" 0.38961
+cap "XM11D_2/a_18_n276#" "vco_switch_p_2/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n76_n108#" 2.40773
+cap "vco_switch_p_2/sel" "vco_switch_p_3/sel" 1.09524
+cap "vco_switch_p_2/vss" "vco_switch_p_2/sky130_fd_pr__nfet_01v8_HGTGXE_v2_0/a_n18_n99#" 3.20704
+cap "XM11D_2/a_18_n276#" "vco_switch_p_3/selb" 0.205607
+cap "vco_switch_p_3/out" "vco_switch_p_3/sel" 13.4311
+cap "vco_switch_p_3/in" "vco_switch_p_2/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n76_n108#" 2.70974
+cap "vco_switch_p_3/sel" "vco_switch_p_2/sky130_fd_pr__nfet_01v8_HGTGXE_v2_0/a_n18_n99#" 4.44805
+cap "XM11D_2/a_18_n276#" "vco_switch_p_3/in" 109.026
+cap "vco_switch_p_3/selb" "vco_switch_p_2/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n68_67#" 1.09235
+cap "vco_switch_p_2/vss" "vco_switch_p_3/sel" -6.19138
+cap "vco_switch_p_2/vss" "vco_switch_p_2/out" 13.118
+cap "XM11D_2/a_18_n276#" "vco_switch_p_3/out" 30.0199
+cap "vco_switch_p_3/in" "vco_switch_p_3/out" 72.2544
+cap "vco_switch_p_2/vss" "vco_switch_p_2/sky130_fd_pr__pfet_01v8_ACAZ2B_v2_0/a_n76_n108#" 2.44978
+cap "vco_switch_p_2/out" "vco_switch_p_3/sel" 14.3666
+merge "XM16C/a_n33_n297#" "vco_switch_n_v2_2/out" -175.458 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48438 -276 46440 0 0 0 0 0 0 0 0 0
+merge "vco_switch_n_v2_2/out" "ng2"
+merge "vco_switch_p_0/out" "XM11A/a_n33_55#" -116.482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44862 -276 0 0 0 0 0 0 0 0 0 0
+merge "XM11A/a_n33_55#" "pg0"
+merge "XM5/a_n33_395#" "XM3/a_15_n64#" -204.668 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -150549 -610 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XM3/a_15_n64#" "li_n118_290#"
+merge "li_n118_290#" "XM6/a_n33_135#"
+merge "XM6/a_n33_135#" "XM4/a_15_n96#"
+merge "XM4/a_15_n96#" "net4"
+merge "XM16D_2/a_n76_n209#" "XM16D_1/a_n76_n209#" -181.6 0 0 0 0 0 0 0 0 -1392 -1076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25896 -1270 -16802 -1114 0 0 0 0 0 0 0 0 0 0
+merge "XM16D_1/a_n76_n209#" "XM16C/a_n76_n209#"
+merge "XM16C/a_n76_n209#" "XM16B/a_n76_n89#"
+merge "XM16B/a_n76_n89#" "XM2/a_n73_n103#"
+merge "XM2/a_n73_n103#" "XM16/a_18_n29#"
+merge "XM16/a_18_n29#" "XM16A/a_18_n29#"
+merge "XM16A/a_18_n29#" "net8"
+merge "XM23/a_63_n366#" "XM23/a_n33_310#" -303.424 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13926 -264 0 0 -89150 -1046 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XM23/a_n33_310#" "XM23/a_n129_n366#"
+merge "XM23/a_n129_n366#" "XM12/a_15_n240#"
+merge "XM12/a_15_n240#" "li_1179_712#"
+merge "li_1179_712#" "XM24/a_n33_n217#"
+merge "XM24/a_n33_n217#" "XM13/a_15_n120#"
+merge "XM13/a_15_n120#" "li_1179_n70#"
+merge "li_1179_n70#" "net7"
+merge "vco_switch_p_3/out" "XM11D_2/a_n33_235#" 218.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -952 -264 0 0 7888 -400 12136 -484 -6567 -552 2802 -120 0 0 0 0 0 0
+merge "XM11D_2/a_n33_235#" "XM11D_1/a_n33_235#"
+merge "XM11D_1/a_n33_235#" "pg3"
+merge "pg3" "li_523_1149#"
+merge "li_523_1149#" "a_589_1133#"
+merge "vco_switch_p_3/in" "vco_switch_p_2/in" -393.433 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -153943 -1610 -81974 0 -57429 0 0 0 0 0 0 0
+merge "vco_switch_p_2/in" "vco_switch_p_1/in"
+merge "vco_switch_p_1/in" "vco_switch_p_0/in"
+merge "vco_switch_p_0/in" "XM11/a_n33_55#"
+merge "XM11/a_n33_55#" "XM25/a_n76_n136#"
+merge "XM25/a_n76_n136#" "XM25/a_n33_95#"
+merge "XM25/a_n33_95#" "m1_n1099_1625#"
+merge "m1_n1099_1625#" "XM26/a_n76_n69#"
+merge "XM26/a_n76_n69#" "vgp"
+merge "vco_switch_p_3/vss" "vco_switch_p_2/vss" -5614.99 0 0 0 0 0 0 0 0 0 0 -79174 -5364 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11632 -6104 -146841 -16060 9336 -190 -137100 -2966 0 0 0 0 0 0
+merge "vco_switch_p_2/vss" "XMDUM11B/VSUBS"
+merge "XMDUM11B/VSUBS" "XM23/VSUBS"
+merge "XM23/VSUBS" "XM21/VSUBS"
+merge "XM21/VSUBS" "XM12/VSUBS"
+merge "XM12/VSUBS" "XM11D_2/VSUBS"
+merge "XM11D_2/VSUBS" "XM11D_1/VSUBS"
+merge "XM11D_1/VSUBS" "XM11C/VSUBS"
+merge "XM11C/VSUBS" "XM5/VSUBS"
+merge "XM5/VSUBS" "XM11B/VSUBS"
+merge "XM11B/VSUBS" "XM11/VSUBS"
+merge "XM11/VSUBS" "vco_switch_p_1/vss"
+merge "vco_switch_p_1/vss" "vco_switch_p_0/vss"
+merge "vco_switch_p_0/vss" "XMDUM25/VSUBS"
+merge "XMDUM25/VSUBS" "XMDUM25B/VSUBS"
+merge "XMDUM25B/VSUBS" "XM25/VSUBS"
+merge "XM25/VSUBS" "XM11A/VSUBS"
+merge "XM11A/VSUBS" "XMDUM11/VSUBS"
+merge "XMDUM11/VSUBS" "XM3/VSUBS"
+merge "XM3/VSUBS" "XM1/VSUBS"
+merge "XM1/VSUBS" "XM22_0p42/VSUBS"
+merge "XM22_0p42/VSUBS" "XM22_0p42/a_n73_n80#"
+merge "XM22_0p42/a_n73_n80#" "XM6/VSUBS"
+merge "XM6/VSUBS" "XM6/a_n73_n175#"
+merge "XM6/a_n73_n175#" "XMDUM16B/VSUBS"
+merge "XMDUM16B/VSUBS" "XMDUM16B/a_n33_n297#"
+merge "XMDUM16B/a_n33_n297#" "XMDUM16B/a_18_n209#"
+merge "XMDUM16B/a_18_n209#" "XMDUM16B/a_n76_n209#"
+merge "XMDUM16B/a_n76_n209#" "XM24/VSUBS"
+merge "XM24/VSUBS" "XM24/a_n76_n129#"
+merge "XM24/a_n76_n129#" "XM16D_2/VSUBS"
+merge "XM16D_2/VSUBS" "XM16D_2/a_18_n209#"
+merge "XM16D_2/a_18_n209#" "XM13/VSUBS"
+merge "XM13/VSUBS" "XM13/a_n73_n120#"
+merge "XM13/a_n73_n120#" "XM16D_1/VSUBS"
+merge "XM16D_1/VSUBS" "XM16D_1/a_18_n209#"
+merge "XM16D_1/a_18_n209#" "m1_488_n269#"
+merge "m1_488_n269#" "XM16C/VSUBS"
+merge "XM16C/VSUBS" "XM16C/a_18_n209#"
+merge "XM16C/a_18_n209#" "XM16B/VSUBS"
+merge "XM16B/VSUBS" "XM16B/a_18_n89#"
+merge "XM16B/a_18_n89#" "vco_switch_n_v2_3/vss"
+merge "vco_switch_n_v2_3/vss" "vco_switch_n_v2_2/vss"
+merge "vco_switch_n_v2_2/vss" "XM4/VSUBS"
+merge "XM4/VSUBS" "XM4/a_n73_n96#"
+merge "XM4/a_n73_n96#" "XM2/VSUBS"
+merge "XM2/VSUBS" "XM16/VSUBS"
+merge "XM16/VSUBS" "XM16/a_n76_n29#"
+merge "XM16/a_n76_n29#" "XM16A/VSUBS"
+merge "XM16A/VSUBS" "XM16A/a_n76_n29#"
+merge "XM16A/a_n76_n29#" "XMDUM26/VSUBS"
+merge "XMDUM26/VSUBS" "XMDUM26/a_n33_n157#"
+merge "XMDUM26/a_n33_n157#" "XMDUM26/a_18_n69#"
+merge "XMDUM26/a_18_n69#" "XMDUM26/a_n76_n69#"
+merge "XMDUM26/a_n76_n69#" "XMDUM26B/VSUBS"
+merge "XMDUM26B/VSUBS" "XMDUM26B/a_n33_n157#"
+merge "XMDUM26B/a_n33_n157#" "XMDUM26B/a_18_n69#"
+merge "XMDUM26B/a_18_n69#" "XMDUM26B/a_n76_n69#"
+merge "XMDUM26B/a_n76_n69#" "XMDUM16/VSUBS"
+merge "XMDUM16/VSUBS" "XMDUM16/a_n33_n297#"
+merge "XMDUM16/a_n33_n297#" "XMDUM16/a_18_n209#"
+merge "XMDUM16/a_18_n209#" "XMDUM16/a_n76_n209#"
+merge "XMDUM16/a_n76_n209#" "XM26/VSUBS"
+merge "XM26/VSUBS" "XM26/a_18_n69#"
+merge "XM26/a_18_n69#" "vco_switch_n_v2_1/vss"
+merge "vco_switch_n_v2_1/vss" "vco_switch_n_v2_0/vss"
+merge "vco_switch_n_v2_0/vss" "vss"
+merge "vco_switch_p_0/sel" "vco_switch_n_v2_0/sel" -759.298 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11852 -3076 0 0 0 0 0 0 0 0 0 0
+merge "vco_switch_n_v2_0/sel" "sel0"
+merge "vco_switch_p_2/sel" "vco_switch_n_v2_2/sel" -642.351 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1966 -4014 610378 -1946 94960 0 0 0 0 0 0 0
+merge "vco_switch_n_v2_2/sel" "sel2"
+merge "XM23/a_114_n220#" "XM23/a_n78_n220#" -100.555 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -79212 -366 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XM23/a_n78_n220#" "li_1388_346#"
+merge "li_1388_346#" "XM24/a_18_n129#"
+merge "XM24/a_18_n129#" "out"
+merge "XM11B/a_18_n156#" "XM11D_2/a_n76_n276#" 50.2964 0 0 0 0 0 0 0 0 0 0 -20532 -1076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5934 -1334 33296 -1072 0 0 0 0 0 0 0 0 0 0
+merge "XM11D_2/a_n76_n276#" "XM11D_1/a_18_n276#"
+merge "XM11D_1/a_18_n276#" "XM11C/a_n76_n276#"
+merge "XM11C/a_n76_n276#" "XM11/a_n76_n96#"
+merge "XM11/a_n76_n96#" "XM11A/a_n76_n96#"
+merge "XM11A/a_n76_n96#" "XM1/a_n73_n144#"
+merge "XM1/a_n73_n144#" "net2"
+merge "XM23/a_18_n220#" "vco_switch_p_3/vdd" -6315.06 0 0 0 0 -2144258 -40352 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 550 -1698 -124954 -11198 142200 0 78100 0 0 0 0 0 0 0
+merge "vco_switch_p_3/vdd" "vco_switch_p_2/vdd"
+merge "vco_switch_p_2/vdd" "XM11B/a_n76_n156#"
+merge "XM11B/a_n76_n156#" "XMDUM11B/a_18_n276#"
+merge "XMDUM11B/a_18_n276#" "XMDUM11B/a_n76_n276#"
+merge "XMDUM11B/a_n76_n276#" "XMDUM11B/a_n33_235#"
+merge "XMDUM11B/a_n33_235#" "XMDUM11B/w_n112_n338#"
+merge "XMDUM11B/w_n112_n338#" "XM23/a_n173_n220#"
+merge "XM23/a_n173_n220#" "XM23/w_n209_n320#"
+merge "XM23/w_n209_n320#" "XM21/a_n72_n22#"
+merge "XM21/a_n72_n22#" "XM21/w_n109_n58#"
+merge "XM21/w_n109_n58#" "XM12/a_n73_n240#"
+merge "XM12/a_n73_n240#" "XM12/w_n109_n340#"
+merge "XM12/w_n109_n340#" "XM11D_2/a_18_n276#"
+merge "XM11D_2/a_18_n276#" "XM11D_2/w_n112_n338#"
+merge "XM11D_2/w_n112_n338#" "XM11D_1/a_n76_n276#"
+merge "XM11D_1/a_n76_n276#" "XM11D_1/w_n112_n338#"
+merge "XM11D_1/w_n112_n338#" "XM11C/a_18_n276#"
+merge "XM11C/a_18_n276#" "XM11C/w_n112_n338#"
+merge "XM11C/w_n112_n338#" "XM5/a_15_n236#"
+merge "XM5/a_15_n236#" "XM5/w_n109_n298#"
+merge "XM5/w_n109_n298#" "XM11B/w_n112_n218#"
+merge "XM11B/w_n112_n218#" "XM11/a_18_n96#"
+merge "XM11/a_18_n96#" "XM11/w_n112_n158#"
+merge "XM11/w_n112_n158#" "vco_switch_p_1/vdd"
+merge "vco_switch_p_1/vdd" "vco_switch_p_0/vdd"
+merge "vco_switch_p_0/vdd" "XMDUM25/a_18_n136#"
+merge "XMDUM25/a_18_n136#" "XMDUM25/a_n76_n136#"
+merge "XMDUM25/a_n76_n136#" "XMDUM25/a_n33_95#"
+merge "XMDUM25/a_n33_95#" "XMDUM25/w_n112_n198#"
+merge "XMDUM25/w_n112_n198#" "XMDUM25B/a_18_n136#"
+merge "XMDUM25B/a_18_n136#" "XMDUM25B/a_n76_n136#"
+merge "XMDUM25B/a_n76_n136#" "XMDUM25B/a_n33_95#"
+merge "XMDUM25B/a_n33_95#" "XMDUM25B/w_n112_n198#"
+merge "XMDUM25B/w_n112_n198#" "XM25/a_18_n136#"
+merge "XM25/a_18_n136#" "XM25/w_n112_n198#"
+merge "XM25/w_n112_n198#" "XM11A/a_18_n96#"
+merge "XM11A/a_18_n96#" "XM11A/w_n112_n158#"
+merge "XM11A/w_n112_n158#" "XMDUM11/a_18_n276#"
+merge "XMDUM11/a_18_n276#" "XMDUM11/a_n76_n276#"
+merge "XMDUM11/a_n76_n276#" "XMDUM11/a_n33_235#"
+merge "XMDUM11/a_n33_235#" "XMDUM11/w_n112_n338#"
+merge "XMDUM11/w_n112_n338#" "XM3/a_n73_n64#"
+merge "XM3/a_n73_n64#" "XM3/w_n109_n164#"
+merge "XM3/w_n109_n164#" "XM1/w_n109_n244#"
+merge "XM1/w_n109_n244#" "vco_switch_n_v2_3/vdd"
+merge "vco_switch_n_v2_3/vdd" "vco_switch_n_v2_2/vdd"
+merge "vco_switch_n_v2_2/vdd" "vco_switch_n_v2_1/vdd"
+merge "vco_switch_n_v2_1/vdd" "vco_switch_n_v2_0/vdd"
+merge "vco_switch_n_v2_0/vdd" "vdd"
+merge "XM5/a_n73_n236#" "XM21/a_n15_n53#" -123.69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 216 -124 0 0 -1872 -888 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XM21/a_n15_n53#" "a_879_204#"
+merge "a_879_204#" "XM1/a_n33_n241#"
+merge "XM1/a_n33_n241#" "XM22_0p42/a_n33_33#"
+merge "XM22_0p42/a_n33_33#" "XM6/a_15_n175#"
+merge "XM6/a_15_n175#" "li_611_133#"
+merge "li_611_133#" "XM2/a_n33_63#"
+merge "XM2/a_n33_63#" "net5"
+merge "vco_switch_n_v2_3/in" "vco_switch_n_v2_2/in" -1660.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -965446 -1300 -407636 0 51678 0 0 0 0 0 0 0
+merge "vco_switch_n_v2_2/in" "XM16/a_n33_n117#"
+merge "XM16/a_n33_n117#" "XM26/a_n33_n157#"
+merge "XM26/a_n33_n157#" "vco_switch_n_v2_1/in"
+merge "vco_switch_n_v2_1/in" "vco_switch_n_v2_0/in"
+merge "vco_switch_n_v2_0/in" "vctrl"
+merge "vco_switch_p_3/sel" "vco_switch_n_v2_3/sel" -574.659 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14458 -3912 444637 -1774 -147658 0 0 0 0 0 0 0
+merge "vco_switch_n_v2_3/sel" "sel3"
+merge "XM3/a_n33_n161#" "XM1/a_15_n144#" -180.416 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57236 -1156 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XM1/a_15_n144#" "XM4/a_n33_33#"
+merge "XM4/a_n33_33#" "XM2/a_15_n103#"
+merge "XM2/a_15_n103#" "net3"
+merge "XM21/a_15_n22#" "XM12/a_n33_n337#" -89.3578 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102 -166 0 0 -14844 -456 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XM12/a_n33_n337#" "XM13/a_n33_142#"
+merge "XM13/a_n33_142#" "XM22_0p42/a_15_n80#"
+merge "XM22_0p42/a_15_n80#" "net6"
+merge "XM16B/a_n33_n177#" "vco_switch_n_v2_1/out" -15.5485 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66678 -278 112646 0 51282 0 0 0 0 0 0 0
+merge "vco_switch_n_v2_1/out" "ng1"
+merge "vco_switch_p_1/sel" "vco_switch_n_v2_1/sel" -753.09 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41776 -3160 0 0 -74824 0 0 0 0 0 0 0
+merge "vco_switch_n_v2_1/sel" "sel1"
+merge "vco_switch_n_v2_3/out" "XM16D_2/a_n33_n297#" -17.3778 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 78048 -900 0 0 8262 -384 -153436 -484 411636 0 75670 0 0 0 0 0 0 0
+merge "XM16D_2/a_n33_n297#" "XM16D_1/a_n33_n297#"
+merge "XM16D_1/a_n33_n297#" "ng3"
+merge "ng3" "li_528_n678#"
+merge "li_528_n678#" "a_590_n694#"
+merge "vco_switch_p_2/out" "XM11C/a_n33_235#" -147.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2464 -276 -99428 0 -111643 0 0 0 0 0 0 0
+merge "XM11C/a_n33_235#" "pg2"
+merge "vco_switch_p_1/out" "XM11B/a_n33_115#" -94.1707 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2736 -278 0 0 0 0 0 0 0 0 0 0
+merge "XM11B/a_n33_115#" "pg1"
+merge "XM16A/a_n33_n117#" "vco_switch_n_v2_0/out" -214.079 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15598 -276 0 0 0 0 0 0 0 0 0 0
+merge "vco_switch_n_v2_0/out" "ng0"

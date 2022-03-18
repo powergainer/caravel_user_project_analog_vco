@@ -1,0 +1,87 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1645271067
+<< error_p >>
+rect -29 77 29 83
+rect -29 43 -17 77
+rect -29 37 29 43
+rect -61 9 -45 15
+rect -43 9 -27 15
+rect -15 5 15 17
+rect 27 9 43 15
+rect 45 9 61 15
+rect -77 -14 -11 -1
+rect -77 -17 -61 -14
+rect -27 -17 -11 -14
+rect 11 -3 77 -1
+rect 11 -6 27 -3
+rect 61 -6 77 -3
+rect 11 -17 77 -6
+rect -67 -45 -61 -17
+rect 21 -18 67 -17
+rect 21 -45 27 -18
+rect -77 -48 -61 -45
+rect -27 -48 -11 -45
+rect -77 -61 -11 -48
+rect 11 -52 27 -45
+rect 61 -52 77 -45
+rect 11 -61 77 -52
+rect 21 -64 67 -61
+rect -61 -77 -45 -71
+rect -43 -77 -27 -71
+rect -15 -79 15 -67
+rect 27 -77 43 -71
+rect 45 -77 61 -71
+<< nmos >>
+rect -15 -67 15 5
+<< ndiff >>
+rect -73 -1 -15 5
+rect -73 -61 -61 -1
+rect -27 -61 -15 -1
+rect -73 -67 -15 -61
+rect 15 -1 73 5
+rect 15 -61 27 -1
+rect 61 -61 73 -1
+rect 15 -67 73 -61
+<< ndiffc >>
+rect -61 -61 -27 -1
+rect 27 -61 61 -1
+<< poly >>
+rect -33 77 33 93
+rect -33 43 -17 77
+rect 17 43 33 77
+rect -33 27 33 43
+rect -15 5 15 27
+rect -15 -93 15 -67
+<< polycont >>
+rect -17 43 17 77
+<< locali >>
+rect -33 43 -17 77
+rect 17 43 33 77
+rect -61 -1 -27 9
+rect -61 -71 -27 -61
+rect 27 -1 61 9
+rect 27 -71 61 -61
+<< viali >>
+rect -17 43 17 77
+rect -61 -48 -27 -14
+rect 27 -52 61 -18
+<< metal1 >>
+rect -29 77 29 83
+rect -29 43 -17 77
+rect 17 43 29 77
+rect -29 37 29 43
+rect -67 -14 -21 -2
+rect -67 -48 -61 -14
+rect -27 -48 -21 -14
+rect -67 -60 -21 -48
+rect 21 -18 67 -6
+rect 21 -52 27 -18
+rect 61 -52 67 -18
+rect 21 -64 67 -52
+<< properties >>
+string gencell sky130_fd_pr__nfet_01v8
+string parameters w 0.42 l 0.150 m 1 nf 1 diffcov 100 polycov 100 guard 0 glc 0 grc 0 gtc 0 gbc 1 tbcov 100 rlcov 100 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__nfet_01v8 sky130_fd_pr__nfet_01v8_lvt  sky130_fd_bs_flash__special_sonosfet_star  sky130_fd_pr__nfet_g5v0d10v5 sky130_fd_pr__nfet_05v0_nvt  sky130_fd_pr__nfet_03v3_nvt} full_metal 0 viasrc -40 viadrn 40 viagate 100 viagb 80 viagr 0 viagl 0 viagt 0
+string library sky130
+<< end >>

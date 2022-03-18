@@ -1,0 +1,22 @@
+* NGSPICE file created from vco_switch_n.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_ACAZ2B w_n112_n170# a_n76_n108# a_18_n108# a_n33_67#
+X0 a_18_n108# a_n33_67# a_n76_n108# w_n112_n170# sky130_fd_pr__pfet_01v8 ad=2.088e+11p pd=2.02e+06u as=2.088e+11p ps=2.02e+06u w=720000u l=180000u
+.ends
+
+.subckt sky130_fd_sc_hd__inv_1 A VGND VPWR Y VNB VPB
+X0 Y A VGND VNB sky130_fd_pr__nfet_01v8 ad=1.69e+11p pd=1.82e+06u as=1.69e+11p ps=1.82e+06u w=650000u l=150000u
+X1 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=2.6e+11p pd=2.52e+06u as=2.6e+11p ps=2.52e+06u w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_HGTGXE_v2 a_18_n73# a_n18_n99# a_n76_n73# VSUBS
+X0 a_18_n73# a_n18_n99# a_n76_n73# VSUBS sky130_fd_pr__nfet_01v8 ad=1.218e+11p pd=1.42e+06u as=1.218e+11p ps=1.42e+06u w=420000u l=180000u
+.ends
+
+.subckt vco_switch_n in sel out vss vdd
+XXM25 vdd in out x1/Y sky130_fd_pr__pfet_01v8_ACAZ2B
+Xx1 sel vss vdd x1/Y vss vdd sky130_fd_sc_hd__inv_1
+Xsky130_fd_pr__nfet_01v8_HGTGXE_v2_0 in sel out vss sky130_fd_pr__nfet_01v8_HGTGXE_v2
+Xsky130_fd_pr__nfet_01v8_HGTGXE_v2_1 vss x1/Y out vss sky130_fd_pr__nfet_01v8_HGTGXE_v2
+.ends
+

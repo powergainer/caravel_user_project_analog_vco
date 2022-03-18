@@ -1,0 +1,2361 @@
+
+Compatibility modes selected: hs a
+
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12503:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12503:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   1.47059e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   1.44399e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  0.000000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  2.049010e-06 at=  1.001500e-08
+vlow_outside_while  =  -2.038777e-06 at=  1.000500e-08
+peak_to_peak_outside_while=  4.08779e-06
+supply_current_rms  =   4.56254e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12503:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12503:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   1.88155e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   1.46054e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  2.096252e-07 at=  1.998500e-08
+vlow_outside_while  =  -1.961523e-07 at=  1.999500e-08
+peak_to_peak_outside_while=  4.05777e-07
+supply_current_rms  =   4.71433e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12503:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12503:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   1.52743e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   2.24555e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  2.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  5.763693e-07 at=  1.598500e-08
+vlow_outside_while  =  -5.627312e-07 at=  1.599500e-08
+peak_to_peak_outside_while=  1.13910e-06
+supply_current_rms  =   4.58081e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12503:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12503:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   5.51130e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   1.45017e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  3.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.596008e-06 at=  1.022500e-08
+vlow_outside_while  =  -1.582167e-06 at=  1.023500e-08
+peak_to_peak_outside_while=  3.17817e-06
+supply_current_rms  =   6.80625e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12503:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12503:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   6.76109e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   3.29137e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  4.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  4.346318e-06 at=  1.000500e-08
+vlow_outside_while  =  -4.327548e-06 at=  1.001500e-08
+peak_to_peak_outside_while=  8.67387e-06
+supply_current_rms  =   8.41469e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12503:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12503:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   8.73517e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.44835e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  5.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.926721e+00 at=  1.581500e-08
+vlow_outside_while  =  -8.179972e-02 at=  1.394500e-08
+peak_to_peak_outside_while=  2.00852e+00
+supply_current_rms  =   8.44256e-05 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12503:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12503:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   1.15670e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   1.02342e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  6.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.924313e+00 at=  1.037500e-08
+vlow_outside_while  =  -7.743863e-02 at=  1.051500e-08
+peak_to_peak_outside_while=  2.00175e+00
+supply_current_rms  =   1.20398e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  8.826840e-10 targ=  4.389865e-08 trig=  4.301596e-08
+fvco_outside_while  =  1.13291e+09
+supply_current_rms_outside_while=   1.83363e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   1.81406e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  7.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.928989e+00 at=  1.897500e-08
+vlow_outside_while  =  -8.555207e-02 at=  1.385500e-08
+peak_to_peak_outside_while=  2.01454e+00
+supply_current_rms  =   1.84201e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  4.637176e-10 targ=  2.442657e-08 trig=  2.396285e-08
+fvco_outside_while  =  2.15649e+09
+supply_current_rms_outside_while=   2.61182e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   2.68829e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  8.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.929607e+00 at=  1.725500e-08
+vlow_outside_while  =  -8.595637e-02 at=  1.559500e-08
+peak_to_peak_outside_while=  2.01556e+00
+supply_current_rms  =   2.59629e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  3.487510e-10 targ=  1.894535e-08 trig=  1.859660e-08
+fvco_outside_while  =  2.86738e+09
+supply_current_rms_outside_while=   3.55934e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   3.63062e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  9.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.929410e+00 at=  1.352500e-08
+vlow_outside_while  =  -8.520573e-02 at=  1.264500e-08
+peak_to_peak_outside_while=  2.01462e+00
+supply_current_rms  =   3.52328e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.967953e-10 targ=  1.644517e-08 trig=  1.614837e-08
+fvco_outside_while  =  3.36933e+09
+supply_current_rms_outside_while=   4.42089e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   4.40911e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.000000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.928784e+00 at=  1.182500e-08
+vlow_outside_while  =  -8.338599e-02 at=  1.523500e-08
+peak_to_peak_outside_while=  2.01217e+00
+supply_current_rms  =   4.36889e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.788511e-10 targ=  1.560083e-08 trig=  1.532198e-08
+fvco_outside_while  =  3.58614e+09
+supply_current_rms_outside_while=   5.04380e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   4.86517e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.100000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927736e+00 at=  1.738500e-08
+vlow_outside_while  =  -8.257120e-02 at=  1.111500e-08
+peak_to_peak_outside_while=  2.01031e+00
+supply_current_rms  =   4.97943e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.720737e-10 targ=  1.527910e-08 trig=  1.500702e-08
+fvco_outside_while  =  3.67548e+09
+supply_current_rms_outside_while=   5.11892e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.11521e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.200000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.927179e+00 at=  1.048500e-08
+vlow_outside_while  =  -8.202654e-02 at=  1.035500e-08
+peak_to_peak_outside_while=  2.00921e+00
+supply_current_rms  =   5.05620e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.691380e-10 targ=  1.513224e-08 trig=  1.486311e-08
+fvco_outside_while  =  3.71557e+09
+supply_current_rms_outside_while=   5.26048e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.24946e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.300000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.926977e+00 at=  1.577500e-08
+vlow_outside_while  =  -8.166619e-02 at=  1.268500e-08
+peak_to_peak_outside_while=  2.00864e+00
+supply_current_rms  =   5.19211e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.677119e-10 targ=  1.504503e-08 trig=  1.477732e-08
+fvco_outside_while  =  3.73536e+09
+supply_current_rms_outside_while=   5.34244e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.33178e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.400000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.926869e+00 at=  1.862500e-08
+vlow_outside_while  =  -8.141402e-02 at=  1.662500e-08
+peak_to_peak_outside_while=  2.00828e+00
+supply_current_rms  =   5.27572e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.663868e-10 targ=  1.498637e-08 trig=  1.471999e-08
+fvco_outside_while  =  3.75394e+09
+supply_current_rms_outside_while=   5.39918e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.39074e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.500000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.926801e+00 at=  1.189500e-08
+vlow_outside_while  =  -8.123174e-02 at=  1.123500e-08
+peak_to_peak_outside_while=  2.00803e+00
+supply_current_rms  =   5.33251e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.656366e-10 targ=  1.494456e-08 trig=  1.467892e-08
+fvco_outside_while  =  3.76454e+09
+supply_current_rms_outside_while=   5.44575e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.43064e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.600000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.926759e+00 at=  1.345500e-08
+vlow_outside_while  =  -8.109526e-02 at=  1.863500e-08
+peak_to_peak_outside_while=  2.00785e+00
+supply_current_rms  =   5.37592e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.648203e-10 targ=  1.491306e-08 trig=  1.464824e-08
+fvco_outside_while  =  3.77615e+09
+supply_current_rms_outside_while=   5.48073e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.46400e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.700000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.926740e+00 at=  1.554500e-08
+vlow_outside_while  =  -8.097988e-02 at=  1.859500e-08
+peak_to_peak_outside_while=  2.00772e+00
+supply_current_rms  =   5.41173e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+int_out_x1_3                       6.80528e-09
+int_net1_x1_1                              1.8
+int_net2_x1_2                                0
+int_vctrl_x1_4                               0
+net1                                       1.8
+net2                                         0
+out                                6.80528e-09
+vctrl                                        0
+vdd                                        1.8
+int_vdd_x2_1                               1.8
+int_out_x2_2                       6.80528e-09
+int_gnd_x2_3                                 0
+int_gnd_x3_2                                 0
+int_out_x3_1                       6.80528e-09
+int_gnd_x3_3                                 0
+int_buf1_out_x3_6                  2.60627e-09
+int_vdd_x3_5                               1.8
+int_vdd_x3_4                               1.8
+buf1_out                           2.60627e-09
+int_buf1_out_x4_1                  2.60627e-09
+int_vdd_x4_5                               1.8
+int_vdd_x4_4                               1.8
+int_gnd_x4_2                                 0
+int_gnd_x4_3                                 0
+int_net4_x4_6                       4.9501e-09
+net4                                4.9501e-09
+int_vdd_x5_5                               1.8
+int_net5_x5_6                       4.9501e-09
+int_vdd_x5_4                               1.8
+int_net4_x5_1                       4.9501e-09
+int_gnd_x5_2                                 0
+int_gnd_x5_3                                 0
+net5                                4.9501e-09
+int_net3_x6_6                       4.9501e-09
+int_gnd_x6_2                                 0
+int_gnd_x6_3                                 0
+int_net5_x6_1                       4.9501e-09
+int_vdd_x6_5                               1.8
+int_vdd_x6_4                               1.8
+net3                                4.9501e-09
+int_vdd_x7_5                               1.8
+int_buf16_out_x7_6                  4.9501e-09
+int_vdd_x7_4                               1.8
+int_gnd_x7_2                                 0
+int_gnd_x7_3                                 0
+int_net3_x7_1                       4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+x7:x#branch                                  0
+x7:vpwr#branch                    -8.17036e-12
+x7:vpb#branch                     -4.15223e-11
+x7:vnb#branch                       7.2401e-12
+x7:vgnd#branch                     4.24513e-11
+x7:a#branch                                  0
+x6:x#branch                                  0
+x6:vpwr#branch                    -4.08518e-12
+x6:vpb#branch                     -2.07605e-11
+x6:vnb#branch                      3.62005e-12
+x6:vgnd#branch                     2.12257e-11
+x6:a#branch                                  0
+x5:x#branch                                  0
+x5:vpwr#branch                    -2.04259e-12
+x5:vpb#branch                     -1.03803e-11
+x5:vnb#branch                      1.81003e-12
+x5:vgnd#branch                     1.06128e-11
+x5:a#branch                                  0
+x4:x#branch                                  0
+x4:vpwr#branch                     -1.9439e-12
+x4:vpb#branch                      -5.1902e-12
+x4:vnb#branch                      1.81003e-12
+x4:vgnd#branch                     5.32401e-12
+x4:a#branch                                  0
+x3:x#branch                                  0
+x3:vpwr#branch                    -2.01847e-12
+x3:vpb#branch                     -1.80997e-12
+x3:vnb#branch                      1.81009e-12
+x3:vgnd#branch                     2.01837e-12
+x3:a#branch                                  0
+x2:vss#branch                                0
+x2:clk#branch                     -1.13091e-26
+x2:vdd#branch                      5.77316e-15
+vmeas_current_gnd#branch           4.74707e-05
+vmeas_current_vdd#branch           4.74707e-05
+v2#branch                         -4.74708e-05
+x1:vctrl#branch                              0
+x1:out#branch                      1.13091e-26
+x1:vss#branch                      4.74707e-05
+x1:vdd#branch                     -4.74707e-05
+
+
+No. of Data Rows : 7020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.639002e-10 targ=  1.488874e-08 trig=  1.462484e-08
+fvco_outside_while  =  3.78931e+09
+supply_current_rms_outside_while=   5.51154e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.49154e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.800000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.926720e+00 at=  1.710500e-08
+vlow_outside_while  =  -8.090649e-02 at=  1.301500e-08
+peak_to_peak_outside_while=  2.00763e+00
+supply_current_rms  =   5.43891e-04 from=  0.00000e+00 to=  7.00000e-08
+
+binary raw file "3-stage_cs-vco_tb_WITH_APPENDWRITE.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.639002e-10 targ=  1.488874e-08 trig=  1.462484e-08
+Original line no.: 0, new internal line no.: 12503:
+insertnumber: fails.
+  s = ".meas tran fvco_outside_while param=    3.789310826506999e+09   " u="  3.789310826506999e+09  " id=0
+fvco_outside_while  =  3.78931e+09
+supply_current_rms_outside_while=   5.51154e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.49154e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.800000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.926720e+00 at=  1.710500e-08
+vlow_outside_while  =  -8.090649e-02 at=  1.301500e-08
+Original line no.: 0, new internal line no.: 12509:
+insertnumber: fails.
+  s = ".meas tran peak_to_peak_outside_while param=    2.007626762667582e+00   " u="  2.007626762667582e+00  " id=0
+peak_to_peak_outside_while=  2.00763e+00
+supply_current_rms  =   5.43891e-04 from=  0.00000e+00 to=  7.00000e-08
+
+
+Total analysis time (seconds) = 10.9962
+
+Total CPU time (seconds) = 239.461 
+
+Total DRAM available = 7955.125 MB.
+DRAM currently available = 1391.191 MB.
+Maximum ngspice program size =  684.719 MB.
+Current ngspice program size =  665.906 MB.
+
+Shared ngspice pages =    8.906 MB.
+Text (code) pages =    7.879 MB.
+Stack = 0 bytes.
+Library pages =  657.238 MB.
+

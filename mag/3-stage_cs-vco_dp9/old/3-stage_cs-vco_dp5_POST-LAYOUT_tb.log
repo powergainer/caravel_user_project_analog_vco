@@ -1,0 +1,227 @@
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Scale set
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Scale set
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Scale set
+Warning - approaching max data size: current size =  602.207 MB, limit =  624.668 MB
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net1                                       1.8
+out                                6.80528e-09
+net2                                         0
+vctrl                                        0
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+vmeas_current_gnd#branch           1.51199e-06
+vmeas_current_vdd#branch           1.51199e-06
+v2#branch                         -1.51209e-06
+
+
+No. of Data Rows : 10020
+
+  Measurements for Transient Analysis
+
+
+Error: measure  tvco_outside_while  (TRIG) : out of interval
+ .meas tran tvco_outside_while trig v(out) val=0.5*1.8 rise=50 targ v(out) val=0.5*1.8 rise=51 failed!
+
+Original line no.: 0, new internal line no.: 12452:
+Undefined number [tvco_outside_while]
+Original line no.: 0, new internal line no.: 12452:
+Cannot compute substitute
+fvco_outside_while  =   failed
+supply_current_rms_outside_while=   5.18461e-05 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   3.45543e-05 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  7.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.808841e+00 at=  1.867500e-08
+vlow_outside_while  =  1.789902e+00 at=  1.814500e-08
+peak_to_peak_outside_while=  1.89387e-02
+supply_current_rms  =   5.75475e-05 from=  0.00000e+00 to=  1.00000e-07
+
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Scale set
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net1                                       1.8
+out                                6.80528e-09
+net2                                         0
+vctrl                                        0
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+vmeas_current_gnd#branch           1.51199e-06
+vmeas_current_vdd#branch           1.51199e-06
+v2#branch                         -1.51209e-06
+
+
+No. of Data Rows : 10020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  3.376852e-10 targ=  1.841501e-08 trig=  1.807733e-08
+fvco_outside_while  =  2.96134e+09
+supply_current_rms_outside_while=   2.18337e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   1.97375e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  8.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.908372e+00 at=  1.458500e-08
+vlow_outside_while  =  -3.783208e-02 at=  1.670500e-08
+peak_to_peak_outside_while=  1.94620e+00
+supply_current_rms  =   2.17432e-04 from=  0.00000e+00 to=  1.00000e-07
+
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/3-stage_cs-vco_tb.sch
+
+Scale set
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net1                                       1.8
+out                                6.80528e-09
+net2                                         0
+vctrl                                        0
+vdd                                        1.8
+buf1_out                           2.60627e-09
+net4                                4.9501e-09
+net5                                4.9501e-09
+net3                                4.9501e-09
+buf16_out                           4.9501e-09
+v1#branch                                    0
+vmeas_current_gnd#branch           1.51199e-06
+vmeas_current_vdd#branch           1.51199e-06
+v2#branch                         -1.51209e-06
+
+
+No. of Data Rows : 10020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.440884e-10 targ=  1.392323e-08 trig=  1.367914e-08
+fvco_outside_while  =  4.09688e+09
+supply_current_rms_outside_while=   2.93730e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   2.86115e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  9.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.942664e+00 at=  1.135500e-08
+vlow_outside_while  =  -8.077369e-02 at=  1.829500e-08
+peak_to_peak_outside_while=  2.02344e+00
+supply_current_rms  =   2.91626e-04 from=  0.00000e+00 to=  1.00000e-07
+
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Warning - approaching max data size: current size =  610.211 MB, limit =  624.668 MB
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.440884e-10 targ=  1.392323e-08 trig=  1.367914e-08
+Original line no.: 0, new internal line no.: 12452:
+insertnumber: fails.
+  s = ".meas tran fvco_outside_while param=    4.09687621632871437e+09 " u="  4.09687621632871437e+09" id=0
+fvco_outside_while  =  4.09688e+09
+supply_current_rms_outside_while=   2.93730e-04 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   2.86115e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  9.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.942664e+00 at=  1.135500e-08
+vlow_outside_while  =  -8.077369e-02 at=  1.829500e-08
+Original line no.: 0, new internal line no.: 12458:
+insertnumber: fails.
+  s = ".meas tran peak_to_peak_outside_while param=    2.02343724276732928e+00 " u="  2.02343724276732928e+00" id=0
+peak_to_peak_outside_while=  2.02344e+00
+supply_current_rms  =   2.91626e-04 from=  0.00000e+00 to=  1.00000e-07
+
+
+Total analysis time (seconds) = 5.737
+
+Total elapsed time (seconds) = 108.717 
+
+Total DRAM available = 7955.125 MB.
+DRAM currently available =  129.902 MB.
+Total ngspice program size =  610.211 MB.
+Resident set size =  590.312 MB.
+Shared ngspice pages =    8.023 MB.
+Text (code) pages =    5.070 MB.
+Stack = 0 bytes.
+Library pages =  590.465 MB.
+

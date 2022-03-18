@@ -1,0 +1,37 @@
+* NGSPICE file created from FD_v2.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_NDE37H a_15_n115# a_n33_75# a_n73_n115# VSUBS
+X0 a_15_n115# a_n33_75# a_n73_n115# VSUBS sky130_fd_pr__nfet_01v8 ad=2.436e+11p pd=2.26e+06u as=2.436e+11p ps=2.26e+06u w=840000u l=150000u
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_A7DS5R a_15_n36# a_n73_n36# w_n109_n86# a_n15_n133#
+X0 a_15_n36# a_n15_n133# a_n73_n36# w_n109_n86# sky130_fd_pr__pfet_01v8 ad=2.088e+11p pd=2.02e+06u as=2.088e+11p ps=2.02e+06u w=720000u l=150000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_PW5BNL a_n73_n67# a_n73_37# a_15_n67# VSUBS
+X0 a_15_n67# a_n73_37# a_n73_n67# VSUBS sky130_fd_pr__nfet_01v8 ad=1.044e+11p pd=1.3e+06u as=1.044e+11p ps=1.3e+06u w=360000u l=150000u
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_ACPHKB a_n33_37# a_15_n78# a_n73_n78# w_n109_n140#
+X0 a_15_n78# a_n33_37# a_n73_n78# w_n109_n140# sky130_fd_pr__pfet_01v8 ad=1.218e+11p pd=1.42e+06u as=1.218e+11p ps=1.42e+06u w=420000u l=150000u
+.ends
+
+.subckt FD_v2 Clk_In VDD GND Clk_Out
+Xsky130_fd_pr__nfet_01v8_NDE37H_0 li_622_n380# Clk_In li_404_n403# GND sky130_fd_pr__nfet_01v8_NDE37H
+Xsky130_fd_pr__nfet_01v8_NDE37H_1 li_1556_n369# li_204_n486# li_906_n403# GND sky130_fd_pr__nfet_01v8_NDE37H
+Xsky130_fd_pr__pfet_01v8_A7DS5R_0 li_204_n486# VDD VDD Clk_In sky130_fd_pr__pfet_01v8_A7DS5R
+Xsky130_fd_pr__pfet_01v8_A7DS5R_1 li_404_n403# VDD VDD li_320_n369# sky130_fd_pr__pfet_01v8_A7DS5R
+Xsky130_fd_pr__pfet_01v8_A7DS5R_2 li_906_n403# VDD VDD li_622_n380# sky130_fd_pr__pfet_01v8_A7DS5R
+Xsky130_fd_pr__pfet_01v8_A7DS5R_3 li_320_n369# VDD VDD li_1556_n369# sky130_fd_pr__pfet_01v8_A7DS5R
+Xsky130_fd_pr__pfet_01v8_A7DS5R_5 Clk_Out VDD VDD li_1553_n547# sky130_fd_pr__pfet_01v8_A7DS5R
+Xsky130_fd_pr__pfet_01v8_A7DS5R_4 VDD li_1553_n547# VDD li_1556_n369# sky130_fd_pr__pfet_01v8_A7DS5R
+Xsky130_fd_pr__nfet_01v8_PW5BNL_1 GND li_320_n369# li_404_n403# GND sky130_fd_pr__nfet_01v8_PW5BNL
+Xsky130_fd_pr__nfet_01v8_PW5BNL_0 GND Clk_In li_204_n486# GND sky130_fd_pr__nfet_01v8_PW5BNL
+Xsky130_fd_pr__nfet_01v8_PW5BNL_2 GND li_622_n380# li_906_n403# GND sky130_fd_pr__nfet_01v8_PW5BNL
+Xsky130_fd_pr__nfet_01v8_PW5BNL_3 GND li_1556_n369# li_320_n369# GND sky130_fd_pr__nfet_01v8_PW5BNL
+Xsky130_fd_pr__nfet_01v8_PW5BNL_4 li_1553_n547# li_1556_n369# GND GND sky130_fd_pr__nfet_01v8_PW5BNL
+Xsky130_fd_pr__pfet_01v8_ACPHKB_1 Clk_In li_1556_n369# li_906_n403# VDD sky130_fd_pr__pfet_01v8_ACPHKB
+Xsky130_fd_pr__pfet_01v8_ACPHKB_0 li_204_n486# li_622_n380# li_404_n403# VDD sky130_fd_pr__pfet_01v8_ACPHKB
+Xsky130_fd_pr__nfet_01v8_PW5BNL_5 GND li_1553_n547# Clk_Out GND sky130_fd_pr__nfet_01v8_PW5BNL
+.ends
+

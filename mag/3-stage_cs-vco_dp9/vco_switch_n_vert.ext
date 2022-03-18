@@ -1,0 +1,79 @@
+timestamp 1646403372
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use sky130_fd_pr__nfet_01v8_HGTGXE_v2 XMNTGATE -1 0 -74 0 -1 512
+use sky130_fd_pr__nfet_01v8_HGTGXE_v2 XMNCLAMP 1 0 -74 0 1 93
+use sky130_fd_pr__nfet_01v8_JS3BNU XMNINV1 1 0 -91 0 1 357
+use sky130_fd_pr__pfet_01v8_hvt_BZS9EC XMPINV1 1 0 -74 0 1 1159
+use sky130_fd_pr__pfet_01v8_ACAZ2B_v2 XMPTGATE 1 0 -74 0 1 823
+port "sel" 2 -187 429 -162 463 m1
+port "in" 1 -197 613 -151 686 m1
+port "out" 3 4 620 62 678 m1
+port "vdd" 5 -186 1323 -164 1357 m1
+port "vss" 4 -186 -82 -164 -48 pw
+node "sel" 0 90.962 -187 429 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2142 194 0 0 0 0 0 0 0 0 0 0
+node "m1_n123_463#" 2 147.646 -123 463 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19890 1238 0 0 0 0 0 0 0 0 0 0
+node "li_n44_142#" 91 249.202 -44 142 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8602 574 0 0 0 0 0 0 0 0 0 0 0 0
+node "in" 63 129.406 -197 613 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5950 418 3358 238 0 0 0 0 0 0 0 0 0 0
+node "li_n41_906#" 21 363.28 -41 906 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1666 166 37012 2200 0 0 0 0 0 0 0 0 0 0
+node "out" 334 862.733 4 620 m1 0 0 0 0 0 0 0 0 4368 272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10268 740 26384 1548 0 0 0 0 0 0 0 0 0 0
+node "vdd" 6407 533.054 -186 1323 m1 0 0 0 0 171808 1982 0 0 5168 372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4624 340 27736 1058 0 0 0 0 0 0 0 0 0 0
+substrate "vss" 0 0 -186 -82 pw 169120 1958 0 0 0 0 0 0 0 0 7616 516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8874 658 27134 1436 0 0 0 0 0 0 0 0 0 0
+cap "m1_n123_463#" "in" 187.918
+cap "out" "in" 85.971
+cap "out" "li_n44_142#" 35.6912
+cap "in" "li_n41_906#" 35.3226
+cap "li_n44_142#" "li_n41_906#" 80.018
+cap "vdd" "in" 54.7213
+cap "out" "m1_n123_463#" 104.032
+cap "sel" "in" 10.8
+cap "m1_n123_463#" "li_n41_906#" 794.545
+cap "vdd" "m1_n123_463#" 204.724
+cap "out" "li_n41_906#" 774.943
+cap "vdd" "out" 61.5155
+cap "out" "sel" 11.9531
+cap "vdd" "li_n41_906#" 548.598
+cap "sel" "li_n41_906#" 23.1818
+cap "XMNCLAMP/a_n18_n99#" "XMNTGATE/a_18_n73#" -7.10543e-15
+cap "XMPINV1/w_n109_n164#" "XMNTGATE/a_18_n73#" -9.45316
+cap "XMNCLAMP/a_n76_n73#" "XMNTGATE/a_18_n73#" 53.9748
+cap "XMNCLAMP/a_n18_n99#" "XMNTGATE/a_n18_n99#" 306.896
+cap "XMNCLAMP/a_n18_n99#" "XMNTGATE/a_n76_n73#" 157.983
+cap "XMPINV1/w_n109_n164#" "XMNTGATE/a_n18_n99#" -56.8774
+cap "XMPINV1/w_n109_n164#" "XMNTGATE/a_n76_n73#" -22.769
+cap "XMNCLAMP/a_n76_n73#" "XMNTGATE/a_n18_n99#" 319.604
+cap "XMNCLAMP/a_n76_n73#" "XMNTGATE/a_n76_n73#" -6.2113
+cap "XMNTGATE/a_n76_n73#" "XMNTGATE/a_18_n73#" 1.13687e-13
+cap "XMNTGATE/a_18_n73#" "XMNTGATE/a_n18_n99#" 183.609
+cap "XMNTGATE/a_n76_n73#" "XMNTGATE/a_n18_n99#" 8.14365
+cap "XMPINV1/w_n109_n164#" "XMNCLAMP/a_n18_n99#" -250.662
+cap "XMNCLAMP/a_n18_n99#" "XMNCLAMP/a_n76_n73#" 57.082
+cap "XMPINV1/a_n54_n161#" "XMPINV1/w_n109_n164#" 3.0207
+cap "XMPINV1/w_n109_n164#" "XMPINV1/a_15_n64#" 34.0536
+merge "XMPINV1/a_n54_n161#" "XMNINV1/a_n57_56#" -511.658 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4752 -276 0 0 -2244 -200 -3604 -336 0 0 0 0 0 0 0 0 0 0
+merge "XMNINV1/a_n57_56#" "sel"
+merge "sel" "m1_n123_463#"
+merge "m1_n123_463#" "XMNTGATE/a_n18_n99#"
+merge "XMPTGATE/a_18_n108#" "XMNCLAMP/a_18_n73#" -76.9682 0 0 0 0 0 0 0 0 -4368 -272 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4080 -444 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XMNCLAMP/a_18_n73#" "XMNTGATE/a_n76_n73#"
+merge "XMNTGATE/a_n76_n73#" "out"
+merge "XMPTGATE/a_n76_n108#" "XMNTGATE/a_18_n73#" -51.9116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "XMNTGATE/a_18_n73#" "in"
+merge "XMPTGATE/a_n33_67#" "XMPINV1/a_15_n64#" -478.734 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3088 -508 -18047 -790 0 0 0 0 0 0 0 0 0 0
+merge "XMPINV1/a_15_n64#" "XMNINV1/a_15_n96#"
+merge "XMNINV1/a_15_n96#" "li_n41_906#"
+merge "li_n41_906#" "XMNCLAMP/a_n18_n99#"
+merge "XMNCLAMP/a_n18_n99#" "li_n44_142#"
+merge "XMPTGATE/w_n112_n170#" "XMPINV1/a_n73_n64#" -198.082 0 0 0 0 -71524 -2220 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9062 -492 0 0 0 0 0 0 0 0 0 0
+merge "XMPINV1/a_n73_n64#" "XMPINV1/w_n109_n164#"
+merge "XMPINV1/w_n109_n164#" "vdd"
+merge "XMPTGATE/VSUBS" "XMPINV1/VSUBS" -231.743 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2040 -188 -3380 -312 0 0 0 0 0 0 0 0 0 0
+merge "XMPINV1/VSUBS" "XMNINV1/VSUBS"
+merge "XMNINV1/VSUBS" "XMNINV1/a_n73_n96#"
+merge "XMNINV1/a_n73_n96#" "XMNCLAMP/VSUBS"
+merge "XMNCLAMP/VSUBS" "XMNCLAMP/a_n76_n73#"
+merge "XMNCLAMP/a_n76_n73#" "XMNTGATE/VSUBS"
+merge "XMNTGATE/VSUBS" "vss"

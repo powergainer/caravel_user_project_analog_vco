@@ -1,0 +1,111 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1646474908
+<< nwell >>
+rect 376 952 987 1215
+rect 376 845 932 952
+rect 934 845 987 952
+<< pwell >>
+rect 376 462 987 845
+<< psubdiff >>
+rect 414 532 443 567
+rect 627 532 662 567
+<< nsubdiff >>
+rect 414 1145 443 1179
+rect 661 1145 690 1179
+<< psubdiffcont >>
+rect 443 532 627 567
+<< nsubdiffcont >>
+rect 443 1145 661 1179
+<< locali >>
+rect 427 1135 443 1179
+rect 661 1135 677 1179
+rect 891 988 973 1022
+rect 616 937 698 974
+rect 939 852 973 988
+rect 486 799 494 833
+rect 745 745 779 793
+rect 560 674 574 709
+rect 939 671 973 796
+rect 899 637 973 671
+rect 426 532 443 567
+rect 627 532 643 567
+rect 813 543 829 577
+rect 889 543 905 577
+<< viali >>
+rect 494 799 528 833
+rect 745 793 779 827
+rect 939 796 973 852
+rect 829 731 889 765
+rect 574 674 609 709
+rect 745 575 779 609
+rect 829 543 889 577
+<< metal1 >>
+rect 376 1080 690 1186
+rect 656 924 716 990
+rect 376 896 598 911
+rect 376 876 889 896
+rect 570 861 889 876
+rect 478 833 538 839
+rect 478 799 494 833
+rect 528 827 791 833
+rect 528 799 745 827
+rect 478 793 538 799
+rect 733 793 745 799
+rect 779 793 791 827
+rect 733 787 791 793
+rect 834 777 889 861
+rect 927 852 985 865
+rect 927 796 939 852
+rect 973 796 985 852
+rect 927 784 985 796
+rect 819 765 899 777
+rect 817 731 829 765
+rect 889 764 899 765
+rect 889 731 901 764
+rect 817 725 901 731
+rect 562 709 621 715
+rect 562 674 574 709
+rect 609 674 779 709
+rect 562 668 621 674
+rect 376 554 414 632
+rect 744 625 779 674
+rect 729 609 789 625
+rect 729 575 745 609
+rect 779 575 789 609
+rect 729 559 789 575
+rect 817 577 901 584
+rect 376 508 690 554
+rect 817 543 829 577
+rect 889 543 901 577
+rect 817 508 901 543
+rect 376 462 901 508
+use sky130_fd_pr__nfet_01v8_HGTGXE_v2  sky130_fd_pr__nfet_01v8_HGTGXE_v2_1
+timestamp 1646411492
+transform 0 -1 828 -1 0 607
+box -76 -99 76 99
+use sky130_fd_pr__nfet_01v8_HGTGXE_v2  sky130_fd_pr__nfet_01v8_HGTGXE_v2_0
+timestamp 1646411492
+transform 0 -1 828 1 0 701
+box -76 -99 76 99
+use sky130_fd_pr__pfet_01v8_ACAZ2B  XM25
+timestamp 1646336843
+transform 0 -1 789 1 0 957
+box -112 -170 112 136
+use sky130_fd_sc_hd__inv_1  x1 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1642674852
+transform 1 0 414 0 1 584
+box -38 -48 314 592
+<< labels >>
+rlabel metal1 376 876 407 911 1 in
+port 0 n
+rlabel metal1 376 488 414 632 1 vss
+port 3 n
+rlabel metal1 376 1080 414 1176 1 vdd
+port 4 n
+rlabel metal1 927 784 985 865 1 out
+port 2 n
+rlabel metal1 478 793 520 839 1 sel
+port 1 n
+<< end >>

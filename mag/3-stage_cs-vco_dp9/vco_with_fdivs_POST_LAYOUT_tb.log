@@ -1,0 +1,1481 @@
+
+Compatibility modes selected: hs a
+
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/net2 and x1.3-stage_cs-vco_dp9_0/net2
+
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Warning: Further gmin increment
+Trying gmin =   5.6234E-11 Warning: Further gmin increment
+Trying gmin =   8.6596E-11 Note: One successful gmin step
+Trying gmin =   6.9783E-11 Note: One successful gmin step
+Trying gmin =   5.0481E-11 Note: One successful gmin step
+Trying gmin =   3.1059E-11 Note: One successful gmin step
+Trying gmin =   1.4989E-11 Note: One successful gmin step
+Trying gmin =   5.0254E-12 Warning: Further gmin increment
+Trying gmin =   1.1406E-11 Note: One successful gmin step
+Trying gmin =   7.5710E-12 Note: One successful gmin step
+Trying gmin =   4.0943E-12 Warning: Further gmin increment
+Trying gmin =   6.4924E-12 Note: One successful gmin step
+Trying gmin =   5.1558E-12 Warning: Further gmin increment
+Trying gmin =   6.1289E-12 Warning: Further gmin increment
+Trying gmin =   6.3996E-12 Note: One successful gmin step
+Trying gmin =   6.2628E-12 Warning: Further gmin increment
+Trying gmin =   6.3651E-12 Note: One successful gmin step
+Trying gmin =   6.3137E-12 Note: One successful gmin step
+Trying gmin =   6.2374E-12 Note: One successful gmin step
+Trying gmin =   6.1247E-12 Note: One successful gmin step
+Trying gmin =   5.9595E-12 Note: One successful gmin step
+Trying gmin =   5.7199E-12 Note: One successful gmin step
+Trying gmin =   5.3785E-12 Note: One successful gmin step
+Trying gmin =   4.9043E-12 Note: One successful gmin step
+Trying gmin =   4.2701E-12 Note: One successful gmin step
+Trying gmin =   3.4692E-12 Note: One successful gmin step
+Trying gmin =   2.5406E-12 Note: One successful gmin step
+Trying gmin =   1.5921E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Trying gmin =   1.0000E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   5.6234E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   8.6596E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.6466E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9105E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9775E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9944E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9986E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9996E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Last gmin step failed
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+
+Trying gmin =   1.0000E-02 Note: One successful gmin step
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: One successful source step
+Supplies reduced to   0.1000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.fd_v2_3/4                      -6.57436e-06
+x1.fd_v2_3/clk_in                      1.79996
+x1.fd_v2_3/3                      -1.30231e-05
+x1.fd_v2_3/6                          0.792592
+x1.fd_v2_3/clkb                   -1.39191e-05
+x1.fd_v2_3/5                           1.79999
+net1                                       1.8
+x1.fd_v2_3/2                           1.66508
+x1.fd_v2_4/clk_in                  6.92777e-06
+x1.fd_v2_3/7                           1.66509
+x1.fd_v2_4/4                           0.81231
+x1.fd_v2_4/3                               1.8
+x1.fd_v2_4/6                           1.58948
+x1.fd_v2_4/clkb                            1.8
+x1.fd_v2_4/5                           1.58948
+x1.fd_v2_4/2                       2.08479e-05
+x1.fd_v2_5/clk_in                      1.80004
+x1.fd_v2_4/7                       1.01381e-05
+x1.fd_v2_5/4                      -3.45216e-06
+x1.fd_v2_5/3                      -1.00752e-05
+x1.fd_v2_5/6                          0.794419
+x1.fd_v2_5/clkb                   -3.70911e-05
+x1.fd_v2_5/5                           1.79999
+x1.fd_v2_5/2                           1.66028
+x1.fd_v2_6/clk_in                 -4.25264e-06
+x1.fd_v2_5/7                           1.66051
+x1.fd_v2_6/4                          0.808828
+x1.fd_v2_6/3                               1.8
+x1.fd_v2_6/6                           1.60655
+x1.fd_v2_6/clkb                        1.80012
+x1.fd_v2_6/5                           1.60641
+x1.fd_v2_6/2                       -5.8657e-05
+out_div128_buf                             1.8
+x1.fd_v2_6/7                      -6.09207e-05
+x1.fd_v2_7/4                       1.26016e-05
+x1.fd_v2_7/3                       4.71267e-06
+x1.fd_v2_7/6                           0.79495
+x1.fd_v2_7/clkb                     2.0188e-06
+x1.fd_v2_7/5                               1.8
+x1.fd_v2_7/2                           1.65837
+out_div256_buf                     7.70075e-06
+x1.fd_v2_7/7                           1.65837
+x1.fd_v2_8/4                          0.810461
+x1.fd_v2_8/3                               1.8
+x1.fd_v2_8/6                           1.59917
+x1.fd_v2_8/clkb                            1.8
+x1.fd_v2_8/5                           1.59917
+x1.fd_v2_8/2                       1.81705e-05
+x1.fd_v2_9/clk_in                          1.8
+x1.fd_v2_8/7                       1.55651e-05
+x1.fd_v2_9/4                       1.11543e-05
+x1.fd_v2_9/3                       3.14149e-06
+x1.fd_v2_9/6                           0.79617
+x1.fd_v2_9/clkb                   -8.87153e-08
+x1.fd_v2_9/5                               1.8
+x1.fd_v2_9/2                           1.65471
+x1.fd_v2_9/clk_out                -2.67459e-05
+x1.fd_v2_9/7                           1.65471
+x1.fd_v5_0/4                           1.71492
+x1.fd_v5_0/5                        -0.0174329
+x1.fd_v5_0/2                           1.79636
+x1.fd_v5_0/3                       -0.00543058
+x1.fd_v5_0/clkb_buf                    1.79505
+x1.fd_v5_0/clk_in_buf               0.00351015
+x1.fd_v5_0/clkb_int                    1.79665
+x1.fd_v5_0/dus                     -0.00627537
+x1.fd_v5_0/6                        0.00535738
+x1.fd_v5_0/7                           1.79267
+x1.fd_v2_1/clk_in                    -0.040032
+x1.out                              -0.0161395
+x1.3-stage_cs-vco_dp9_0/net7           1.79442
+x1.x3-stage_cs-vco_dp9_0.net6      -0.00315382
+net2                                         0
+x1.x3-stage_cs-vco_dp9_0.vgp           1.70271
+vctrl                                        0
+x1.x3-stage_cs-vco_dp9_0.net8         0.982534
+x1.3-stage_cs-vco_dp9_0/ng3        2.69135e-05
+x1.x3-stage_cs-vco_dp9_0.ng0       1.50189e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_0/selb    -2.46251e-05
+vsel0                                      1.8
+x1.x3-stage_cs-vco_dp9_0.ng1       2.05503e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_1/selb    -2.27226e-05
+vsel1                                      1.8
+x1.x3-stage_cs-vco_dp9_0.ng2       2.75821e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_2/selb    -2.21318e-05
+vsel2                                      1.8
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_3/selb    -1.69716e-05
+vsel3                                      1.8
+x1.x3-stage_cs-vco_dp9_0.net3         0.983204
+x1.x3-stage_cs-vco_dp9_0.net5           1.8048
+x1.x3-stage_cs-vco_dp9_0.net2          1.03367
+x1.x3-stage_cs-vco_dp9_0.net4        0.0707445
+x1.x3-stage_cs-vco_dp9_0.pg3           1.70271
+x1.x3-stage_cs-vco_dp9_0.pg0           1.70271
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_0/selb    -6.50028e-05
+x1.x3-stage_cs-vco_dp9_0.pg1           1.70271
+x1.x3-stage_cs-vco_dp9_0.pg2           1.70271
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_2/selb    -6.51181e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_1/selb    -6.44664e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_3/selb    -6.31688e-05
+x1.fd_v2_1/4                        -0.0548854
+x1.fd_v2_1/3                           1.79947
+x1.fd_v2_1/6                           1.79922
+x1.fd_v2_1/clkb                        1.78983
+x1.fd_v2_1/5                           1.79472
+x1.fd_v2_1/2                       -0.00524352
+x1.fd_v2_2/clk_in                      1.80761
+x1.fd_v2_1/7                         0.0210799
+x1.fd_v2_2/4                           1.80609
+x1.fd_v2_2/3                           1.81536
+x1.fd_v2_2/6                           1.54268
+x1.fd_v2_2/clkb                       0.031251
+x1.fd_v2_2/5                         0.0428536
+x1.fd_v2_2/2                       0.000697906
+x1.fd_v2_2/7                      -0.000309931
+x1.3-stage_cs-vco_dp9_0/net6                 0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_3/selb               0
+x1.3-stage_cs-vco_dp9_0/pg3                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_1/selb               0
+x1.3-stage_cs-vco_dp9_0/pg1                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_2/selb               0
+x1.3-stage_cs-vco_dp9_0/pg2                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_0/selb               0
+x1.3-stage_cs-vco_dp9_0/pg0                  0
+x1.3-stage_cs-vco_dp9_0/net4                 0
+x1.3-stage_cs-vco_dp9_0/net3                 0
+x1.3-stage_cs-vco_dp9_0/net5                 0
+x1.3-stage_cs-vco_dp9_0/net2                 0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_2/selb               0
+x1.3-stage_cs-vco_dp9_0/ng2                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_1/selb               0
+x1.3-stage_cs-vco_dp9_0/ng1                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_0/selb               0
+x1.3-stage_cs-vco_dp9_0/ng0                  0
+x1.3-stage_cs-vco_dp9_0/net8                 0
+x1.3-stage_cs-vco_dp9_0/vgp                  0
+vdd                                        1.8
+buf1a_out                              1.79998
+buf2a_out                              1.79999
+buf4a_out                                  1.8
+buf8a_out                                  1.8
+pad_out_a                                  1.8
+buf1b_out                         -3.84638e-05
+buf2b_out                         -4.29694e-05
+buf4b_out                         -4.55334e-05
+buf8b_out                         -4.40379e-05
+pad_out_b                         -2.21527e-05
+v1#branch                          5.53124e-08
+vsel3#branch                       5.70942e-09
+vsel2#branch                        1.5568e-08
+vsel1#branch                       1.96122e-08
+vsel0#branch                       2.00558e-08
+vmeas_current_gnd#branch          -2.14417e-05
+vmeas_current_vdd#branch          -5.47662e-05
+v2#branch                          5.48476e-05
+
+
+No. of Data Rows : 20020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.528939e-10 targ=  1.539824e-08 trig=  1.514535e-08
+fvco_outside_while  =  3.95423e+09
+tdiv128_outside_while=  3.237513e-08 targ=  6.527883e-08 trig=  3.290371e-08
+fdiv128_outside_while=  3.08879e+07
+supply_current_rms_outside_while=   2.17800e-03 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   4.83096e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  9.000000e-01 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.837548e+00 at=  1.659500e-08
+vlow_outside_while  =  -8.147867e-05 at=  1.969500e-08
+peak_to_peak_outside_while=  1.83763e+00
+supply_current_rms  =   2.14811e-03 from=  0.00000e+00 to=  2.00000e-07
+
+binary raw file "vco_with_fdivs_POST_LAYOUT_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/net2 and x1.3-stage_cs-vco_dp9_0/net2
+
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Warning: Further gmin increment
+Trying gmin =   5.6234E-11 Warning: Further gmin increment
+Trying gmin =   8.6596E-11 Note: One successful gmin step
+Trying gmin =   6.9783E-11 Note: One successful gmin step
+Trying gmin =   5.0481E-11 Note: One successful gmin step
+Trying gmin =   3.1059E-11 Note: One successful gmin step
+Trying gmin =   1.4989E-11 Note: One successful gmin step
+Trying gmin =   5.0254E-12 Warning: Further gmin increment
+Trying gmin =   1.1406E-11 Note: One successful gmin step
+Trying gmin =   7.5710E-12 Note: One successful gmin step
+Trying gmin =   4.0943E-12 Warning: Further gmin increment
+Trying gmin =   6.4924E-12 Note: One successful gmin step
+Trying gmin =   5.1558E-12 Warning: Further gmin increment
+Trying gmin =   6.1289E-12 Warning: Further gmin increment
+Trying gmin =   6.3996E-12 Note: One successful gmin step
+Trying gmin =   6.2628E-12 Warning: Further gmin increment
+Trying gmin =   6.3651E-12 Note: One successful gmin step
+Trying gmin =   6.3137E-12 Note: One successful gmin step
+Trying gmin =   6.2374E-12 Note: One successful gmin step
+Trying gmin =   6.1247E-12 Note: One successful gmin step
+Trying gmin =   5.9595E-12 Note: One successful gmin step
+Trying gmin =   5.7199E-12 Note: One successful gmin step
+Trying gmin =   5.3785E-12 Note: One successful gmin step
+Trying gmin =   4.9043E-12 Note: One successful gmin step
+Trying gmin =   4.2701E-12 Note: One successful gmin step
+Trying gmin =   3.4692E-12 Note: One successful gmin step
+Trying gmin =   2.5406E-12 Note: One successful gmin step
+Trying gmin =   1.5921E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Trying gmin =   1.0000E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   5.6234E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   8.6596E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.6466E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9105E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9775E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9944E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9986E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9996E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Last gmin step failed
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+
+Trying gmin =   1.0000E-02 Note: One successful gmin step
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: One successful source step
+Supplies reduced to   0.1000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.fd_v2_3/4                      -6.57436e-06
+x1.fd_v2_3/clk_in                      1.79996
+x1.fd_v2_3/3                      -1.30231e-05
+x1.fd_v2_3/6                          0.792592
+x1.fd_v2_3/clkb                   -1.39191e-05
+x1.fd_v2_3/5                           1.79999
+net1                                       1.8
+x1.fd_v2_3/2                           1.66508
+x1.fd_v2_4/clk_in                  6.92777e-06
+x1.fd_v2_3/7                           1.66509
+x1.fd_v2_4/4                           0.81231
+x1.fd_v2_4/3                               1.8
+x1.fd_v2_4/6                           1.58948
+x1.fd_v2_4/clkb                            1.8
+x1.fd_v2_4/5                           1.58948
+x1.fd_v2_4/2                       2.08479e-05
+x1.fd_v2_5/clk_in                      1.80004
+x1.fd_v2_4/7                       1.01381e-05
+x1.fd_v2_5/4                      -3.45216e-06
+x1.fd_v2_5/3                      -1.00752e-05
+x1.fd_v2_5/6                          0.794419
+x1.fd_v2_5/clkb                   -3.70911e-05
+x1.fd_v2_5/5                           1.79999
+x1.fd_v2_5/2                           1.66028
+x1.fd_v2_6/clk_in                 -4.25264e-06
+x1.fd_v2_5/7                           1.66051
+x1.fd_v2_6/4                          0.808828
+x1.fd_v2_6/3                               1.8
+x1.fd_v2_6/6                           1.60655
+x1.fd_v2_6/clkb                        1.80012
+x1.fd_v2_6/5                           1.60641
+x1.fd_v2_6/2                       -5.8657e-05
+out_div128_buf                             1.8
+x1.fd_v2_6/7                      -6.09207e-05
+x1.fd_v2_7/4                       1.26016e-05
+x1.fd_v2_7/3                       4.71267e-06
+x1.fd_v2_7/6                           0.79495
+x1.fd_v2_7/clkb                     2.0188e-06
+x1.fd_v2_7/5                               1.8
+x1.fd_v2_7/2                           1.65837
+out_div256_buf                     7.70075e-06
+x1.fd_v2_7/7                           1.65837
+x1.fd_v2_8/4                          0.810461
+x1.fd_v2_8/3                               1.8
+x1.fd_v2_8/6                           1.59917
+x1.fd_v2_8/clkb                            1.8
+x1.fd_v2_8/5                           1.59917
+x1.fd_v2_8/2                       1.81705e-05
+x1.fd_v2_9/clk_in                          1.8
+x1.fd_v2_8/7                       1.55651e-05
+x1.fd_v2_9/4                       1.11543e-05
+x1.fd_v2_9/3                       3.14149e-06
+x1.fd_v2_9/6                           0.79617
+x1.fd_v2_9/clkb                   -8.87153e-08
+x1.fd_v2_9/5                               1.8
+x1.fd_v2_9/2                           1.65471
+x1.fd_v2_9/clk_out                -2.67459e-05
+x1.fd_v2_9/7                           1.65471
+x1.fd_v5_0/4                           1.71492
+x1.fd_v5_0/5                        -0.0174329
+x1.fd_v5_0/2                           1.79636
+x1.fd_v5_0/3                       -0.00543058
+x1.fd_v5_0/clkb_buf                    1.79505
+x1.fd_v5_0/clk_in_buf               0.00351015
+x1.fd_v5_0/clkb_int                    1.79665
+x1.fd_v5_0/dus                     -0.00627537
+x1.fd_v5_0/6                        0.00535738
+x1.fd_v5_0/7                           1.79267
+x1.fd_v2_1/clk_in                    -0.040032
+x1.out                              -0.0161395
+x1.3-stage_cs-vco_dp9_0/net7           1.79442
+x1.x3-stage_cs-vco_dp9_0.net6      -0.00315382
+net2                                         0
+x1.x3-stage_cs-vco_dp9_0.vgp           1.70271
+vctrl                                        0
+x1.x3-stage_cs-vco_dp9_0.net8         0.982534
+x1.3-stage_cs-vco_dp9_0/ng3        2.69135e-05
+x1.x3-stage_cs-vco_dp9_0.ng0       1.50189e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_0/selb    -2.46251e-05
+vsel0                                      1.8
+x1.x3-stage_cs-vco_dp9_0.ng1       2.05503e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_1/selb    -2.27226e-05
+vsel1                                      1.8
+x1.x3-stage_cs-vco_dp9_0.ng2       2.75821e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_2/selb    -2.21318e-05
+vsel2                                      1.8
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_3/selb    -1.69716e-05
+vsel3                                      1.8
+x1.x3-stage_cs-vco_dp9_0.net3         0.983204
+x1.x3-stage_cs-vco_dp9_0.net5           1.8048
+x1.x3-stage_cs-vco_dp9_0.net2          1.03367
+x1.x3-stage_cs-vco_dp9_0.net4        0.0707445
+x1.x3-stage_cs-vco_dp9_0.pg3           1.70271
+x1.x3-stage_cs-vco_dp9_0.pg0           1.70271
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_0/selb    -6.50028e-05
+x1.x3-stage_cs-vco_dp9_0.pg1           1.70271
+x1.x3-stage_cs-vco_dp9_0.pg2           1.70271
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_2/selb    -6.51181e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_1/selb    -6.44664e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_3/selb    -6.31688e-05
+x1.fd_v2_1/4                        -0.0548854
+x1.fd_v2_1/3                           1.79947
+x1.fd_v2_1/6                           1.79922
+x1.fd_v2_1/clkb                        1.78983
+x1.fd_v2_1/5                           1.79472
+x1.fd_v2_1/2                       -0.00524352
+x1.fd_v2_2/clk_in                      1.80761
+x1.fd_v2_1/7                         0.0210799
+x1.fd_v2_2/4                           1.80609
+x1.fd_v2_2/3                           1.81536
+x1.fd_v2_2/6                           1.54268
+x1.fd_v2_2/clkb                       0.031251
+x1.fd_v2_2/5                         0.0428536
+x1.fd_v2_2/2                       0.000697906
+x1.fd_v2_2/7                      -0.000309931
+x1.3-stage_cs-vco_dp9_0/net6                 0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_3/selb               0
+x1.3-stage_cs-vco_dp9_0/pg3                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_1/selb               0
+x1.3-stage_cs-vco_dp9_0/pg1                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_2/selb               0
+x1.3-stage_cs-vco_dp9_0/pg2                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_0/selb               0
+x1.3-stage_cs-vco_dp9_0/pg0                  0
+x1.3-stage_cs-vco_dp9_0/net4                 0
+x1.3-stage_cs-vco_dp9_0/net3                 0
+x1.3-stage_cs-vco_dp9_0/net5                 0
+x1.3-stage_cs-vco_dp9_0/net2                 0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_2/selb               0
+x1.3-stage_cs-vco_dp9_0/ng2                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_1/selb               0
+x1.3-stage_cs-vco_dp9_0/ng1                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_0/selb               0
+x1.3-stage_cs-vco_dp9_0/ng0                  0
+x1.3-stage_cs-vco_dp9_0/net8                 0
+x1.3-stage_cs-vco_dp9_0/vgp                  0
+vdd                                        1.8
+buf1a_out                              1.79998
+buf2a_out                              1.79999
+buf4a_out                                  1.8
+buf8a_out                                  1.8
+pad_out_a                                  1.8
+buf1b_out                         -3.84638e-05
+buf2b_out                         -4.29694e-05
+buf4b_out                         -4.55334e-05
+buf8b_out                         -4.40379e-05
+pad_out_b                         -2.21527e-05
+v1#branch                          5.53124e-08
+vsel3#branch                       5.70942e-09
+vsel2#branch                        1.5568e-08
+vsel1#branch                       1.96122e-08
+vsel0#branch                       2.00558e-08
+vmeas_current_gnd#branch          -2.14417e-05
+vmeas_current_vdd#branch          -5.47662e-05
+v2#branch                          5.48476e-05
+
+
+No. of Data Rows : 20020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.451055e-10 targ=  1.471577e-08 trig=  1.447066e-08
+fvco_outside_while  =  4.07988e+09
+tdiv128_outside_while=  4.702415e-08 targ=  9.069466e-08 trig=  4.367051e-08
+fdiv128_outside_while=  2.12657e+07
+supply_current_rms_outside_while=   2.10806e-03 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.27561e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.100000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.807033e+00 at=  1.999500e-08
+vlow_outside_while  =  1.798545e+00 at=  1.995500e-08
+peak_to_peak_outside_while=  8.48762e-03
+supply_current_rms  =   2.07875e-03 from=  0.00000e+00 to=  2.00000e-07
+
+binary raw file "vco_with_fdivs_POST_LAYOUT_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/net2 and x1.3-stage_cs-vco_dp9_0/net2
+
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Warning: Further gmin increment
+Trying gmin =   5.6234E-11 Warning: Further gmin increment
+Trying gmin =   8.6596E-11 Note: One successful gmin step
+Trying gmin =   6.9783E-11 Note: One successful gmin step
+Trying gmin =   5.0481E-11 Note: One successful gmin step
+Trying gmin =   3.1059E-11 Note: One successful gmin step
+Trying gmin =   1.4989E-11 Note: One successful gmin step
+Trying gmin =   5.0254E-12 Warning: Further gmin increment
+Trying gmin =   1.1406E-11 Note: One successful gmin step
+Trying gmin =   7.5710E-12 Note: One successful gmin step
+Trying gmin =   4.0943E-12 Warning: Further gmin increment
+Trying gmin =   6.4924E-12 Note: One successful gmin step
+Trying gmin =   5.1558E-12 Warning: Further gmin increment
+Trying gmin =   6.1289E-12 Warning: Further gmin increment
+Trying gmin =   6.3996E-12 Note: One successful gmin step
+Trying gmin =   6.2628E-12 Warning: Further gmin increment
+Trying gmin =   6.3651E-12 Note: One successful gmin step
+Trying gmin =   6.3137E-12 Note: One successful gmin step
+Trying gmin =   6.2374E-12 Note: One successful gmin step
+Trying gmin =   6.1247E-12 Note: One successful gmin step
+Trying gmin =   5.9595E-12 Note: One successful gmin step
+Trying gmin =   5.7199E-12 Note: One successful gmin step
+Trying gmin =   5.3785E-12 Note: One successful gmin step
+Trying gmin =   4.9043E-12 Note: One successful gmin step
+Trying gmin =   4.2701E-12 Note: One successful gmin step
+Trying gmin =   3.4692E-12 Note: One successful gmin step
+Trying gmin =   2.5406E-12 Note: One successful gmin step
+Trying gmin =   1.5921E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Trying gmin =   1.0000E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   5.6234E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   8.6596E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.6466E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9105E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9775E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9944E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9986E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9996E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Last gmin step failed
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+
+Trying gmin =   1.0000E-02 Note: One successful gmin step
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: One successful source step
+Supplies reduced to   0.1000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.fd_v2_3/4                      -6.57436e-06
+x1.fd_v2_3/clk_in                      1.79996
+x1.fd_v2_3/3                      -1.30231e-05
+x1.fd_v2_3/6                          0.792592
+x1.fd_v2_3/clkb                   -1.39191e-05
+x1.fd_v2_3/5                           1.79999
+net1                                       1.8
+x1.fd_v2_3/2                           1.66508
+x1.fd_v2_4/clk_in                  6.92777e-06
+x1.fd_v2_3/7                           1.66509
+x1.fd_v2_4/4                           0.81231
+x1.fd_v2_4/3                               1.8
+x1.fd_v2_4/6                           1.58948
+x1.fd_v2_4/clkb                            1.8
+x1.fd_v2_4/5                           1.58948
+x1.fd_v2_4/2                       2.08479e-05
+x1.fd_v2_5/clk_in                      1.80004
+x1.fd_v2_4/7                       1.01381e-05
+x1.fd_v2_5/4                      -3.45216e-06
+x1.fd_v2_5/3                      -1.00752e-05
+x1.fd_v2_5/6                          0.794419
+x1.fd_v2_5/clkb                   -3.70911e-05
+x1.fd_v2_5/5                           1.79999
+x1.fd_v2_5/2                           1.66028
+x1.fd_v2_6/clk_in                 -4.25264e-06
+x1.fd_v2_5/7                           1.66051
+x1.fd_v2_6/4                          0.808828
+x1.fd_v2_6/3                               1.8
+x1.fd_v2_6/6                           1.60655
+x1.fd_v2_6/clkb                        1.80012
+x1.fd_v2_6/5                           1.60641
+x1.fd_v2_6/2                       -5.8657e-05
+out_div128_buf                             1.8
+x1.fd_v2_6/7                      -6.09207e-05
+x1.fd_v2_7/4                       1.26016e-05
+x1.fd_v2_7/3                       4.71267e-06
+x1.fd_v2_7/6                           0.79495
+x1.fd_v2_7/clkb                     2.0188e-06
+x1.fd_v2_7/5                               1.8
+x1.fd_v2_7/2                           1.65837
+out_div256_buf                     7.70075e-06
+x1.fd_v2_7/7                           1.65837
+x1.fd_v2_8/4                          0.810461
+x1.fd_v2_8/3                               1.8
+x1.fd_v2_8/6                           1.59917
+x1.fd_v2_8/clkb                            1.8
+x1.fd_v2_8/5                           1.59917
+x1.fd_v2_8/2                       1.81705e-05
+x1.fd_v2_9/clk_in                          1.8
+x1.fd_v2_8/7                       1.55651e-05
+x1.fd_v2_9/4                       1.11543e-05
+x1.fd_v2_9/3                       3.14149e-06
+x1.fd_v2_9/6                           0.79617
+x1.fd_v2_9/clkb                   -8.87153e-08
+x1.fd_v2_9/5                               1.8
+x1.fd_v2_9/2                           1.65471
+x1.fd_v2_9/clk_out                -2.67459e-05
+x1.fd_v2_9/7                           1.65471
+x1.fd_v5_0/4                           1.71492
+x1.fd_v5_0/5                        -0.0174329
+x1.fd_v5_0/2                           1.79636
+x1.fd_v5_0/3                       -0.00543058
+x1.fd_v5_0/clkb_buf                    1.79505
+x1.fd_v5_0/clk_in_buf               0.00351015
+x1.fd_v5_0/clkb_int                    1.79665
+x1.fd_v5_0/dus                     -0.00627537
+x1.fd_v5_0/6                        0.00535738
+x1.fd_v5_0/7                           1.79267
+x1.fd_v2_1/clk_in                    -0.040032
+x1.out                              -0.0161395
+x1.3-stage_cs-vco_dp9_0/net7           1.79442
+x1.x3-stage_cs-vco_dp9_0.net6      -0.00315382
+net2                                         0
+x1.x3-stage_cs-vco_dp9_0.vgp           1.70271
+vctrl                                        0
+x1.x3-stage_cs-vco_dp9_0.net8         0.982534
+x1.3-stage_cs-vco_dp9_0/ng3        2.69135e-05
+x1.x3-stage_cs-vco_dp9_0.ng0       1.50189e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_0/selb    -2.46251e-05
+vsel0                                      1.8
+x1.x3-stage_cs-vco_dp9_0.ng1       2.05503e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_1/selb    -2.27226e-05
+vsel1                                      1.8
+x1.x3-stage_cs-vco_dp9_0.ng2       2.75821e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_2/selb    -2.21318e-05
+vsel2                                      1.8
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_3/selb    -1.69716e-05
+vsel3                                      1.8
+x1.x3-stage_cs-vco_dp9_0.net3         0.983204
+x1.x3-stage_cs-vco_dp9_0.net5           1.8048
+x1.x3-stage_cs-vco_dp9_0.net2          1.03367
+x1.x3-stage_cs-vco_dp9_0.net4        0.0707445
+x1.x3-stage_cs-vco_dp9_0.pg3           1.70271
+x1.x3-stage_cs-vco_dp9_0.pg0           1.70271
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_0/selb    -6.50028e-05
+x1.x3-stage_cs-vco_dp9_0.pg1           1.70271
+x1.x3-stage_cs-vco_dp9_0.pg2           1.70271
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_2/selb    -6.51181e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_1/selb    -6.44664e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_3/selb    -6.31688e-05
+x1.fd_v2_1/4                        -0.0548854
+x1.fd_v2_1/3                           1.79947
+x1.fd_v2_1/6                           1.79922
+x1.fd_v2_1/clkb                        1.78983
+x1.fd_v2_1/5                           1.79472
+x1.fd_v2_1/2                       -0.00524352
+x1.fd_v2_2/clk_in                      1.80761
+x1.fd_v2_1/7                         0.0210799
+x1.fd_v2_2/4                           1.80609
+x1.fd_v2_2/3                           1.81536
+x1.fd_v2_2/6                           1.54268
+x1.fd_v2_2/clkb                       0.031251
+x1.fd_v2_2/5                         0.0428536
+x1.fd_v2_2/2                       0.000697906
+x1.fd_v2_2/7                      -0.000309931
+x1.3-stage_cs-vco_dp9_0/net6                 0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_3/selb               0
+x1.3-stage_cs-vco_dp9_0/pg3                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_1/selb               0
+x1.3-stage_cs-vco_dp9_0/pg1                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_2/selb               0
+x1.3-stage_cs-vco_dp9_0/pg2                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_0/selb               0
+x1.3-stage_cs-vco_dp9_0/pg0                  0
+x1.3-stage_cs-vco_dp9_0/net4                 0
+x1.3-stage_cs-vco_dp9_0/net3                 0
+x1.3-stage_cs-vco_dp9_0/net5                 0
+x1.3-stage_cs-vco_dp9_0/net2                 0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_2/selb               0
+x1.3-stage_cs-vco_dp9_0/ng2                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_1/selb               0
+x1.3-stage_cs-vco_dp9_0/ng1                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_0/selb               0
+x1.3-stage_cs-vco_dp9_0/ng0                  0
+x1.3-stage_cs-vco_dp9_0/net8                 0
+x1.3-stage_cs-vco_dp9_0/vgp                  0
+vdd                                        1.8
+buf1a_out                              1.79998
+buf2a_out                              1.79999
+buf4a_out                                  1.8
+buf8a_out                                  1.8
+pad_out_a                                  1.8
+buf1b_out                         -3.84638e-05
+buf2b_out                         -4.29694e-05
+buf4b_out                         -4.55334e-05
+buf8b_out                         -4.40379e-05
+pad_out_b                         -2.21527e-05
+v1#branch                          5.53124e-08
+vsel3#branch                       5.70942e-09
+vsel2#branch                        1.5568e-08
+vsel1#branch                       1.96122e-08
+vsel0#branch                       2.00558e-08
+vmeas_current_gnd#branch          -2.14417e-05
+vmeas_current_vdd#branch          -5.47662e-05
+v2#branch                          5.48476e-05
+
+
+No. of Data Rows : 20020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.430863e-10 targ=  1.452454e-08 trig=  1.428145e-08
+fvco_outside_while  =  4.11377e+09
+tdiv128_outside_while=  4.666034e-08 targ=  8.993770e-08 trig=  4.327735e-08
+fdiv128_outside_while=  2.14315e+07
+supply_current_rms_outside_while=   2.15040e-03 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.59051e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.300000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.837946e+00 at=  1.982500e-08
+vlow_outside_while  =  1.719673e-01 at=  1.999500e-08
+peak_to_peak_outside_while=  1.66598e+00
+supply_current_rms  =   2.12370e-03 from=  0.00000e+00 to=  2.00000e-07
+
+binary raw file "vco_with_fdivs_POST_LAYOUT_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/net2 and x1.3-stage_cs-vco_dp9_0/net2
+
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Warning: Further gmin increment
+Trying gmin =   5.6234E-11 Warning: Further gmin increment
+Trying gmin =   8.6596E-11 Note: One successful gmin step
+Trying gmin =   6.9783E-11 Note: One successful gmin step
+Trying gmin =   5.0481E-11 Note: One successful gmin step
+Trying gmin =   3.1059E-11 Note: One successful gmin step
+Trying gmin =   1.4989E-11 Note: One successful gmin step
+Trying gmin =   5.0254E-12 Warning: Further gmin increment
+Trying gmin =   1.1406E-11 Note: One successful gmin step
+Trying gmin =   7.5710E-12 Note: One successful gmin step
+Trying gmin =   4.0943E-12 Warning: Further gmin increment
+Trying gmin =   6.4924E-12 Note: One successful gmin step
+Trying gmin =   5.1558E-12 Warning: Further gmin increment
+Trying gmin =   6.1289E-12 Warning: Further gmin increment
+Trying gmin =   6.3996E-12 Note: One successful gmin step
+Trying gmin =   6.2628E-12 Warning: Further gmin increment
+Trying gmin =   6.3651E-12 Note: One successful gmin step
+Trying gmin =   6.3137E-12 Note: One successful gmin step
+Trying gmin =   6.2374E-12 Note: One successful gmin step
+Trying gmin =   6.1247E-12 Note: One successful gmin step
+Trying gmin =   5.9595E-12 Note: One successful gmin step
+Trying gmin =   5.7199E-12 Note: One successful gmin step
+Trying gmin =   5.3785E-12 Note: One successful gmin step
+Trying gmin =   4.9043E-12 Note: One successful gmin step
+Trying gmin =   4.2701E-12 Note: One successful gmin step
+Trying gmin =   3.4692E-12 Note: One successful gmin step
+Trying gmin =   2.5406E-12 Note: One successful gmin step
+Trying gmin =   1.5921E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Trying gmin =   1.0000E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   5.6234E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   8.6596E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.6466E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9105E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9775E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9944E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9986E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9996E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Last gmin step failed
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+
+Trying gmin =   1.0000E-02 Note: One successful gmin step
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: One successful source step
+Supplies reduced to   0.1000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.fd_v2_3/4                      -6.57436e-06
+x1.fd_v2_3/clk_in                      1.79996
+x1.fd_v2_3/3                      -1.30231e-05
+x1.fd_v2_3/6                          0.792592
+x1.fd_v2_3/clkb                   -1.39191e-05
+x1.fd_v2_3/5                           1.79999
+net1                                       1.8
+x1.fd_v2_3/2                           1.66508
+x1.fd_v2_4/clk_in                  6.92777e-06
+x1.fd_v2_3/7                           1.66509
+x1.fd_v2_4/4                           0.81231
+x1.fd_v2_4/3                               1.8
+x1.fd_v2_4/6                           1.58948
+x1.fd_v2_4/clkb                            1.8
+x1.fd_v2_4/5                           1.58948
+x1.fd_v2_4/2                       2.08479e-05
+x1.fd_v2_5/clk_in                      1.80004
+x1.fd_v2_4/7                       1.01381e-05
+x1.fd_v2_5/4                      -3.45216e-06
+x1.fd_v2_5/3                      -1.00752e-05
+x1.fd_v2_5/6                          0.794419
+x1.fd_v2_5/clkb                   -3.70911e-05
+x1.fd_v2_5/5                           1.79999
+x1.fd_v2_5/2                           1.66028
+x1.fd_v2_6/clk_in                 -4.25264e-06
+x1.fd_v2_5/7                           1.66051
+x1.fd_v2_6/4                          0.808828
+x1.fd_v2_6/3                               1.8
+x1.fd_v2_6/6                           1.60655
+x1.fd_v2_6/clkb                        1.80012
+x1.fd_v2_6/5                           1.60641
+x1.fd_v2_6/2                       -5.8657e-05
+out_div128_buf                             1.8
+x1.fd_v2_6/7                      -6.09207e-05
+x1.fd_v2_7/4                       1.26016e-05
+x1.fd_v2_7/3                       4.71267e-06
+x1.fd_v2_7/6                           0.79495
+x1.fd_v2_7/clkb                     2.0188e-06
+x1.fd_v2_7/5                               1.8
+x1.fd_v2_7/2                           1.65837
+out_div256_buf                     7.70075e-06
+x1.fd_v2_7/7                           1.65837
+x1.fd_v2_8/4                          0.810461
+x1.fd_v2_8/3                               1.8
+x1.fd_v2_8/6                           1.59917
+x1.fd_v2_8/clkb                            1.8
+x1.fd_v2_8/5                           1.59917
+x1.fd_v2_8/2                       1.81705e-05
+x1.fd_v2_9/clk_in                          1.8
+x1.fd_v2_8/7                       1.55651e-05
+x1.fd_v2_9/4                       1.11543e-05
+x1.fd_v2_9/3                       3.14149e-06
+x1.fd_v2_9/6                           0.79617
+x1.fd_v2_9/clkb                   -8.87153e-08
+x1.fd_v2_9/5                               1.8
+x1.fd_v2_9/2                           1.65471
+x1.fd_v2_9/clk_out                -2.67459e-05
+x1.fd_v2_9/7                           1.65471
+x1.fd_v5_0/4                           1.71492
+x1.fd_v5_0/5                        -0.0174329
+x1.fd_v5_0/2                           1.79636
+x1.fd_v5_0/3                       -0.00543058
+x1.fd_v5_0/clkb_buf                    1.79505
+x1.fd_v5_0/clk_in_buf               0.00351015
+x1.fd_v5_0/clkb_int                    1.79665
+x1.fd_v5_0/dus                     -0.00627537
+x1.fd_v5_0/6                        0.00535738
+x1.fd_v5_0/7                           1.79267
+x1.fd_v2_1/clk_in                    -0.040032
+x1.out                              -0.0161395
+x1.3-stage_cs-vco_dp9_0/net7           1.79442
+x1.x3-stage_cs-vco_dp9_0.net6      -0.00315382
+net2                                         0
+x1.x3-stage_cs-vco_dp9_0.vgp           1.70271
+vctrl                                        0
+x1.x3-stage_cs-vco_dp9_0.net8         0.982534
+x1.3-stage_cs-vco_dp9_0/ng3        2.69135e-05
+x1.x3-stage_cs-vco_dp9_0.ng0       1.50189e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_0/selb    -2.46251e-05
+vsel0                                      1.8
+x1.x3-stage_cs-vco_dp9_0.ng1       2.05503e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_1/selb    -2.27226e-05
+vsel1                                      1.8
+x1.x3-stage_cs-vco_dp9_0.ng2       2.75821e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_2/selb    -2.21318e-05
+vsel2                                      1.8
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_3/selb    -1.69716e-05
+vsel3                                      1.8
+x1.x3-stage_cs-vco_dp9_0.net3         0.983204
+x1.x3-stage_cs-vco_dp9_0.net5           1.8048
+x1.x3-stage_cs-vco_dp9_0.net2          1.03367
+x1.x3-stage_cs-vco_dp9_0.net4        0.0707445
+x1.x3-stage_cs-vco_dp9_0.pg3           1.70271
+x1.x3-stage_cs-vco_dp9_0.pg0           1.70271
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_0/selb    -6.50028e-05
+x1.x3-stage_cs-vco_dp9_0.pg1           1.70271
+x1.x3-stage_cs-vco_dp9_0.pg2           1.70271
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_2/selb    -6.51181e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_1/selb    -6.44664e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_3/selb    -6.31688e-05
+x1.fd_v2_1/4                        -0.0548854
+x1.fd_v2_1/3                           1.79947
+x1.fd_v2_1/6                           1.79922
+x1.fd_v2_1/clkb                        1.78983
+x1.fd_v2_1/5                           1.79472
+x1.fd_v2_1/2                       -0.00524352
+x1.fd_v2_2/clk_in                      1.80761
+x1.fd_v2_1/7                         0.0210799
+x1.fd_v2_2/4                           1.80609
+x1.fd_v2_2/3                           1.81536
+x1.fd_v2_2/6                           1.54268
+x1.fd_v2_2/clkb                       0.031251
+x1.fd_v2_2/5                         0.0428536
+x1.fd_v2_2/2                       0.000697906
+x1.fd_v2_2/7                      -0.000309931
+x1.3-stage_cs-vco_dp9_0/net6                 0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_3/selb               0
+x1.3-stage_cs-vco_dp9_0/pg3                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_1/selb               0
+x1.3-stage_cs-vco_dp9_0/pg1                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_2/selb               0
+x1.3-stage_cs-vco_dp9_0/pg2                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_0/selb               0
+x1.3-stage_cs-vco_dp9_0/pg0                  0
+x1.3-stage_cs-vco_dp9_0/net4                 0
+x1.3-stage_cs-vco_dp9_0/net3                 0
+x1.3-stage_cs-vco_dp9_0/net5                 0
+x1.3-stage_cs-vco_dp9_0/net2                 0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_2/selb               0
+x1.3-stage_cs-vco_dp9_0/ng2                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_1/selb               0
+x1.3-stage_cs-vco_dp9_0/ng1                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_0/selb               0
+x1.3-stage_cs-vco_dp9_0/ng0                  0
+x1.3-stage_cs-vco_dp9_0/net8                 0
+x1.3-stage_cs-vco_dp9_0/vgp                  0
+vdd                                        1.8
+buf1a_out                              1.79998
+buf2a_out                              1.79999
+buf4a_out                                  1.8
+buf8a_out                                  1.8
+pad_out_a                                  1.8
+buf1b_out                         -3.84638e-05
+buf2b_out                         -4.29694e-05
+buf4b_out                         -4.55334e-05
+buf8b_out                         -4.40379e-05
+pad_out_b                         -2.21527e-05
+v1#branch                          5.53124e-08
+vsel3#branch                       5.70942e-09
+vsel2#branch                        1.5568e-08
+vsel1#branch                       1.96122e-08
+vsel0#branch                       2.00558e-08
+vmeas_current_gnd#branch          -2.14417e-05
+vmeas_current_vdd#branch          -5.47662e-05
+v2#branch                          5.48476e-05
+
+
+No. of Data Rows : 20020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.423694e-10 targ=  1.444727e-08 trig=  1.420490e-08
+fvco_outside_while  =  4.12593e+09
+tdiv128_outside_while=  4.653588e-08 targ=  8.966459e-08 trig=  4.312871e-08
+fdiv128_outside_while=  2.14888e+07
+supply_current_rms_outside_while=   2.16392e-03 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.70654e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.500000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.837605e+00 at=  1.973500e-08
+vlow_outside_while  =  1.797416e-02 at=  1.999500e-08
+peak_to_peak_outside_while=  1.81963e+00
+supply_current_rms  =   2.13753e-03 from=  0.00000e+00 to=  2.00000e-07
+
+binary raw file "vco_with_fdivs_POST_LAYOUT_tb_WITH_APPENDWRITE.raw"
+Reset re-loads circuit ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+Circuit: ** sch_path: /home/darunix/gitsandboxes/vco/vco/xschem/vco_with_fdivs_tb.sch
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/net2 and x1.3-stage_cs-vco_dp9_0/net2
+
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Warning: Further gmin increment
+Trying gmin =   5.6234E-11 Warning: Further gmin increment
+Trying gmin =   8.6596E-11 Note: One successful gmin step
+Trying gmin =   6.9783E-11 Note: One successful gmin step
+Trying gmin =   5.0481E-11 Note: One successful gmin step
+Trying gmin =   3.1059E-11 Note: One successful gmin step
+Trying gmin =   1.4989E-11 Note: One successful gmin step
+Trying gmin =   5.0254E-12 Warning: Further gmin increment
+Trying gmin =   1.1406E-11 Note: One successful gmin step
+Trying gmin =   7.5710E-12 Note: One successful gmin step
+Trying gmin =   4.0943E-12 Warning: Further gmin increment
+Trying gmin =   6.4924E-12 Note: One successful gmin step
+Trying gmin =   5.1558E-12 Warning: Further gmin increment
+Trying gmin =   6.1289E-12 Warning: Further gmin increment
+Trying gmin =   6.3996E-12 Note: One successful gmin step
+Trying gmin =   6.2628E-12 Warning: Further gmin increment
+Trying gmin =   6.3651E-12 Note: One successful gmin step
+Trying gmin =   6.3137E-12 Note: One successful gmin step
+Trying gmin =   6.2374E-12 Note: One successful gmin step
+Trying gmin =   6.1247E-12 Note: One successful gmin step
+Trying gmin =   5.9595E-12 Note: One successful gmin step
+Trying gmin =   5.7199E-12 Note: One successful gmin step
+Trying gmin =   5.3785E-12 Note: One successful gmin step
+Trying gmin =   4.9043E-12 Note: One successful gmin step
+Trying gmin =   4.2701E-12 Note: One successful gmin step
+Trying gmin =   3.4692E-12 Note: One successful gmin step
+Trying gmin =   2.5406E-12 Note: One successful gmin step
+Trying gmin =   1.5921E-12 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Trying gmin =   1.0000E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   5.6234E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   8.6596E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.6466E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9105E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9775E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9944E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9986E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Further gmin increment
+Trying gmin =   9.9996E-03 Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: Last gmin step failed
+Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+
+Trying gmin =   1.0000E-02 Note: One successful gmin step
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   1.0000E-06 Note: One successful gmin step
+Trying gmin =   1.0000E-07 Note: One successful gmin step
+Trying gmin =   1.0000E-08 Note: One successful gmin step
+Trying gmin =   1.0000E-09 Note: One successful gmin step
+Trying gmin =   1.0000E-10 Note: One successful gmin step
+Trying gmin =   1.0000E-11 Note: One successful gmin step
+Trying gmin =   1.0000E-12 Note: One successful gmin step
+Note: One successful source step
+Supplies reduced to   0.1000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes x1.3-stage_cs-vco_dp9_0/pg1 and x1.3-stage_cs-vco_dp9_0/pg1
+
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.fd_v2_3/4                      -6.57436e-06
+x1.fd_v2_3/clk_in                      1.79996
+x1.fd_v2_3/3                      -1.30231e-05
+x1.fd_v2_3/6                          0.792592
+x1.fd_v2_3/clkb                   -1.39191e-05
+x1.fd_v2_3/5                           1.79999
+net1                                       1.8
+x1.fd_v2_3/2                           1.66508
+x1.fd_v2_4/clk_in                  6.92777e-06
+x1.fd_v2_3/7                           1.66509
+x1.fd_v2_4/4                           0.81231
+x1.fd_v2_4/3                               1.8
+x1.fd_v2_4/6                           1.58948
+x1.fd_v2_4/clkb                            1.8
+x1.fd_v2_4/5                           1.58948
+x1.fd_v2_4/2                       2.08479e-05
+x1.fd_v2_5/clk_in                      1.80004
+x1.fd_v2_4/7                       1.01381e-05
+x1.fd_v2_5/4                      -3.45216e-06
+x1.fd_v2_5/3                      -1.00752e-05
+x1.fd_v2_5/6                          0.794419
+x1.fd_v2_5/clkb                   -3.70911e-05
+x1.fd_v2_5/5                           1.79999
+x1.fd_v2_5/2                           1.66028
+x1.fd_v2_6/clk_in                 -4.25264e-06
+x1.fd_v2_5/7                           1.66051
+x1.fd_v2_6/4                          0.808828
+x1.fd_v2_6/3                               1.8
+x1.fd_v2_6/6                           1.60655
+x1.fd_v2_6/clkb                        1.80012
+x1.fd_v2_6/5                           1.60641
+x1.fd_v2_6/2                       -5.8657e-05
+out_div128_buf                             1.8
+x1.fd_v2_6/7                      -6.09207e-05
+x1.fd_v2_7/4                       1.26016e-05
+x1.fd_v2_7/3                       4.71267e-06
+x1.fd_v2_7/6                           0.79495
+x1.fd_v2_7/clkb                     2.0188e-06
+x1.fd_v2_7/5                               1.8
+x1.fd_v2_7/2                           1.65837
+out_div256_buf                     7.70075e-06
+x1.fd_v2_7/7                           1.65837
+x1.fd_v2_8/4                          0.810461
+x1.fd_v2_8/3                               1.8
+x1.fd_v2_8/6                           1.59917
+x1.fd_v2_8/clkb                            1.8
+x1.fd_v2_8/5                           1.59917
+x1.fd_v2_8/2                       1.81705e-05
+x1.fd_v2_9/clk_in                          1.8
+x1.fd_v2_8/7                       1.55651e-05
+x1.fd_v2_9/4                       1.11543e-05
+x1.fd_v2_9/3                       3.14149e-06
+x1.fd_v2_9/6                           0.79617
+x1.fd_v2_9/clkb                   -8.87153e-08
+x1.fd_v2_9/5                               1.8
+x1.fd_v2_9/2                           1.65471
+x1.fd_v2_9/clk_out                -2.67459e-05
+x1.fd_v2_9/7                           1.65471
+x1.fd_v5_0/4                           1.71492
+x1.fd_v5_0/5                        -0.0174329
+x1.fd_v5_0/2                           1.79636
+x1.fd_v5_0/3                       -0.00543058
+x1.fd_v5_0/clkb_buf                    1.79505
+x1.fd_v5_0/clk_in_buf               0.00351015
+x1.fd_v5_0/clkb_int                    1.79665
+x1.fd_v5_0/dus                     -0.00627537
+x1.fd_v5_0/6                        0.00535738
+x1.fd_v5_0/7                           1.79267
+x1.fd_v2_1/clk_in                    -0.040032
+x1.out                              -0.0161395
+x1.3-stage_cs-vco_dp9_0/net7           1.79442
+x1.x3-stage_cs-vco_dp9_0.net6      -0.00315382
+net2                                         0
+x1.x3-stage_cs-vco_dp9_0.vgp           1.70271
+vctrl                                        0
+x1.x3-stage_cs-vco_dp9_0.net8         0.982534
+x1.3-stage_cs-vco_dp9_0/ng3        2.69135e-05
+x1.x3-stage_cs-vco_dp9_0.ng0       1.50189e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_0/selb    -2.46251e-05
+vsel0                                      1.8
+x1.x3-stage_cs-vco_dp9_0.ng1       2.05503e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_1/selb    -2.27226e-05
+vsel1                                      1.8
+x1.x3-stage_cs-vco_dp9_0.ng2       2.75821e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_n_v2_2/selb    -2.21318e-05
+vsel2                                      1.8
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_3/selb    -1.69716e-05
+vsel3                                      1.8
+x1.x3-stage_cs-vco_dp9_0.net3         0.983204
+x1.x3-stage_cs-vco_dp9_0.net5           1.8048
+x1.x3-stage_cs-vco_dp9_0.net2          1.03367
+x1.x3-stage_cs-vco_dp9_0.net4        0.0707445
+x1.x3-stage_cs-vco_dp9_0.pg3           1.70271
+x1.x3-stage_cs-vco_dp9_0.pg0           1.70271
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_0/selb    -6.50028e-05
+x1.x3-stage_cs-vco_dp9_0.pg1           1.70271
+x1.x3-stage_cs-vco_dp9_0.pg2           1.70271
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_2/selb    -6.51181e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_1/selb    -6.44664e-05
+x1.x3-stage_cs-vco_dp9_0.vco_switch_p_3/selb    -6.31688e-05
+x1.fd_v2_1/4                        -0.0548854
+x1.fd_v2_1/3                           1.79947
+x1.fd_v2_1/6                           1.79922
+x1.fd_v2_1/clkb                        1.78983
+x1.fd_v2_1/5                           1.79472
+x1.fd_v2_1/2                       -0.00524352
+x1.fd_v2_2/clk_in                      1.80761
+x1.fd_v2_1/7                         0.0210799
+x1.fd_v2_2/4                           1.80609
+x1.fd_v2_2/3                           1.81536
+x1.fd_v2_2/6                           1.54268
+x1.fd_v2_2/clkb                       0.031251
+x1.fd_v2_2/5                         0.0428536
+x1.fd_v2_2/2                       0.000697906
+x1.fd_v2_2/7                      -0.000309931
+x1.3-stage_cs-vco_dp9_0/net6                 0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_3/selb               0
+x1.3-stage_cs-vco_dp9_0/pg3                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_1/selb               0
+x1.3-stage_cs-vco_dp9_0/pg1                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_2/selb               0
+x1.3-stage_cs-vco_dp9_0/pg2                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_p_0/selb               0
+x1.3-stage_cs-vco_dp9_0/pg0                  0
+x1.3-stage_cs-vco_dp9_0/net4                 0
+x1.3-stage_cs-vco_dp9_0/net3                 0
+x1.3-stage_cs-vco_dp9_0/net5                 0
+x1.3-stage_cs-vco_dp9_0/net2                 0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_2/selb               0
+x1.3-stage_cs-vco_dp9_0/ng2                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_1/selb               0
+x1.3-stage_cs-vco_dp9_0/ng1                  0
+x1.3-stage_cs-vco_dp9_0/vco_switch_n_v2_0/selb               0
+x1.3-stage_cs-vco_dp9_0/ng0                  0
+x1.3-stage_cs-vco_dp9_0/net8                 0
+x1.3-stage_cs-vco_dp9_0/vgp                  0
+vdd                                        1.8
+buf1a_out                              1.79998
+buf2a_out                              1.79999
+buf4a_out                                  1.8
+buf8a_out                                  1.8
+pad_out_a                                  1.8
+buf1b_out                         -3.84638e-05
+buf2b_out                         -4.29694e-05
+buf4b_out                         -4.55334e-05
+buf8b_out                         -4.40379e-05
+pad_out_b                         -2.21527e-05
+v1#branch                          5.53124e-08
+vsel3#branch                       5.70942e-09
+vsel2#branch                        1.5568e-08
+vsel1#branch                       1.96122e-08
+vsel0#branch                       2.00558e-08
+vmeas_current_gnd#branch          -2.14417e-05
+vmeas_current_vdd#branch          -5.47662e-05
+v2#branch                          5.48476e-05
+
+
+No. of Data Rows : 20020
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.421232e-10 targ=  1.440559e-08 trig=  1.416347e-08
+fvco_outside_while  =  4.13013e+09
+tdiv128_outside_while=  4.647070e-08 targ=  8.952035e-08 trig=  4.304965e-08
+fdiv128_outside_while=  2.15189e+07
+supply_current_rms_outside_while=   2.17283e-03 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.76522e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.700000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.836673e+00 at=  1.969500e-08
+vlow_outside_while  =  3.926997e-03 at=  1.999500e-08
+peak_to_peak_outside_while=  1.83275e+00
+supply_current_rms  =   2.14517e-03 from=  0.00000e+00 to=  2.00000e-07
+
+binary raw file "vco_with_fdivs_POST_LAYOUT_tb_WITH_APPENDWRITE.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v1: no DC value, transient time 0 value used
+
+  Measurements for Transient Analysis
+
+tvco_outside_while  =  2.421232e-10 targ=  1.440559e-08 trig=  1.416347e-08
+Original line no.: 0, new internal line no.: 12457:
+insertnumber: fails.
+  s = ".meas tran fvco_outside_while param=    4.130128851579692e+09   " u="  4.130128851579692e+09  " id=0
+fvco_outside_while  =  4.13013e+09
+tdiv128_outside_while=  4.647070e-08 targ=  8.952035e-08 trig=  4.304965e-08
+Original line no.: 0, new internal line no.: 12459:
+insertnumber: fails.
+  s = ".meas tran fdiv128_outside_while param=    2.151893575271838e+07   " u="  2.151893575271838e+07  " id=0
+fdiv128_outside_while=  2.15189e+07
+supply_current_rms_outside_while=   2.17283e-03 from=  1.00000e-08 to=  4.00000e-08
+ground_current_rms_outside_while=   5.76522e-04 from=  1.00000e-08 to=  4.00000e-08
+vctrl_avg_outside_while=  1.700000e+00 from=  1.000000e-08 to=  2.000500e-08
+vhigh_outside_while =  1.836673e+00 at=  1.969500e-08
+vlow_outside_while  =  3.926997e-03 at=  1.999500e-08
+Original line no.: 0, new internal line no.: 12465:
+insertnumber: fails.
+  s = ".meas tran peak_to_peak_outside_while param=    1.832746057572564e+00   " u="  1.832746057572564e+00  " id=0
+peak_to_peak_outside_while=  1.83275e+00
+supply_current_rms  =   2.14517e-03 from=  0.00000e+00 to=  2.00000e-07
+
+
+Total analysis time (seconds) = 122.954
+
+Total CPU time (seconds) = 624.725 
+
+Total DRAM available = 7952.234 MB.
+DRAM currently available =  593.336 MB.
+Maximum ngspice program size = 1254.906 MB.
+Current ngspice program size = 1237.535 MB.
+
+Shared ngspice pages =   10.227 MB.
+Text (code) pages =    7.879 MB.
+Stack = 0 bytes.
+Library pages = 1227.422 MB.
+

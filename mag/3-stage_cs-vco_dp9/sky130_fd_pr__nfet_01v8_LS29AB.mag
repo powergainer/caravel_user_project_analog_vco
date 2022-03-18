@@ -1,0 +1,42 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1645537996
+<< error_p >>
+rect -15 4 15 16
+rect -15 -80 15 -68
+<< nmos >>
+rect -15 -68 15 4
+<< ndiff >>
+rect -73 -10 -15 4
+rect -73 -54 -65 -10
+rect -31 -54 -15 -10
+rect -73 -68 -15 -54
+rect 15 -10 73 4
+rect 15 -54 31 -10
+rect 65 -54 73 -10
+rect 15 -68 73 -54
+<< ndiffc >>
+rect -65 -54 -31 -10
+rect 31 -54 65 -10
+<< poly >>
+rect -33 83 33 99
+rect -33 49 -17 83
+rect 17 49 33 83
+rect -33 33 33 49
+rect -15 4 15 33
+rect -15 -99 15 -68
+<< polycont >>
+rect -17 49 17 83
+<< locali >>
+rect -33 49 -17 83
+rect 17 49 33 83
+rect -65 -10 -31 6
+rect -65 -70 -31 -54
+rect 31 -10 65 6
+rect 31 -70 65 -54
+<< properties >>
+string gencell sky130_fd_pr__nfet_01v8
+string parameters w 0.42 l 0.150 m 1 nf 1 diffcov 90 polycov 100 guard 0 glc 0 grc 0 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 0 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__nfet_01v8 sky130_fd_pr__nfet_01v8_lvt  sky130_fd_bs_flash__special_sonosfet_star  sky130_fd_pr__nfet_g5v0d10v5 sky130_fd_pr__nfet_05v0_nvt  sky130_fd_pr__nfet_03v3_nvt} full_metal 0 viasrc -40 viadrn 40 viagate 100 viagb 80 viagr 0 viagl 0 viagt 0
+string library sky130
+<< end >>
