@@ -9,7 +9,8 @@
 
 
 *POST-LAYOUT DUT:
-x1 vctrl out_div128_buf net1 net2 vsel0 vsel1 vsel2 vsel3 out_div256_buf vco_with_fdivs
+*x1 vctrl out_div128_buf net1 net2 vsel0 vsel1 vsel2 vsel3 out_div256_buf vco_with_fdivs
+x1 vctrl out_div128_buf net1 net2 vsel0 vsel1 vsel2 vsel3 out_div256_buf net1 net2 vco_with_fdivs_split_supplies
 
 *This is the SCH DUT:
 *x1 net1 vctrl vsel0 vsel1 vsel2 vsel3 net2 out_div128_buf out_div256_buf vco_with_fdivs
@@ -72,8 +73,8 @@ let do_vctrl_sweep = 1
 *VCO current mirror select controls:
 .param p_sel0 = 1.8
 .param p_sel1 = 1.8
-.param p_sel2 = 1.8
-.param p_sel3 = 1.8
+.param p_sel2 = 1.8 
+.param p_sel3 = 0.0 
 *---------
 
 
@@ -186,6 +187,7 @@ end $end the if do_vctrl_sweep = 1
 *------------------------------------------------------------------
 *EXTRACTED NETLIST FOR VCO_WITH_FDIVS POST-LAYOUT 0
 *.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp9/vco_with_fdivs.spice
+.include /home/darunixspro3/Desktop/GitSandboxes/caravel_user_project_analog_vco/mag/3-stage_cs-vco_dp9/vco_with_fdivs_split_supplies.spice
 
 
 *This is the netlist HACKED where I have made the Fdiv Inverters 2x Wider, to try to fix the Fdiv issue
@@ -193,7 +195,7 @@ end $end the if do_vctrl_sweep = 1
 
 *This is last try, layout I tried with slightly wider Pmos on TGATEs to see if making them
 *less resistive would help a bit (even though they will add more cap)
-.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp9/vco_with_fdivs_lasttry.spice
+*.include /home/darunix/GitSandboxes/VCO/vco/mag/3-stage_cs-vco_dp9/vco_with_fdivs_lasttry.spice
 
 
 *------------------------------------------------------------------

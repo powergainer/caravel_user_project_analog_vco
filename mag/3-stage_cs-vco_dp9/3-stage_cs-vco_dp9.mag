@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1647616625
+timestamp 1647637375
 << nwell >>
 rect -1098 242 1795 1691
 rect -1098 -1641 1795 -1149
@@ -1158,171 +1158,171 @@ rect 1688 -1593 1693 -1503
 rect 1783 -1593 1788 -1503
 rect 1688 -1598 1788 -1593
 use sky130_fd_pr__pfet_01v8_MP1P4U  XM1
-timestamp 1647613837
+timestamp 1647637375
 transform 0 1 -465 -1 0 351
 box -109 -244 109 198
 use sky130_fd_pr__nfet_01v8_EMZ8SC  XM2
-timestamp 1647613837
+timestamp 1647637375
 transform 0 -1 -437 1 0 101
 box -73 -129 73 129
 use sky130_fd_pr__pfet_01v8_MP0P75  XM3
-timestamp 1647613837
+timestamp 1647637375
 transform 0 1 -99 -1 0 351
 box -109 -164 109 148
 use sky130_fd_pr__nfet_01v8_MP0P50  XM4
-timestamp 1647613837
+timestamp 1647637375
 transform 0 -1 -167 1 0 101
 box -73 -127 73 99
 use sky130_fd_pr__pfet_01v8_MP3P0U  XM5
-timestamp 1647613837
+timestamp 1647637375
 transform 0 -1 517 1 0 351
 box -109 -298 109 464
 use sky130_fd_pr__nfet_01v8_8T82FM  XM6
-timestamp 1647613837
+timestamp 1647637375
 transform 0 -1 466 1 0 101
 box -73 -201 73 201
+use sky130_fd_pr__pfet_01v8_4XEGTB  XM11
+timestamp 1647637375
+transform 1 0 -64 0 1 1079
+box -112 -158 112 124
 use sky130_fd_pr__pfet_01v8_4XEGTB  XM11A
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -64 0 1 791
 box -112 -158 112 124
 use sky130_fd_pr__pfet_01v8_KQRM7Z  XM11B
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 143 0 1 1019
 box -112 -218 112 184
-use sky130_fd_pr__pfet_01v8_4XEGTB  XM11
-timestamp 1647613837
-transform 1 0 -64 0 1 1079
-box -112 -158 112 124
 use sky130_fd_pr__pfet_01v8_TPJM7Z  XM11C
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 350 0 1 898
 box -112 -338 112 304
 use sky130_fd_pr__pfet_01v8_TPJM7Z  XM11D_1
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 556 0 1 898
 box -112 -338 112 304
 use sky130_fd_pr__pfet_01v8_TPJM7Z  XM11D_2
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 650 0 1 898
 box -112 -338 112 304
 use sky130_fd_pr__pfet_01v8_NC2CGG  XM12
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1152 0 1 582
 box -109 -340 109 340
 use sky130_fd_pr__nfet_01v8_44BYND  XM13
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1152 0 1 54
 box -73 -146 73 208
 use sky130_fd_pr__nfet_01v8_NNRSEG  XM16A
-timestamp 1647613837
+timestamp 1647637375
 transform -1 0 -64 0 1 -299
 box -76 -117 76 117
 use sky130_fd_pr__nfet_01v8_MV8TJR  XM16B
-timestamp 1647613837
+timestamp 1647637375
 transform -1 0 143 0 1 -517
 box -76 -177 76 177
 use sky130_fd_pr__nfet_01v8_26QSQN  XM16C
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 350 0 1 -397
 box -76 -297 76 297
 use sky130_fd_pr__nfet_01v8_26QSQN  XM16D_1
-timestamp 1647613837
+timestamp 1647637375
 transform -1 0 557 0 1 -397
 box -76 -297 76 297
 use sky130_fd_pr__nfet_01v8_26QSQN  XM16D_2
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 651 0 1 -397
 box -76 -297 76 297
 use sky130_fd_pr__nfet_01v8_NNRSEG  XM16
-timestamp 1647613837
+timestamp 1647637375
 transform -1 0 -64 0 1 -577
 box -76 -117 76 117
 use sky130_fd_pr__pfet_01v8_AZHELG  XM21
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 894 0 1 300
 box -109 -58 109 200
 use sky130_fd_pr__nfet_01v8_LS30AB  XM22_0p42
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 886 0 1 107
 box -73 -111 73 99
 use sky130_fd_pr__pfet_01v8_UUCHZP  XM23
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1453 0 1 562
 box -209 -366 209 376
 use sky130_fd_pr__nfet_01v8_TUVSF7  XM24
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1357 0 1 45
 box -76 -217 76 217
 use sky130_fd_pr__pfet_01v8_XZZ25Z  XM25
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -688 0 1 1039
 box -112 -198 112 164
 use sky130_fd_pr__nfet_01v8_B87NCT  XM26
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -685 0 1 -537
 box -76 -157 76 157
 use sky130_fd_pr__pfet_01v8_TPJM7Z  XMDUM11B
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 858 0 1 897
 box -112 -338 112 304
 use sky130_fd_pr__pfet_01v8_TPJM7Z  XMDUM11
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -271 0 1 899
 box -112 -338 112 304
 use sky130_fd_pr__nfet_01v8_26QSQN  XMDUM16B
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 858 0 1 -397
 box -76 -297 76 297
 use sky130_fd_pr__nfet_01v8_TWMWTA  XMDUM16
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -271 0 1 -397
 box -76 -297 76 297
-use sky130_fd_pr__pfet_01v8_XZZ25Z  XMDUM25
-timestamp 1647613837
-transform 1 0 -894 0 1 1039
-box -112 -198 112 164
 use sky130_fd_pr__pfet_01v8_XZZ25Z  XMDUM25B
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -482 0 1 1040
 box -112 -198 112 164
-use sky130_fd_pr__nfet_01v8_B87NCT  XMDUM26
-timestamp 1647613837
-transform 1 0 -891 0 1 -537
-box -76 -157 76 157
+use sky130_fd_pr__pfet_01v8_XZZ25Z  XMDUM25
+timestamp 1647637375
+transform 1 0 -894 0 1 1039
+box -112 -198 112 164
 use sky130_fd_pr__nfet_01v8_B87NCT  XMDUM26B
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -478 0 1 -537
 box -76 -157 76 157
+use sky130_fd_pr__nfet_01v8_B87NCT  XMDUM26
+timestamp 1647637375
+transform 1 0 -891 0 1 -537
+box -76 -157 76 157
 use vco_switch_n_v2  vco_switch_n_v2_0
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -1367 0 -1 -304
 box 376 462 987 1215
 use vco_switch_n_v2  vco_switch_n_v2_1
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -721 0 -1 -304
 box 376 462 987 1215
 use vco_switch_n_v2  vco_switch_n_v2_2
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -78 0 -1 -304
 box 376 462 987 1215
 use vco_switch_n_v2  vco_switch_n_v2_3
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 568 0 -1 -304
 box 376 462 987 1215
 use vco_switch_p  vco_switch_p_0
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -1367 0 -1 2536
 box 376 462 987 1215
 use vco_switch_p  vco_switch_p_1
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -721 0 -1 2536
 box 376 462 987 1215
 use vco_switch_p  vco_switch_p_2
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 -78 0 -1 2536
 box 376 462 987 1215
 use vco_switch_p  vco_switch_p_3
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 568 0 -1 2536
 box 376 462 987 1215
 << labels >>

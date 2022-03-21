@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1647613837
+timestamp 1647637375
 << nwell >>
 rect 68 -313 1883 34
 << pwell >>
@@ -182,67 +182,67 @@ rect 68 -676 179 -642
 rect 1772 -676 1883 -642
 rect 68 -688 1883 -676
 use sky130_fd_pr__nfet_01v8_NDE37H  sky130_fd_pr__nfet_01v8_NDE37H_0
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 595 0 -1 -499
 box -118 -141 73 98
 use sky130_fd_pr__nfet_01v8_NDE37H  sky130_fd_pr__nfet_01v8_NDE37H_1
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1138 0 -1 -499
 box -118 -141 73 98
 use sky130_fd_pr__nfet_01v8_PW5BNL  sky130_fd_pr__nfet_01v8_PW5BNL_0
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 177 0 1 -422
 box -73 -115 73 103
 use sky130_fd_pr__nfet_01v8_PW5BNL  sky130_fd_pr__nfet_01v8_PW5BNL_1
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 377 0 1 -422
 box -73 -115 73 103
 use sky130_fd_pr__nfet_01v8_PW5BNL  sky130_fd_pr__nfet_01v8_PW5BNL_2
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 879 0 1 -422
 box -73 -115 73 103
 use sky130_fd_pr__nfet_01v8_PW5BNL  sky130_fd_pr__nfet_01v8_PW5BNL_3
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1383 0 1 -422
 box -73 -115 73 103
 use sky130_fd_pr__nfet_01v8_PW5BNL  sky130_fd_pr__nfet_01v8_PW5BNL_4
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1614 0 1 -422
 box -73 -115 73 103
 use sky130_fd_pr__nfet_01v8_PW5BNL  sky130_fd_pr__nfet_01v8_PW5BNL_5
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1774 0 1 -422
 box -73 -115 73 103
 use sky130_fd_pr__pfet_01v8_A7DS5R  sky130_fd_pr__pfet_01v8_A7DS5R_0
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 177 0 1 -227
 box -109 -133 109 170
 use sky130_fd_pr__pfet_01v8_A7DS5R  sky130_fd_pr__pfet_01v8_A7DS5R_1
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 377 0 1 -227
 box -109 -133 109 170
 use sky130_fd_pr__pfet_01v8_A7DS5R  sky130_fd_pr__pfet_01v8_A7DS5R_2
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 879 0 1 -227
 box -109 -133 109 170
 use sky130_fd_pr__pfet_01v8_A7DS5R  sky130_fd_pr__pfet_01v8_A7DS5R_3
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1383 0 1 -227
 box -109 -133 109 170
 use sky130_fd_pr__pfet_01v8_A7DS5R  sky130_fd_pr__pfet_01v8_A7DS5R_4
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1614 0 1 -227
 box -109 -133 109 170
 use sky130_fd_pr__pfet_01v8_A7DS5R  sky130_fd_pr__pfet_01v8_A7DS5R_5
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1774 0 1 -227
 box -109 -133 109 170
 use sky130_fd_pr__pfet_01v8_ACPHKB  sky130_fd_pr__pfet_01v8_ACPHKB_0
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 595 0 1 -173
 box -109 -140 109 106
 use sky130_fd_pr__pfet_01v8_ACPHKB  sky130_fd_pr__pfet_01v8_ACPHKB_1
-timestamp 1647613837
+timestamp 1647637375
 transform 1 0 1138 0 1 -173
 box -109 -140 109 106
 << labels >>

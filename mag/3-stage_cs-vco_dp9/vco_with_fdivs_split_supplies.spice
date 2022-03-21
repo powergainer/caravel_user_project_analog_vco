@@ -1,4 +1,4 @@
-* NGSPICE file created from vco_with_fdivs.ext - technology: sky130A
+* NGSPICE file created from vco_with_fdivs_split_supplies.ext - technology: sky130A
 
 .subckt sky130_fd_sc_hd__clkbuf_8 A VGND VPWR X VNB VPB
 X0 VPWR A a_110_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=1.65e+12p pd=1.53e+07u as=2.8e+11p ps=2.56e+06u w=1e+06u l=150000u
@@ -397,8 +397,8 @@ XXM11 vdd vdd vgp net2 sky130_fd_pr__pfet_01v8_4XEGTB
 XXM11C vdd vdd pg2 net2 sky130_fd_pr__pfet_01v8_TPJM7Z
 .ends
 
-.subckt vco_with_fdivs vctrl out_div128_buf vdd vsel0 vsel1 vsel2 vsel3 out_div256_buf
-+ vdd_2 vss_2
+.subckt vco_with_fdivs_split_supplies vctrl out_div128_buf vdd vsel0 vsel1 vsel2 vsel3
++ out_div256_buf vdd_2 vss_2
 Xsky130_fd_sc_hd__clkbuf_8_1 sky130_fd_sc_hd__clkbuf_8_1/A vss_2 vdd_2 sky130_fd_sc_hd__clkbuf_8_1/X
 + vss_2 vdd_2 sky130_fd_sc_hd__clkbuf_8
 XFD_v2_3 FD_v2_3/Clk_In vdd_2 vss_2 FD_v2_4/Clk_In FD_v2
