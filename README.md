@@ -5,42 +5,11 @@
 ---
 
 
-High Speed VCO in Skywater 130nm
+\>3GHz High Speed VCO in Skywater 130nm
 ====
-High Speed VCO in Skywater 130nm.
+\>3GHz High Speed VCO in Skywater 130nm.
 Project info: https://github.com/powergainer/vco
 
-High Speed VCO in Skywater 130nm.
-Project info: https://github.com/powergainer/vco
-
-High Speed VCO in Skywater 130nm.
-Project info: https://github.com/powergainer/vco
-
-High Speed VCO in Skywater 130nm.
-Project info: https://github.com/powergainer/vco
-
-High Speed VCO in Skywater 130nm.
-Project info: https://github.com/powergainer/vco
-
-High Speed VCO in Skywater 130nm.
-Project info: https://github.com/powergainer/vco
-
-High Speed VCO in Skywater 130nm.
-Project info: https://github.com/powergainer/vco
-
-High Speed VCO in Skywater 130nm.
-Project info: https://github.com/powergainer/vco
-
-High Speed VCO in Skywater 130nm.
-Project info: https://github.com/powergainer/vco
-
-High Speed VCO in Skywater 130nm.
-Project info: https://github.com/powergainer/vco
-
-Peace & Global cooperation
-
-High Speed VCO in Skywater 130nm.
-Project info: https://github.com/powergainer/vco
 
 
 
